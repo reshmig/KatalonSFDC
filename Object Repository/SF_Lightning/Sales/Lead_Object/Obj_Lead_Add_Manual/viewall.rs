@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>sales_select</name>
+   <name>viewall</name>
    <tag></tag>
    <elementGuidId>64631adc-323c-4706-b4f1-7209912162fe</elementGuidId>
    <selectorCollection>
