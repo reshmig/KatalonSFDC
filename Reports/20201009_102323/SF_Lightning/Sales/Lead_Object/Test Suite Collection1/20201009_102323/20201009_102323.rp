@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20201009_102323</name>
+   <tag></tag>
+   <displayName>20201009_102323</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201009_102323/SF_Lightning/Sales/Lead_Object/Test Suite1/20201009_102323</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>QASandbox</profileName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20201009_102323/SF_Lightning/Sales/Lead_Object/Test Suite1/20201009_102324</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>QASandbox</profileName>
+            <runConfigurationId>Firefox</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/SF_Lightning/Sales/Lead_Object/Test Suite Collection1</testSuiteCollectionId>
+</ReportCollectionEntity>

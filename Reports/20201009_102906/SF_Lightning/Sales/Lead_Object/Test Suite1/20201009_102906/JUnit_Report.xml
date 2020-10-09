@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1" time="56.207" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite1" tests="1" failures="0" errors="0" time="56.207" timestamp="2020-10-09 10:29:10" hostname="Reshmi.Unnithan - MLBTAL-107627.in.marlabs.com" id="Test Suites/SF_Lightning/Sales/Lead_Object/Test Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\reshmi.unnithan\\git\\KatalonSFDC\\Reports\\20201009_102906\\SF_Lightning\\Sales\\Lead_Object\\Test Suite1\\20201009_102906"/>
+         <property name="logFiles" value="C:\\Users\\reshmi.unnithan\\git\\KatalonSFDC\\Reports\\20201009_102906\\SF_Lightning\\Sales\\Lead_Object\\Test Suite1\\20201009_102906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Reshmi.Unnithan - MLBTAL-107627.in.marlabs.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.1.205"/>
+         <property name="browser" value="Chrome 85.0.4183.121"/>
+         <property name="hostAddress" value="192.168.29.167"/>
+         <property name="sessionId" value="27ed3626d25459fc779f91b86b774d43"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=\&quot;\&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual" time="55.24" classname="Test Cases/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual" status="PASSED">
+         <system-out><![CDATA[2020-10-09 10:29:11 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual: Test Cases/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual
+
+2020-10-09 10:29:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-09 10:29:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-10-09 10:29:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-09 10:29:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-09 10:29:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://login.salesforce.com/?locale=eu' successfully
+
+2020-10-09 10:29:21 - [MESSAGE][PASSED] - Navigate to 'https://login.salesforce.com/?locale=eu' successfully
+
+2020-10-09 10:29:21 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/username"), username): Text 'reshmigu@gmail.com' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/username'
+
+2020-10-09 10:29:23 - [MESSAGE][PASSED] - Text 'reshmigu@gmail.com' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/username'
+
+2020-10-09 10:29:23 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/password"), password): Text 'test1234' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/password'
+
+2020-10-09 10:29:23 - [MESSAGE][PASSED] - Text 'test1234' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/password'
+
+2020-10-09 10:29:23 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/login")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/login' is clicked on
+
+2020-10-09 10:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/login' is clicked on
+
+2020-10-09 10:29:30 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/applauncher")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/applauncher' is clicked on
+
+2020-10-09 10:29:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/applauncher' is clicked on
+
+2020-10-09 10:29:31 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall' is clicked on
+
+2020-10-09 10:29:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall' is clicked on
+
+2020-10-09 10:29:34 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption' is clicked on
+
+2020-10-09 10:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption' is clicked on
+
+2020-10-09 10:29:36 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject' is clicked on
+
+2020-10-09 10:29:42 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject' is clicked on
+
+2020-10-09 10:29:42 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/newlead")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/newlead' is clicked on
+
+2020-10-09 10:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/newlead' is clicked on
+
+2020-10-09 10:29:44 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation' is clicked on
+
+2020-10-09 10:29:46 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation' is clicked on
+
+2020-10-09 10:29:46 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/sel_salutation")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/sel_salutation' is clicked on
+
+2020-10-09 10:29:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/sel_salutation' is clicked on
+
+2020-10-09 10:29:47 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/lastname"), "leadtest"): Text 'leadtest' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/lastname'
+
+2020-10-09 10:29:48 - [MESSAGE][PASSED] - Text 'leadtest' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/lastname'
+
+2020-10-09 10:29:48 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/company"), "Marlabs"): Text 'Marlabs' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/company'
+
+2020-10-09 10:29:49 - [MESSAGE][PASSED] - Text 'Marlabs' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/company'
+
+2020-10-09 10:29:49 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save' is clicked on
+
+2020-10-09 10:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save' is clicked on
+
+2020-10-09 10:29:49 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject")): Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject' is clicked on
+
+2020-10-09 10:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject' is clicked on
+
+2020-10-09 10:29:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/verifylead"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/verifylead' is present
+
+2020-10-09 10:29:54 - [MESSAGE][PASSED] - Object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/verifylead' is present
+
+2020-10-09 10:29:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-09 10:29:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-09 10:29:59 - [TEST_STEP][PASSED] - verifyTextPresent("leadtest", false): Text 'leadtest' is present on page 
+
+2020-10-09 10:30:00 - [MESSAGE][PASSED] - Text 'leadtest' is present on page 
+
+2020-10-09 10:30:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-10-09 10:30:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-10-09 10:30:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-10-09 10:30:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-09 10:29:10 - [TEST_SUITE][PASSED] - Test Suite1: Test Cases/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

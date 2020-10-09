@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1,Firefox 80.0,,,2020-10-09 10:23:28,2020-10-09 10:24:38,1m - 9.686s,PASSED
+,,,,,,,
+Test Cases/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual,Firefox 80.0,,,2020-10-09 10:23:29,2020-10-09 10:24:38,1m - 9.200s,PASSED
+"openBrowser("""")",Firefox 80.0,,,2020-10-09 10:23:29,2020-10-09 10:23:40,10.675s,PASSED
+navigateToUrl(url),Firefox 80.0,,,2020-10-09 10:23:40,2020-10-09 10:23:43,2.515s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/username""), username)",Firefox 80.0,,,2020-10-09 10:23:43,2020-10-09 10:23:44,1.316s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/password""), password)",Firefox 80.0,,,2020-10-09 10:23:44,2020-10-09 10:23:45,1.033s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/login""))",Firefox 80.0,,,2020-10-09 10:23:45,2020-10-09 10:23:47,2.244s,PASSED
+"enhancedClick(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/applauncher""))",Firefox 80.0,,,2020-10-09 10:23:47,2020-10-09 10:23:57,9.609s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall""))",Firefox 80.0,,,2020-10-09 10:23:57,2020-10-09 10:23:59,2.303s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption""))",Firefox 80.0,,,2020-10-09 10:23:59,2020-10-09 10:24:01,1.663s,PASSED
+"enhancedClick(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject""))",Firefox 80.0,,,2020-10-09 10:24:01,2020-10-09 10:24:06,5.570s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/newlead""))",Firefox 80.0,,,2020-10-09 10:24:06,2020-10-09 10:24:10,3.255s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation""))",Firefox 80.0,,,2020-10-09 10:24:10,2020-10-09 10:24:12,2.473s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/sel_salutation""))",Firefox 80.0,,,2020-10-09 10:24:12,2020-10-09 10:24:13,0.665s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/lastname""), ""leadtest"")",Firefox 80.0,,,2020-10-09 10:24:13,2020-10-09 10:24:14,1.109s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/company""), ""Marlabs"")",Firefox 80.0,,,2020-10-09 10:24:14,2020-10-09 10:24:15,1.083s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save""))",Firefox 80.0,,,2020-10-09 10:24:15,2020-10-09 10:24:16,0.616s,PASSED
+"enhancedClick(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject""))",Firefox 80.0,,,2020-10-09 10:24:16,2020-10-09 10:24:19,3.286s,PASSED
+"verifyElementPresent(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/verifylead""), 5, CONTINUE_ON_FAILURE)",Firefox 80.0,,,2020-10-09 10:24:19,2020-10-09 10:24:21,1.677s,PASSED
+delay(5),Firefox 80.0,,,2020-10-09 10:24:21,2020-10-09 10:24:26,5.036s,PASSED
+"verifyTextPresent(""leadtest"", false)",Firefox 80.0,,,2020-10-09 10:24:26,2020-10-09 10:24:31,5.895s,PASSED
+delay(5),Firefox 80.0,,,2020-10-09 10:24:31,2020-10-09 10:24:36,5.009s,PASSED
+closeBrowser(),Firefox 80.0,,,2020-10-09 10:24:36,2020-10-09 10:24:38,1.298s,PASSED

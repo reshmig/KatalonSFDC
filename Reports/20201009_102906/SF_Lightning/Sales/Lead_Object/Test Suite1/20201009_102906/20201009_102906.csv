@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1,Chrome 85.0.4183.121,,,2020-10-09 10:29:10,2020-10-09 10:30:06,55.707s,PASSED
+,,,,,,,
+Test Cases/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual,Chrome 85.0.4183.121,,,2020-10-09 10:29:11,2020-10-09 10:30:06,55.240s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.121,,,2020-10-09 10:29:12,2020-10-09 10:29:18,6.598s,PASSED
+navigateToUrl(url),Chrome 85.0.4183.121,,,2020-10-09 10:29:18,2020-10-09 10:29:21,2.306s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/username""), username)",Chrome 85.0.4183.121,,,2020-10-09 10:29:21,2020-10-09 10:29:23,2.084s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/password""), password)",Chrome 85.0.4183.121,,,2020-10-09 10:29:23,2020-10-09 10:29:23,0.857s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/login""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:23,2020-10-09 10:29:30,6.241s,PASSED
+"enhancedClick(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/applauncher""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:30,2020-10-09 10:29:31,1.347s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:31,2020-10-09 10:29:34,3.406s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:34,2020-10-09 10:29:36,1.503s,PASSED
+"enhancedClick(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:36,2020-10-09 10:29:42,5.626s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/newlead""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:42,2020-10-09 10:29:44,2.574s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:44,2020-10-09 10:29:46,2.069s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/sel_salutation""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:46,2020-10-09 10:29:47,0.697s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/lastname""), ""leadtest"")",Chrome 85.0.4183.121,,,2020-10-09 10:29:47,2020-10-09 10:29:48,0.913s,PASSED
+"setText(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/company""), ""Marlabs"")",Chrome 85.0.4183.121,,,2020-10-09 10:29:48,2020-10-09 10:29:49,0.888s,PASSED
+"click(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:49,2020-10-09 10:29:49,0.429s,PASSED
+"enhancedClick(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject""))",Chrome 85.0.4183.121,,,2020-10-09 10:29:49,2020-10-09 10:29:53,3.475s,PASSED
+"verifyElementPresent(findTestObject(""SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/verifylead""), 5, CONTINUE_ON_FAILURE)",Chrome 85.0.4183.121,,,2020-10-09 10:29:53,2020-10-09 10:29:54,1.516s,PASSED
+delay(5),Chrome 85.0.4183.121,,,2020-10-09 10:29:54,2020-10-09 10:29:59,5.041s,PASSED
+"verifyTextPresent(""leadtest"", false)",Chrome 85.0.4183.121,,,2020-10-09 10:29:59,2020-10-09 10:30:00,1.196s,PASSED
+delay(5),Chrome 85.0.4183.121,,,2020-10-09 10:30:00,2020-10-09 10:30:05,5.013s,PASSED
+closeBrowser(),Chrome 85.0.4183.121,,,2020-10-09 10:30:05,2020-10-09 10:30:06,0.780s,PASSED
