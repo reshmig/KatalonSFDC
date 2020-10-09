@@ -17,11 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://login.salesforce.com/?locale=eu')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/username'), 'manjary456@gmail.com')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/username'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/password'), 'D7Y+m3IaFBZU3B8AZ3G19g==')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/password'), GlobalVariable.password)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/login'))
 
