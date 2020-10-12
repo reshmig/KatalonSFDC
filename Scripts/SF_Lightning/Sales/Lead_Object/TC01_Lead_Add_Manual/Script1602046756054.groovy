@@ -37,7 +37,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/n
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/sel_salutation'))
+CustomKeywords.'Marlabscustom.Salutation'('Mrs.')
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/lastname'), lastname)
 
@@ -51,7 +51,7 @@ WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Le
 
 WebUI.delay(5)
 
-WebUI.verifyTextPresent('leadtest', false)
+WebUI.verifyTextPresent('Alice', false)
 
 WebUI.delay(5)
 
