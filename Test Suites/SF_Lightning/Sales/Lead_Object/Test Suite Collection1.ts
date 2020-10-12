@@ -4,7 +4,7 @@
    <name>Test Suite Collection1</name>
    <tag></tag>
    <executionMode>PARALLEL</executionMode>
-   <maxConcurrentInstances>8</maxConcurrentInstances>
+   <maxConcurrentInstances>9</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

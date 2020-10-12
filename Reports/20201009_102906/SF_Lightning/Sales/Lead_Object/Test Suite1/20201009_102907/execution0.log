@@ -1063,4 +1063,237 @@
   <message>End Test Suite : Test Suites/SF_Lightning/Sales/Lead_Object/Test Suite1</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log>
+</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356180</millis>
+  <sequence>1616</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356272</millis>
+  <sequence>1617</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is CSV file, reading CSV file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356273</millis>
+  <sequence>1618</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356331</millis>
+  <sequence>1619</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356333</millis>
+  <sequence>1620</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is CSV file, reading CSV file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356334</millis>
+  <sequence>1621</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356349</millis>
+  <sequence>1622</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356350</millis>
+  <sequence>1623</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is CSV file, reading CSV file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:55:56</date>
+  <millis>1602480356351</millis>
+  <sequence>1624</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:56:09</date>
+  <millis>1602480369319</millis>
+  <sequence>1625</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:56:09</date>
+  <millis>1602480369321</millis>
+  <sequence>1626</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is CSV file, reading CSV file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:56:09</date>
+  <millis>1602480369321</millis>
+  <sequence>1627</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:56:32</date>
+  <millis>1602480392579</millis>
+  <sequence>1628</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1209</thread>
+  <message>Finding test data with id &amp;apos;Data Files/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:56:32</date>
+  <millis>1602480392584</millis>
+  <sequence>1629</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1209</thread>
+  <message>Test data is CSV file, reading CSV file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:56:32</date>
+  <millis>1602480392584</millis>
+  <sequence>1630</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1209</thread>
+  <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:59:48</date>
+  <millis>1602480588422</millis>
+  <sequence>1995</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1278</thread>
+  <message>Finding test data with id &amp;apos;Data Files/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:59:48</date>
+  <millis>1602480588425</millis>
+  <sequence>1996</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1278</thread>
+  <message>Test data is CSV file, reading CSV file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:59:48</date>
+  <millis>1602480588425</millis>
+  <sequence>1997</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1278</thread>
+  <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:59:48</date>
+  <millis>1602480588506</millis>
+  <sequence>1998</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1278</thread>
+  <message>Finding test data with id &amp;apos;Data Files/SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:59:48</date>
+  <millis>1602480588507</millis>
+  <sequence>1999</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1278</thread>
+  <message>Test data is CSV file, reading CSV file</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2020-10-12T10:59:48</date>
+  <millis>1602480588508</millis>
+  <sequence>2000</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1278</thread>
+  <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+</record>
