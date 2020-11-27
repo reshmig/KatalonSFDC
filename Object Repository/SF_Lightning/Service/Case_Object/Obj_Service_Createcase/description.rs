@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_New</name>
+   <name>description</name>
    <tag></tag>
-   <elementGuidId>89e88e78-8810-4786-b4e5-1a08c221a7f5</elementGuidId>
+   <elementGuidId>304d9fc9-ee9f-4c05-8291-5d0fc857a2c3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'New')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//textarea[@class = ' textarea' and @role = 'textbox'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

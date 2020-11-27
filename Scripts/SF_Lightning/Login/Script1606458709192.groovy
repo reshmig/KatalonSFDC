@@ -27,25 +27,3 @@ WebUI.click(findTestObject('SF_Lightning/Login/login'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Login/applauncher'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/service'))
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/span_Cases'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/div_New'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/sel_case'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/a_Phone'))
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'test')
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'Case created using recorder with modifying the objects')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
-
-WebUI.delay(5)
-
-WebUI.closeBrowser()
-

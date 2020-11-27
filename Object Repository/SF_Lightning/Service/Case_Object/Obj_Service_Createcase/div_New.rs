@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>service</name>
+   <name>div_New</name>
    <tag></tag>
-   <elementGuidId>6a2febb6-698c-4845-a698-67433f27e6a5</elementGuidId>
+   <elementGuidId>89e88e78-8810-4786-b4e5-1a08c221a7f5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//p[@class='slds-truncate'][contains(text(),'Service')])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'New')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

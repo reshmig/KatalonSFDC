@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Phone</name>
+   <name>sel_case</name>
    <tag></tag>
-   <elementGuidId>0c470d0f-73d1-46dd-90b4-a884d7b70ac7</elementGuidId>
+   <elementGuidId>06eddfc2-9688-4cac-8d82-da46e5af6f64</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Phone')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//a[@class='select'][contains(text(),'--None--')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

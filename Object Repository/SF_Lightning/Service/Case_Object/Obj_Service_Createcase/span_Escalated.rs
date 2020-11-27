@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input</name>
+   <name>span_Escalated</name>
    <tag></tag>
-   <elementGuidId>55eb171e-0c3c-4ef9-adf5-b278e2dc1534</elementGuidId>
+   <elementGuidId>0eb1b9bb-e1da-476a-bfd5-78a7f35be957</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@type = 'text' and @class = 'slds-input slds-combobox__input' and @aria-controls = 'dropdown-element-146']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[@title = 'Escalated' and @class = 'slds-truncate']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

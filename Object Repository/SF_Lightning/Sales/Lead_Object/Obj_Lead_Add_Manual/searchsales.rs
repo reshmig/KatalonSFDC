@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>subject</name>
+   <name>searchsales</name>
    <tag></tag>
-   <elementGuidId>ba0bd035-9c04-484e-987a-08385ef1026c</elementGuidId>
+   <elementGuidId>3c385d42-11b8-4412-a3c8-e038e738f9f6</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>(//*[@class = ' input'])[6]</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@placeholder='Search apps and items...']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

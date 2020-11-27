@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>login</name>
+   <name>service</name>
    <tag></tag>
-   <elementGuidId>06e1ac74-dfcf-45a0-b6fe-b7d39031cf0e</elementGuidId>
+   <elementGuidId>6a2febb6-698c-4845-a698-67433f27e6a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Login']</value>
+         <value>(//p[@class='slds-truncate'][contains(text(),'Service')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

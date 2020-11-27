@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>sel_case</name>
+   <name>login</name>
    <tag></tag>
-   <elementGuidId>06eddfc2-9688-4cac-8d82-da46e5af6f64</elementGuidId>
+   <elementGuidId>06e1ac74-dfcf-45a0-b6fe-b7d39031cf0e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[@class='select'][contains(text(),'--None--')])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id='Login']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Escalated</name>
+   <name>username</name>
    <tag></tag>
-   <elementGuidId>0eb1b9bb-e1da-476a-bfd5-78a7f35be957</elementGuidId>
+   <elementGuidId>479f4570-cfcf-4829-8e3c-3e382fa94740</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@title = 'Escalated' and @class = 'slds-truncate']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id='username']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

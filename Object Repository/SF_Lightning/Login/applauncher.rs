@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Cases</name>
+   <name>applauncher</name>
    <tag></tag>
-   <elementGuidId>77ff659f-a13b-4c0c-ad57-55fd1f33f395</elementGuidId>
+   <elementGuidId>9e69eca6-de4c-486f-9c6a-466b43eb8546</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class='slds-truncate'][contains(text(),'Cases')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@class='slds-icon-waffle']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

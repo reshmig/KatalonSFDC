@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>username</name>
+   <name>input</name>
    <tag></tag>
-   <elementGuidId>479f4570-cfcf-4829-8e3c-3e382fa94740</elementGuidId>
+   <elementGuidId>55eb171e-0c3c-4ef9-adf5-b278e2dc1534</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='username']</value>
+         <value>//*[@type = 'text' and @class = 'slds-input slds-combobox__input' and @aria-controls = 'dropdown-element-146']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
