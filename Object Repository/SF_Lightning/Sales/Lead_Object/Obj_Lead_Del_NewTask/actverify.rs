@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EditLead_Save</name>
+   <name>actverify</name>
    <tag></tag>
-   <elementGuidId>d8bbf9d1-6cf8-498e-b2ba-2cb6d07889fc</elementGuidId>
+   <elementGuidId>c7b089f8-afab-431d-bf10-e559317bff30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class=' label bBody'][contains(text(),'Save')])[3]</value>
+         <value>(//a[@title='Email'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

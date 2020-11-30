@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EditLead_Save</name>
+   <name>save</name>
    <tag></tag>
-   <elementGuidId>d8bbf9d1-6cf8-498e-b2ba-2cb6d07889fc</elementGuidId>
+   <elementGuidId>934317c6-49da-43b9-9974-7b4e5a1b6516</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@title='Save']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@class=' label bBody'][contains(text(),'Save')])[3]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

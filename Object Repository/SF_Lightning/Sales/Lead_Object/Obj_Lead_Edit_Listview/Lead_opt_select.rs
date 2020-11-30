@@ -6,12 +6,11 @@
    <elementGuidId>0a234b5d-1f94-44c5-a42b-abd8f91ca609</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//tr[1]//td[10]//span[1]//div[1]//a[1]//lightning-icon[1]//lightning-primitive-icon[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//tr[1]//td[10]//span[1]//div[1]//a[1]//lightning-icon[1]//lightning-primitive-icon[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

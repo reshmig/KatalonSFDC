@@ -6,12 +6,11 @@
    <elementGuidId>f9e73b1e-9489-4392-a1c0-c0a4b0ea77de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'(234) 567-8767')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'(234) 567-8767')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

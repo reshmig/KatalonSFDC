@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>EditLead_Save</name>
+   <name>Lead_EditActivity_dropdown</name>
    <tag></tag>
-   <elementGuidId>d8bbf9d1-6cf8-498e-b2ba-2cb6d07889fc</elementGuidId>
+   <elementGuidId>999dc8f2-f2a7-435b-8022-aea4d2f46bf0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class=' label bBody'][contains(text(),'Save')])[3]</value>
+         <value>//a[@title='Edit Comments']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
