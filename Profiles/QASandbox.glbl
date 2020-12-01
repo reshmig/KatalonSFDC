@@ -6,17 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://login.salesforce.com/?locale=eu'</initValue>
+      <initValue>'https://login.salesforce.com'</initValue>
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'test5678'</initValue>
+      <initValue>'Marlabsqa@123'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'reshmigu@gmail.com'</initValue>
+      <initValue>'jeevan@etmarlabs.com'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
