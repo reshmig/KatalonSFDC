@@ -23,35 +23,35 @@ WebUI.delay(5)
 //WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall'))
 WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'Sales')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/b_Sales_App Launcher'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/b_Sales_App Launcher'), FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption'))
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/span_Accounts_Tab'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/div_Account_New Button'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/div_Account_New Button'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/input__Account Name'), 'Test_Account_Name')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/input__Account Name'), 'Test_Account_Name')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/a_Type_--None--'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Type_--None--'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/a_Type_Value_Prospect'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Type_Value_Prospect'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/a_Industry_--None--'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Industry_--None--'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/a_Account_Industry_Value_Agriculture'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Industry_Value_Agriculture'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/a_Account_Rating_--None--'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_--None--'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/a_Account_Rating_Value_Warm'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_Value_Warm'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/textarea_Account_Billing Street'), 
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/textarea_Account_Billing Street'), 
     'Test-Billing Street')
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/textarea_Account_Description'), 'Successfully Created from Account Home page using Katalon.')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/textarea_Account_Description'), 'Successfully Created from Account Home page using Katalon.')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/span_Account_Save'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Account_Save'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj_Account_Add_Manual/span_Accounts_Tab'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
 
 WebUI.verifyTextPresent('Test_Account_Name', false)
 
