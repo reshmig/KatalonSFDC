@@ -11,12 +11,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Marlabsqa@123'</initValue>
+      <initValue>'test5678'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'jeevan@etmarlabs.com'</initValue>
+      <initValue>'reshmigu@gmail.com'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

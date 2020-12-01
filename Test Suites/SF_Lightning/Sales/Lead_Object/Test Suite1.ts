@@ -38,4 +38,34 @@
          <variableId>99ae8da0-427b-4c03-82da-8ff66aed41db</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5604d70b-a52e-4be6-aafd-2c2351443824</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Lead_Object/TC03_Lead_Edit_Detailpage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c4eeb68-d5f7-415f-a4ab-1d627408d6a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Lead_Object/TC02_Lead_Edit_Listview</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9a40b41a-f578-42c7-806a-44c1cf03d6c2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Lead_Object/TC04_Lead_Create_Newtask</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5f062d1-a1d2-4a5d-82b9-40284c34545e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Lead_Object/TC05_Lead_Edit_Newtask</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b6da2562-611a-4343-ab7a-0417583ee751</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Lead_Object/TC06_Lead_Del_NewTask</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
