@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Account_Add_From Lead Conv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82270d04-d6fc-4532-b7c2-fc4164dc591e</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9c851a8c-ff70-490e-b56f-6f815c89a003</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1de5dbd-8115-444f-a653-349c08a64e40</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

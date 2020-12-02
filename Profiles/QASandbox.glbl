@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
@@ -20,3 +21,27 @@
       <name>username</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>QASandbox</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://login.salesforce.com'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test5678'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'reshmigu@gmail.com'</initValue>
+      <name>username</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
+>>>>>>> branch 'main' of https://github.com/reshmig/KatalonSFDC.git

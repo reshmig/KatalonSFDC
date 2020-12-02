@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Lead_Convert_Account_Create New_Radio Button</name>
+   <tag></tag>
+   <elementGuidId>aac54069-cb88-4e4f-b7b5-67e5db6b0203</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//span[@class = 'slds-radio_faux'])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.slds-radio_faux</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class = 'slds-radio_faux']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-radio_faux</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>20:2164;a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content_3441:0&quot;)/div[@class=&quot;containerWithMargin runtime_sales_leadConvertDesktop&quot;]/fieldset[@class=&quot;slds-form-element runtime_sales_leadConvertSectionDesktop&quot;]/div[@class=&quot;slds-form-element__control&quot;]/div[@class=&quot;entityPanel slds-box_border expand&quot;]/div[@class=&quot;col2&quot;]/div[@class=&quot;createPanel&quot;]/div[@class=&quot;header runtime_sales_leadConvertCreatePanelDesktop&quot;]/span[@class=&quot;slds-radio&quot;]/label[@class=&quot;slds-radio__label uiLabel&quot;]/span[@class=&quot;slds-radio_faux&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content_3441:0']/div/fieldset/div/div/div[2]/div/div/span/label/span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/span/label/span[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

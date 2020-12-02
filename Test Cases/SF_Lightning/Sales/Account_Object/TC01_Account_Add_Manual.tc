@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Account_Add_Manual</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7dd085d2-656b-41cd-b322-b93441822737</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>614a6989-4aee-46de-bcc2-ad9c9c0e1017</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1bb86f19-d091-4870-ae08-11222e1de552</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
+
