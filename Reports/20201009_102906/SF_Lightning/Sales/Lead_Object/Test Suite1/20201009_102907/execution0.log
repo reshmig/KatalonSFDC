@@ -1063,9 +1063,8 @@
   <message>End Test Suite : Test Suites/SF_Lightning/Sales/Lead_Object/Test Suite1</message>
   <nestedLevel>0</nestedLevel>
 </record>
-</log><?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2020-10-12T10:55:56</date>
   <millis>1602480356180</millis>
@@ -1462,3 +1461,4 @@
   <message>Reading CSV file with source file &amp;apos;comma&amp;apos;, separator &amp;apos;containing header&amp;apos; and &amp;apos;{2}&amp;apos;</message>
   <nestedLevel>0</nestedLevel>
 </record>
+</log>

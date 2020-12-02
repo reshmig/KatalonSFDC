@@ -87,6 +87,6 @@ class Marlabscustom {
 
 	@Keyword
 	def Salutation(String salutation){
-		WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation1',[("id"):salutation]))
+		WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salutation1',[("id"):salutation]))
 	}
 }
