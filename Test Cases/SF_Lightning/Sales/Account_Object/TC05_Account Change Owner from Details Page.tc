@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_Account_Add_From Lead Conv</name>
+   <name>TC05_Account Change Owner from Details Page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>82270d04-d6fc-4532-b7c2-fc4164dc591e</testCaseGuid>
+   <testCaseGuid>b64110c1-9e45-49c0-a2d3-bb3d5e60eecf</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9c851a8c-ff70-490e-b56f-6f815c89a003</id>
+      <id>9212c14c-498d-4ae3-96ed-47b3090e9671</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c1de5dbd-8115-444f-a653-349c08a64e40</id>
+      <id>ef025bb3-8331-466d-b594-3689042a9503</id>
       <masked>false</masked>
       <name>company</name>
    </variable>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC04_Account_Edit_From Record Details page</name>
+   <name>TC01_Create Account from New Button</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2150e90c-d0a8-4386-9bc3-16f771cbc7ea</testCaseGuid>
+   <testCaseGuid>7dd085d2-656b-41cd-b322-b93441822737</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>688639d9-cb67-493f-b753-6f04c57998f1</id>
+      <id>614a6989-4aee-46de-bcc2-ad9c9c0e1017</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>215a2ede-4728-472b-a5fa-7455a2ae781e</id>
+      <id>1bb86f19-d091-4870-ae08-11222e1de552</id>
       <masked>false</masked>
       <name>company</name>
    </variable>

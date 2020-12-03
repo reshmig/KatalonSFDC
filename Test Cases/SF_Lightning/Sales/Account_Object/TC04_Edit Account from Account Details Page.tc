@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC06_Account_Change Owner_From List View Page</name>
+   <name>TC04_Edit Account from Account Details Page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e7574836-92ad-4550-9052-fc5b5824c86c</testCaseGuid>
+   <testCaseGuid>2150e90c-d0a8-4386-9bc3-16f771cbc7ea</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>a94a62c5-3c8a-4d82-b4f8-18daf85e47ba</id>
+      <id>688639d9-cb67-493f-b753-6f04c57998f1</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>41f14a6b-47f2-4585-bd9c-53a1c0f9163a</id>
+      <id>215a2ede-4728-472b-a5fa-7455a2ae781e</id>
       <masked>false</masked>
       <name>company</name>
    </variable>

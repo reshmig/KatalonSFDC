@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_Account_Add_Manual</name>
+   <name>TC07_Create Contact_From Account Related List</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7dd085d2-656b-41cd-b322-b93441822737</testCaseGuid>
+   <testCaseGuid>22c950fb-7e12-4257-bdd7-1a8368c2af93</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>614a6989-4aee-46de-bcc2-ad9c9c0e1017</id>
+      <id>ac0cccb2-50c8-4cbc-b8f1-dbea9fec7313</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>1bb86f19-d091-4870-ae08-11222e1de552</id>
+      <id>ef17efe2-0a0f-4753-a499-d4e355d742a0</id>
       <masked>false</masked>
       <name>company</name>
    </variable>
 </TestCaseEntity>
-

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC05_Account_Change Owner_From Record Details page</name>
+   <name>TC06_Change owner from list view page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b64110c1-9e45-49c0-a2d3-bb3d5e60eecf</testCaseGuid>
+   <testCaseGuid>e7574836-92ad-4550-9052-fc5b5824c86c</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9212c14c-498d-4ae3-96ed-47b3090e9671</id>
+      <id>a94a62c5-3c8a-4d82-b4f8-18daf85e47ba</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>ef025bb3-8331-466d-b594-3689042a9503</id>
+      <id>41f14a6b-47f2-4585-bd9c-53a1c0f9163a</id>
       <masked>false</masked>
       <name>company</name>
    </variable>
