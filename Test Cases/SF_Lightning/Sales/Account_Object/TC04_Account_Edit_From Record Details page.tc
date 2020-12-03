@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02_Account_Add_From Lead Conv - Copy</name>
+   <name>TC04_Account_Edit_From Record Details page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9dcf380b-fefa-4538-9a61-6b2c507adcbf</testCaseGuid>
+   <testCaseGuid>2150e90c-d0a8-4386-9bc3-16f771cbc7ea</testCaseGuid>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9a214794-289b-4894-a8bf-4bf85a68f200</id>
+      <id>688639d9-cb67-493f-b753-6f04c57998f1</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>31b31623-c3f8-4d86-a164-8874618b87b5</id>
+      <id>215a2ede-4728-472b-a5fa-7455a2ae781e</id>
       <masked>false</masked>
       <name>company</name>
    </variable>

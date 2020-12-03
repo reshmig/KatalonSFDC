@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Account_Edit_From Listview</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>77394175-4486-495c-bcff-2fedeae9b699</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>713a5187-c533-41a5-8308-7bb21b739a09</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fd6d75b-2505-435c-b378-8732e793231a</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
