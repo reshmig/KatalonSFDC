@@ -6,6 +6,9 @@
    <elementGuidId>9f1c0283-e78f-4bca-8a24-07f0c4161799</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@class = ' virtualAutocompleteOptionText' and (text() = 'All Contacts' or . = 'All Contacts')]</value>
       </entry>
@@ -13,12 +16,8 @@
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Selected'])[1]/following::span[1]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

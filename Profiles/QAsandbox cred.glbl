@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>QAAcceleratorsLogin</name>
+   <name>QAsandbox cred</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://login.salesforce.com/?locale=in'</initValue>
-      <name>url</name>
+      <initValue>'https://login.salesforce.com/'</initValue>
+      <name>URL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'manjary456@gmail.com'</initValue>
-      <name>username_01</name>
+      <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'test12345'</initValue>
-      <name>Password_01</name>
+      <name>Password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

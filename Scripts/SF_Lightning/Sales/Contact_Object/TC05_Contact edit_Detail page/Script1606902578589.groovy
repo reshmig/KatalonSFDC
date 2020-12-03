@@ -28,21 +28,15 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_All Contacts  Contacts  Salesforce/a_TOSCA Contact'))
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_TOSCA Contact  Salesforce/lightning-primitive-icon'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_TOSCA Contact  Salesforce/button_Show more actions on contact det'))
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_TOSCA Contact  Salesforce/button_Show more actions'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_TOSCA Contact  Salesforce/a_Edit on contact detail'))
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_TOSCA Contact  Salesforce/a_Edit'))
-
-WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_Edit TOSCA Contact  Salesforce/input_Title_36710'), 
+WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_Edit TOSCA Contact  Salesforce/input_Title_36580'), 
     'test')
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_Edit TOSCA Contact  Salesforce/input_Department_37070'))
-
-WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_Edit TOSCA Contact  Salesforce/input_Department_37070'), 
+WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_Edit TOSCA Contact  Salesforce/input_Department_36940'), 
     'delivery')
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_Edit TOSCA Contact  Salesforce/span_Save'))
-
-WebUI.closeBrowser()
 

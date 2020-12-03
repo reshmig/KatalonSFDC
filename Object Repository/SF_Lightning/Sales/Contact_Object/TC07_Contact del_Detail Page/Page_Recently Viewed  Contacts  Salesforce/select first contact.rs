@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_TOSCA Contact</name>
+   <name>select first contact</name>
    <tag></tag>
-   <elementGuidId>5d579209-f421-428c-9857-03bd7a6f0ce6</elementGuidId>
+   <elementGuidId>6aec2eb7-47ad-426f-9b6f-00cb4df8fd3e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -20,7 +21,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,14 +32,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>slds-truncate outputLookupLink slds-truncate outputLookupLink-0030o00003LqsdZAAR-1838:0 forceOutputLookup</value>
+      <value>slds-truncate outputLookupLink slds-truncate outputLookupLink-0030o00003PUM8EAAX-1286:0 forceOutputLookup</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-ownerid</name>
       <type>Main</type>
-      <value>1838:0</value>
+      <value>1286:0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +53,7 @@
       <matchCondition>equals</matchCondition>
       <name>data-recordid</name>
       <type>Main</type>
-      <value>0030o00003LqsdZAAR</value>
+      <value>0030o00003PUM8EAAX</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +74,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/lightning/r/0030o00003LqsdZAAR/view</value>
+      <value>/lightning/r/0030o00003PUM8EAAX/view</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,14 +95,14 @@
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>TOSCA Contact</value>
+      <value>New Contact from account</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-aura-rendered-by</name>
       <type>Main</type>
-      <value>1849:0</value>
+      <value>1297:0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -115,28 +116,28 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>TOSCA Contact</value>
+      <value>New Contact from account</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;brandBand_1&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;windowViewMode-maximized oneContent active lafPageHost&quot;]/div[@class=&quot;oneConsoleObjectHome&quot;]/div[@class=&quot;test-listViewManager slds-card slds-card_boundary slds-grid slds-grid--vertical forceListViewManager&quot;]/div[@class=&quot;slds-grid listDisplays safari-workaround-anchor&quot;]/div[@class=&quot;slds-grid listViewContainer safari-workaround&quot;]/div[@class=&quot;slds-col slds-no-space forceListViewManagerPrimaryDisplayManager&quot;]/div[@class=&quot;undefined forceListViewManagerGrid&quot;]/div[@class=&quot;listViewContent slds-table--header-fixed_container&quot;]/div[@class=&quot;uiScroller scroller-wrapper scroll-bidirectional native&quot;]/div[@class=&quot;scroller actionBarPlugin&quot;]/div[@class=&quot;slds-table--edit_container slds-is-relative  inlineEdit--enabled keyboardMode--active inlineEditGrid forceInlineEditGrid&quot;]/table[@class=&quot;slds-table forceRecordLayout slds-table--header-fixed slds-table--edit slds-table--bordered resizable-cols slds-table--resizable-cols uiVirtualDataTable&quot;]/tbody[1]/tr[1]/th[@class=&quot;slds-cell-edit lockTrigger cellContainer&quot;]/span[@class=&quot;slds-grid slds-grid--align-spread forceInlineEditCell&quot;]/a[@class=&quot;slds-truncate outputLookupLink slds-truncate outputLookupLink-0030o00003LqsdZAAR-1838:0 forceOutputLookup&quot;]</value>
+      <value>id(&quot;1052:0&quot;)/div[@class=&quot;scroller actionBarPlugin&quot;]/div[@class=&quot;slds-table--edit_container slds-is-relative  inlineEdit--enabled keyboardMode--active inlineEditGrid forceInlineEditGrid&quot;]/table[@class=&quot;slds-table forceRecordLayout slds-table--header-fixed slds-table--edit slds-table--bordered resizable-cols slds-table--resizable-cols uiVirtualDataTable&quot;]/tbody[1]/tr[1]/th[@class=&quot;slds-cell-edit lockTrigger cellContainer&quot;]/span[@class=&quot;slds-grid slds-grid--align-spread forceInlineEditCell&quot;]/a[@class=&quot;slds-truncate outputLookupLink slds-truncate outputLookupLink-0030o00003PUM8EAAX-1286:0 forceOutputLookup&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='brandBand_1']/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/th/span/a</value>
+      <value>//div[@id='1052:0']/div/div/table/tbody/tr/th/span/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'TOSCA Contact')]</value>
+      <value>//a[contains(text(),'New Contact from account')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -164,21 +165,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marlabs'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Katalon new Account'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='TOSCA Contact']/parent::*</value>
+      <value>//*/text()[normalize-space(.)='New Contact from account']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/lightning/r/0030o00003LqsdZAAR/view')]</value>
+      <value>//a[contains(@href, '/lightning/r/0030o00003PUM8EAAX/view')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

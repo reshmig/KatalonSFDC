@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Save</name>
+   <name>p_Sales</name>
    <tag></tag>
-   <elementGuidId>02a92493-a2e9-4995-ac52-398bca58c7bb</elementGuidId>
+   <elementGuidId>905bfc4e-430b-48ea-98e4-d6047d4a9cfe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
+         <value>#07p0o000000LIHfAAO > div.slds-size_small > lightning-formatted-rich-text.al-menu-item-label.slds-truncate.slds-rich-text-editor__output > span > p.slds-truncate</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[@class=' label bBody'][contains(text(),'Save')])[3]</value>
+         <value>//a[@id='07p0o000000LIHfAAO']/div/lightning-formatted-rich-text/span/p</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,76 +21,69 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value> label bBody</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>dir</name>
-      <type>Main</type>
-      <value>ltr</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-aura-rendered-by</name>
-      <type>Main</type>
-      <value>4646:0</value>
+      <value>slds-truncate</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Save</value>
+      <value>Sales</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content_3225:0&quot;)/div[@class=&quot;windowViewMode-normal oneRecordActionWrapper isModal active lafPageHost&quot;]/div[@class=&quot;isModal inlinePanel oneRecordActionWrapper&quot;]/div[@class=&quot;inlineFooter&quot;]/div[@class=&quot;button-container slds-text-align_right forceRecordEditActions&quot;]/div[@class=&quot;actionsContainer&quot;]/div[@class=&quot;button-container-inner slds-float_right&quot;]/button[@class=&quot;slds-button slds-button--neutral uiButton--brand uiButton forceActionButton&quot;]/span[@class=&quot;label bBody&quot;]</value>
+      <value>id(&quot;07p0o000000LIHfAAO&quot;)/div[@class=&quot;slds-size_small&quot;]/lightning-formatted-rich-text[@class=&quot;al-menu-item-label slds-truncate slds-rich-text-editor__output&quot;]/span[1]/p[@class=&quot;slds-truncate&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='content_3225:0']/div/div/div[2]/div/div/div[2]/button[3]/span</value>
+      <value>//a[@id='07p0o000000LIHfAAO']/div/lightning-formatted-rich-text/span/p</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save &amp; New'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[1]/following::p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[2]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search apps and items...'])[1]/following::p[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[6]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[3]/preceding::p[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[3]/preceding::p[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button[3]/span</value>
+      <value>//one-app-launcher-menu-item[2]/a/div/lightning-formatted-rich-text/span/p</value>
    </webElementXpaths>
 </WebElementEntity>

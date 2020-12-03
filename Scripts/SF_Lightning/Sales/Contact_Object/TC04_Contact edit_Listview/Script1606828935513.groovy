@@ -28,10 +28,12 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC04_Contact edit_List view/Page_All Contacts  Contacts  Salesforce/3 more actions'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC04_Contact edit_List view/Page_All Contacts  Contacts  Salesforce/a_Edit'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC04_Contact edit_List view/Page_All Contacts  Contacts  Salesforce/a_Edit on Contact homepage'))
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Contact_Object/TC04_Contact edit_List view/Page_Edit TOSCA Contact  Salesforce/Phone on contact'), 
     '9876543210')
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC04_Contact edit_List view/Page_Edit TOSCA Contact  Salesforce/span_Save'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC04_Contact edit_List view/Page_Edit TOSCA Contact  Salesforce/Listview edit contact_Save'))
 
