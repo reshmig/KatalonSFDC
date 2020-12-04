@@ -15,15 +15,24 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SF_Lightning/Sales/Lead_Object/TC01_Lead_Add_Manual'), [('lastname') : '', ('company') : ''], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('SF_Lightning/Login/username'), GlobalVariable.username)
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'sales')
 
-WebUI.setText(findTestObject('SF_Lightning/Login/password'), GlobalVariable.password)
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/selectsales'))
 
-WebUI.click(findTestObject('SF_Lightning/Login/login'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Login/applauncher'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Searchlistviews/selectlistview'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Searchlistviews/allleads'))
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/verifylead'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 
