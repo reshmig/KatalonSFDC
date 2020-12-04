@@ -15,7 +15,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,24 +29,13 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  Salesforce/b_Sales'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  Salesforce/Page_Home  Salesforce/span_Price Books'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/span_Price Books'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed  Price Books  Salesforce/div_New'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed  Price Books  Salesforce/Test_Price_Book'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed  Price Books  Salesforce/delete_detailview_button'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input__Price_Book_Name'), 'Test Price Book')
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Description_471556a'), 
-    'Description of Test Price Book')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Active_271556a'))
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/span_Save'))
-
-WebUI.delay(3)
-
-WebUI.verifyTextPresent('Test Price Book', true)
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/Delete_button'))
 
 WebUI.closeBrowser()
 

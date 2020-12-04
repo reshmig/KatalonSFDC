@@ -29,25 +29,25 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  Salesforce/b_Sales'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  Salesforce/Page_Home  Salesforce/span_Price Books'))
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed  Price Books  Salesforce/Test_Price_Book'))
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/Edit_Test_Price_Book'))
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input__Price_Book_Name'), 
-    'Edit Test Price Book')
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Description_471556a'), 
-    'Edit Description Test Price Book')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Active_271556a'), FailureHandling.OPTIONAL)
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/span_Save'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/span_Price Books'))
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('Edit Test Price Book', true)
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed  Price Books  Salesforce/list_view_option'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/edit_listview'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input__Price_Book_Name'), 
+    'Edit Test Price Book3')
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Description_471556a'), 
+    'Edit Description Test Price Book3')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Active_271556a'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/span_Save'))
 
 WebUI.closeBrowser()
 
