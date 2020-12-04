@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Opportunity_Delete_DetailPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd0e8ae7-9be8-42a7-8331-3bce6cb11c9b</testCaseGuid>
+</TestCaseEntity>
