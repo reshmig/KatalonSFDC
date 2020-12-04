@@ -3,7 +3,7 @@
    <description></description>
    <name>input__Price_Book_Name</name>
    <tag></tag>
-   <elementGuidId>afa76678-e60b-4097-9cb6-6aecfd127d99</elementGuidId>
+   <elementGuidId>8c1cf4bf-2cae-484c-bbc3-3c9cbc8d60fd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

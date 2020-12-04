@@ -3,7 +3,7 @@
    <description></description>
    <name>b_Sales</name>
    <tag></tag>
-   <elementGuidId>67118b2b-2064-4f98-945d-b1e0262ee969</elementGuidId>
+   <elementGuidId>1f4960df-a7c8-4721-9396-37614a7fa283</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

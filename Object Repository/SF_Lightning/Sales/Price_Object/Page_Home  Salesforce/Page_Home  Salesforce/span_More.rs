@@ -3,7 +3,7 @@
    <description></description>
    <name>span_More</name>
    <tag></tag>
-   <elementGuidId>ee5e3637-2292-4502-a866-c0dceebafb66</elementGuidId>
+   <elementGuidId>43e63f81-1699-476f-bce6-a74598c37088</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

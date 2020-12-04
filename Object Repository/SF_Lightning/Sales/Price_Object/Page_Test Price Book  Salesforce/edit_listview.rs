@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Edit_Test_Price_Book</name>
+   <name>edit_listview</name>
    <tag></tag>
-   <elementGuidId>3f70617e-14f1-4d0e-a901-3c417dc5c2dc</elementGuidId>
+   <elementGuidId>e6c9235f-ceb1-4114-a5bd-016737393d5d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@title='Edit']</value>
+         <value>//a[@title='Edit']
+</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

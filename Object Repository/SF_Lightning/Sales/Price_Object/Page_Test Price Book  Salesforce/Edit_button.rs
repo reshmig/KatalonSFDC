@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Edit_Test_Price_Book</name>
+   <name>Edit_button</name>
    <tag></tag>
-   <elementGuidId>3f70617e-14f1-4d0e-a901-3c417dc5c2dc</elementGuidId>
+   <elementGuidId>0eec9a1d-1393-441e-9fd7-a869c3ceaaf9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@title='Edit']</value>
+         <value>(//ul/li//a[@role='menuitem']/div[@role='button'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

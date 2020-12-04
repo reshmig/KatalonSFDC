@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Price Books</name>
    <tag></tag>
-   <elementGuidId>53282fda-3c63-4ea0-8528-219f15702978</elementGuidId>
+   <elementGuidId>e929ad80-c294-4273-a6b6-98cff4864a2f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//span[contains(text(),'Test Price Book')])[1]</value>
+         <value>//one-app-nav-bar-item-root[@role='listitem']/a/span[contains(text(),'Price Books')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

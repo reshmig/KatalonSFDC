@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Price Books</name>
    <tag></tag>
-   <elementGuidId>fca7e367-a799-49ec-a2b9-d57d28e0a392</elementGuidId>
+   <elementGuidId>70012cc1-68e5-490f-b883-ca5f49e788d1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

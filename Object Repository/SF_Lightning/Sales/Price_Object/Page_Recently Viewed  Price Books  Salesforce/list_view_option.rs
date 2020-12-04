@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Edit_Test_Price_Book</name>
+   <name>list_view_option</name>
    <tag></tag>
-   <elementGuidId>3f70617e-14f1-4d0e-a901-3c417dc5c2dc</elementGuidId>
+   <elementGuidId>3c8d619c-e6ae-418d-a195-604c6d4af793</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@title='Edit']</value>
+         <value>(//a[@class='rowActionsPlaceHolder slds-button slds-button--icon-x-small slds-button--icon-border-filled keyboardMode--trigger'])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

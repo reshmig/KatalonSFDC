@@ -3,11 +3,11 @@
    <description></description>
    <name>Test_Price_Book</name>
    <tag></tag>
-   <elementGuidId>9886840c-e44b-4735-9c89-ecf2b7928793</elementGuidId>
+   <elementGuidId>33764aa4-883e-417f-81f8-e414b01bfc12</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@class='slds-grid slds-grid--align-spread forceInlineEditCell']/a</value>
+         <value>(//span[@class='slds-grid slds-grid--align-spread forceInlineEditCell']/a)[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>

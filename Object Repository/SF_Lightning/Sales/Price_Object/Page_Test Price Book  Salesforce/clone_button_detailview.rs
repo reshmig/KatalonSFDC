@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Edit_Test_Price_Book</name>
+   <name>clone_button_detailview</name>
    <tag></tag>
-   <elementGuidId>3f70617e-14f1-4d0e-a901-3c417dc5c2dc</elementGuidId>
+   <elementGuidId>761b53d9-1f4c-4f1f-bcd3-534e1589d53a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@title='Edit']</value>
+         <value>//div[@title='Clone']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

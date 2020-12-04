@@ -3,14 +3,14 @@
    <description></description>
    <name>input_Active_271556a</name>
    <tag></tag>
-   <elementGuidId>f30fff86-9565-4a0b-8a82-6fb27fac3149</elementGuidId>
+   <elementGuidId>f6dcf619-536a-4f49-accc-540ca46b2a44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@type='checkbox'])[3]</value>
+         <value>//div[@class='slds-form-element__control']/div/label/following-sibling::input[@type='checkbox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_05_Price_Delete_PriceBook_DetailView</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9113f43-fd01-48c8-a571-406f177df54e</testCaseGuid>
+</TestCaseEntity>

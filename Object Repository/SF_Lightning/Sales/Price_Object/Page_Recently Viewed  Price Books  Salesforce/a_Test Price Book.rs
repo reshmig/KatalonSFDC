@@ -3,14 +3,14 @@
    <description></description>
    <name>a_Test Price Book</name>
    <tag></tag>
-   <elementGuidId>bedc2c19-4783-4065-81ad-31046dcad0cd</elementGuidId>
+   <elementGuidId>6ab3d50a-8df9-4fae-b468-ca4df0c7fc83</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='brandBand_1']/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/th/span/a</value>
+         <value>//a[@title='Test Price Book3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

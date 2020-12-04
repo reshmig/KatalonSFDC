@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Deletion operation</description>
+   <name>TC_03_Price_Delete_PriceBook_ListView</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>642e7173-425f-4488-b761-e3948bfc9e61</testCaseGuid>
+</TestCaseEntity>

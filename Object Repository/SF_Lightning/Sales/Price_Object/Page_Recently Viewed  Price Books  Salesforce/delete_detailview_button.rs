@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Edit_Test_Price_Book</name>
+   <name>delete_detailview_button</name>
    <tag></tag>
-   <elementGuidId>3f70617e-14f1-4d0e-a901-3c417dc5c2dc</elementGuidId>
+   <elementGuidId>03e82d31-3e86-4bda-96f4-d743eef02bff</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@title='Edit']</value>
+         <value>//div[@title='Delete']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

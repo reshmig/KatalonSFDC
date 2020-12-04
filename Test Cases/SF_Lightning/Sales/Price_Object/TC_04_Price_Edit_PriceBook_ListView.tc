@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_04_Price_Edit_PriceBook_ListView</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe67bec8-7d9c-4e44-ae83-3be5788c0cc7</testCaseGuid>
+</TestCaseEntity>
