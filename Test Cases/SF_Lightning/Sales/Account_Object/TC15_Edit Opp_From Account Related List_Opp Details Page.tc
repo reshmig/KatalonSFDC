@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_Edit Opp_From Account Related List_Opp Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5f600ee5-be4a-43a7-bba4-c3aed648fa19</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c60751be-001d-4eb9-bf93-989b093de6fb</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>83de053c-215a-40ee-bd79-1a3df224ff5a</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

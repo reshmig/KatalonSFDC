@@ -58,22 +58,27 @@ WebUI.verifyTextPresent('Test_Account_Name', false)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj04_Account_Edit_From Record Details page/Account_RV_Open 1st Record'))
 
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj08_Create Contact_From Account Details/Account_Details P_New Contact'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj08_Create Contact_From Account Details/Account_Details P_Contact_First Name'), 
+    'Test_Contact via Account_FN')
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj08_Create Contact_From Account Details/Account_Details P_Contact_Last Name'), 
+    'Test Contact via Account_LN')
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj08_Create Contact_From Account Details/Account_Details P_Contact_Email'), 
+    'test@gmail.com')
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj08_Create Contact_From Account Details/Account_Details P_Contact_Phone'), 
+    '+917845698564')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj08_Create Contact_From Account Details/Account_Details P_Contact_Save Button'))
+
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Related Tab'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_New Button'))
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Last Name'), 
-    'Test_Last Name_Via Account')
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Phone'), 
-    '+918984563258')
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Description'), 
-    'Contact created successfully from Account Related Tab')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Save Button'))
+WebUI.verifyTextPresent('Test Contact via Account_LN', false)
 
 WebUI.closeBrowser()
 

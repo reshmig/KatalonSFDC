@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_Create Opp_From Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a272cc4c-7c7d-4a1e-9d7e-809009e9df02</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3eda8f7-bb3e-4da0-bf8e-76688e1c5040</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a07bf256-26b7-4f54-9eb5-d50d61278435</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

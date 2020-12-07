@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_Edit Contact_From Account Related List Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90741f28-8c47-4406-bc35-e50bf848cf3c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de381e17-e550-4daf-a606-7a2f8cc0664f</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f72da80e-e265-4b15-891b-32c05bf4da19</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

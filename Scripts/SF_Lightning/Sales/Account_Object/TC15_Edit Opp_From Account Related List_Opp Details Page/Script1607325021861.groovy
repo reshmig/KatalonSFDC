@@ -60,20 +60,47 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj04_Account_Edit
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Related Tab'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Header Link'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_New Button'))
+WebUI.refresh()
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Last Name'), 
-    'Test_Last Name_Via Account')
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_New Button'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Phone'), 
-    '+918984563258')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_Opp Name'), 
+    'Test_Opp_From Acc RL')
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Description'), 
-    'Contact created successfully from Account Related Tab')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_Closed Date'), 
+    '12/16/2020')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Save Button'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_Stages'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_Stages_1st Val'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_Description'), 
+    'Opp created successfully from Acc RL.')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_Save B'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj04_Account_Edit_From Record Details page/Account_RV_Open 1st Record'))
+
+WebUI.refresh()
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Header Link'))
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj14_Edit Opp_From Account Related List/Account_RL_Opp_Drop-Down'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj14_Edit Opp_From Account Related List/Account_RL_Opp_DD_Edit'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj13_Create Opp_From Account Related List/Account_RL_Opp_Details P_Description'), 
+    'Opp UPDATED successfully from Acc RL.Opp details page')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj14_Edit Opp_From Account Related List/Account_RL_Opp_Edit02_Save B'))
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

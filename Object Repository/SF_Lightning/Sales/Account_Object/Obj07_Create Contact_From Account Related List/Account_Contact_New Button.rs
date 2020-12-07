@@ -6,16 +6,16 @@
    <elementGuidId>4498a20a-5e08-4dfb-a875-899ff8decd1d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/div[@class=&quot;forceRelatedListDesktop&quot;]/div[@class=&quot;test-listViewManager slds-card slds-card_boundary slds-grid slds-grid--vertical forceListViewManager&quot;]/div[@class=&quot;slds-page-header--object-home slds-page-header_joined slds-page-header_bleed slds-page-header slds-shrink-none test-headerRegion forceListViewManagerHeader&quot;]/div[@class=&quot;slds-grid&quot;]/div[@class=&quot;slds-col slds-no-flex slds-grid slds-align-top slds-p-bottom--xx-small test-lvmForceActionsContainer&quot;]/ul[@class=&quot;branding-actions slds-button-group slds-m-left--xx-small small oneActionsRibbon forceActionsContainer&quot;]/li[@class=&quot;slds-button slds-button--neutral&quot;]/a[@class=&quot;forceActionLink&quot;]/div[1][count(. | //div[@title = 'New']) = count(//div[@title = 'New'])]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.slds-col.slds-no-flex.slds-grid.slds-align-top.slds-p-bottom--xx-small.test-lvmForceActionsContainer > ul.branding-actions.slds-button-group.slds-m-left--xx-small.small.oneActionsRibbon.forceActionsContainer > li.slds-button.slds-button--neutral > a.forceActionLink > div[title=&quot;New&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;brandBand_2&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;center oneCenterStage lafSinglePaneWindowManager&quot;]/div[@class=&quot;windowViewMode-normal oneContent active lafPageHost&quot;]/div[@class=&quot;forceRelatedListDesktop&quot;]/div[@class=&quot;test-listViewManager slds-card slds-card_boundary slds-grid slds-grid--vertical forceListViewManager&quot;]/div[@class=&quot;slds-page-header--object-home slds-page-header_joined slds-page-header_bleed slds-page-header slds-shrink-none test-headerRegion forceListViewManagerHeader&quot;]/div[@class=&quot;slds-grid&quot;]/div[@class=&quot;slds-col slds-no-flex slds-grid slds-align-top slds-p-bottom--xx-small test-lvmForceActionsContainer&quot;]/ul[@class=&quot;branding-actions slds-button-group slds-m-left--xx-small small oneActionsRibbon forceActionsContainer&quot;]/li[@class=&quot;slds-button slds-button--neutral&quot;]/a[@class=&quot;forceActionLink&quot;]/div[1][count(. | //div[@title = 'New']) = count(//div[@title = 'New'])]</value>
+         <value>//div[@title = 'New']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@title = 'New']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -49,7 +49,7 @@
       <value>New</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

@@ -62,6 +62,8 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Conta
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
 
+WebUI.refresh()
+
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_New Button'))
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Last Name'), 
@@ -74,6 +76,23 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Con
     'Contact created successfully from Account Related Tab')
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Save Button'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj04_Account_Edit_From Record Details page/Account_RV_Open 1st Record'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Related Tab'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj09_Edit Contact_From Account Related List/Account_RL_Contact_Record Drop-Down'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj09_Edit Contact_From Account Related List/Account_RL_Contact_Record DD_Edit Button'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Description'), 
+    'Contact UPDATED from Account Related list')
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj09_Edit Contact_From Account Related List/Account_RL_Contact_Save'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
 
 WebUI.closeBrowser()
 

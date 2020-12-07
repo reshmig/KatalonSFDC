@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Create Contact_From Account Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>404755e5-9f16-4fc0-b0ee-45e30f582235</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5142513-a9c1-4993-b7de-d3494264c21a</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7bcdf8ef-e755-40bb-839b-cef2ba432353</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

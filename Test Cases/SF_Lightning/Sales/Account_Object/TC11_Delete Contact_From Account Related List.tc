@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Delete Contact_From Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11512bd2-ce95-4bb6-853f-a976ca1f9c4c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64a76128-cd9c-4de6-92ed-f5e795fd4289</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>adbe0c43-fcf4-4ff8-9781-2645c9182fca</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

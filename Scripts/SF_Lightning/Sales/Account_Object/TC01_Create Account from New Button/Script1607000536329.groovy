@@ -52,29 +52,29 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Ad
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Account_Save'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Related Tab'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Related Tab'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_Header Link'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_New Button'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_New Button'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_Last Name'), 
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Last Name'), 
     'Test_Last Name_01')
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_Phone'), 
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Phone'), 
     '+911122334455')
 
-WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_Account Name'), 
+WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Account Name'), 
     'Test_Account_Name')
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_Description'), 
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Description'), 
     'Contact Created successfully from Account related list.')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_Save Button'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Save Button'))
 
-WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/ObjC07_Create Contact_From Account Related List/Account_Contact_List View_1st item'), 
+WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_List View_1st item'), 
     'Test_Last Name_01')
 
 WebUI.closeBrowser()
