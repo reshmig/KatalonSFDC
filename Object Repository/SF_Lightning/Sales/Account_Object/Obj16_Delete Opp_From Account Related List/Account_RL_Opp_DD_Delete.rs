@@ -3,7 +3,7 @@
    <description></description>
    <name>Account_RL_Opp_DD_Delete</name>
    <tag></tag>
-   <elementGuidId>93b1338d-99b4-46ff-a92a-dee17bb9752e</elementGuidId>
+   <elementGuidId>45d2714d-4bce-4023-9d9c-6bef6bd19869</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,13 +11,17 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='4865:0']/div/ul/li[2]/a</value>
+         <value>//a[@title = 'Delete']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title = 'Delete']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <value>4883:0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -66,7 +70,7 @@
       <value>Delete</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

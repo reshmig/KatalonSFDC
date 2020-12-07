@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_Delete Opp_From Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f161fa3a-b0c0-461b-b4ef-0ea4a04ee825</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c48b1982-d2df-420d-9cc9-8b081edd3d3f</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>040e3bcd-45a8-4c48-98e9-90c1301897c8</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
