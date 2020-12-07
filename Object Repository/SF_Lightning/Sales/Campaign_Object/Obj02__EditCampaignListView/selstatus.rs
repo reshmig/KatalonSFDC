@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>leadindustry</name>
+   <name>selstatus</name>
    <tag></tag>
-   <elementGuidId>af3f7fcb-f8ae-490f-b2ae-0185238d9deb</elementGuidId>
+   <elementGuidId>da9a4d95-7625-447d-ad74-c9d7688d39c0</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@title='In Progress']</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//a[@class='select'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

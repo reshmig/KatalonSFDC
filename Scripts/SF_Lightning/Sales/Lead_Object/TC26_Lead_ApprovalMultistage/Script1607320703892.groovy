@@ -35,7 +35,9 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/company'), 'Marlabs')
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/leadphone'), '8765334521')
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_ApprovalMultistage/selindustry'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/agriculturesel'))
 
 //WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/company'), company)
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
@@ -60,23 +62,27 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvesubmit'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/selectapprover'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_ApprovalMultistage/bellicon'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/seljames'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_ApprovalMultistage/approvenote'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvefinal'))
+
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/commentsfinal'), 'approved')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvefinalbutton'))
 
 WebUI.delay(10)
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/submit2'))
-
-WebUI.delay(7)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/sellogout'))
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/logout'))
-
-WebUI.delay(5)
 
 WebUI.openBrowser('')
 
