@@ -6,12 +6,11 @@
    <elementGuidId>5fb27451-0892-4fc3-9799-132fbfd18a5b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@title='campaigntest']</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@title='campaigntestupdtd']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

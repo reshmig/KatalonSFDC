@@ -31,6 +31,8 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Conv
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_ConvertwithOppNoTask/convertdropdown'))
 
+WebUI.delay(5)
+
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_ConvertwithOppNoTask/convert'))
 
 WebUI.delay(10)

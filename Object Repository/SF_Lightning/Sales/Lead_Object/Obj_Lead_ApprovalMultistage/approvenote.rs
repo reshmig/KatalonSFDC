@@ -6,11 +6,11 @@
    <elementGuidId>98197328-6a16-43cd-9afb-c0475ccdd0ab</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Reshmi Unnithan is requesting approval for lead')]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'QA Katalon is requesting approval for lead')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//lightning-icon[@class='slds-icon-utility-down slds-icon_container'])[13]</value>
+         <value>(//lightning-icon[@class='slds-icon-utility-down slds-icon_container'])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

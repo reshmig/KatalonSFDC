@@ -80,11 +80,11 @@ WebUI.delay(5)
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.setText(findTestObject('SF_Lightning/Login/username'), 'test3525@test.com')
+WebUI.setText(findTestObject('SF_Lightning/Login/username'), 'qamarlabsapprover@gmail.com')
 
-WebUI.setText(findTestObject('SF_Lightning/Login/password'), 'test9999')
+WebUI.setText(findTestObject('SF_Lightning/Login/password'), 'marlabs5678')
 
 WebUI.click(findTestObject('SF_Lightning/Login/login'))
 

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Reshmi Unnithan is requesting approval for lead')]</value>
+         <value>//span[contains(text(),'QA Katalon is requesting approval for lead')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
