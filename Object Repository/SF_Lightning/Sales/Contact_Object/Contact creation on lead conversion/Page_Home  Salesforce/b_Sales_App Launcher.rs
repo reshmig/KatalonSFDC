@@ -1,34 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Sales</name>
+   <name>b_Sales_App Launcher</name>
    <tag></tag>
-   <elementGuidId>3c78ad06-dd72-429f-9191-1e9ae770c1dc</elementGuidId>
+   <elementGuidId>953beb48-8815-4cc1-abbe-209f920c7e90</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//b[(text() = 'Sales' or . = 'Sales')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value>#07p0o000000LIHfAAO > div.slds-size_small</value>
+         <value>b</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='07p0o000000LIHfAAO']/div</value>
+         <value>(//b[(text() = 'Sales' or . = 'Sales')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>slds-size_small</value>
+      <value>b</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,48 +39,48 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;07p0o000000LIHfAAO&quot;)/div[@class=&quot;slds-size_small&quot;]</value>
+      <value>id(&quot;07p0o0000004oguAAA&quot;)/div[@class=&quot;slds-size_small&quot;]/lightning-formatted-rich-text[@class=&quot;al-menu-item-label slds-truncate slds-rich-text-editor__output&quot;]/span[1]/p[@class=&quot;slds-truncate&quot;]/b[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[@id='07p0o000000LIHfAAO']/div</value>
+      <value>//a[@id='07p0o0000004oguAAA']/div/lightning-formatted-rich-text/span/p/b</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[1]/following::div[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apps'])[1]/following::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search apps and items...'])[1]/following::div[5]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View All'])[3]/preceding::div[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sales'])[5]/preceding::b[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading...'])[3]/preceding::div[9]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Items'])[1]/preceding::b[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//one-app-launcher-menu-item[2]/a/div</value>
+      <value>//b</value>
    </webElementXpaths>
 </WebElementEntity>

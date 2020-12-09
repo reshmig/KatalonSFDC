@@ -6,16 +6,16 @@
    <elementGuidId>0dc2f472-d253-44fb-b3e0-ec19b4ff200b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//b[(text() = 'Sales' or . = 'Sales')])[1]</value>
+         <key>BASIC</key>
+         <value>//b[(text() = 'Sales' or . = 'Sales')]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>b</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//b[(text() = 'Sales' or . = 'Sales')]</value>
+         <key>XPATH</key>
+         <value>(//b[(text() = 'Sales' or . = 'Sales')])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,19 +6,18 @@
    <elementGuidId>0c9e2334-220c-403c-8172-66491f2ba3d3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
          <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@title = 'Tom Ripley' and (text() = 'Tom Ripley' or . = 'Tom Ripley')]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(//th/span/a)[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +90,7 @@
       <value>noreferrer</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
@@ -112,7 +111,7 @@
       <value>forceOutputLookup</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

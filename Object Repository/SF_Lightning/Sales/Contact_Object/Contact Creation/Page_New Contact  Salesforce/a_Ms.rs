@@ -6,16 +6,16 @@
    <elementGuidId>3778f46a-c423-4de0-8abf-8369d29e4397</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a[title=&quot;Ms.&quot;]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//a[@title = 'Ms.' and (text() = 'Ms.' or . = 'Ms.')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+         <value>a[title=&quot;Ms.&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Ms.')]</value>
+         <value>(//a[contains(text(),'Ms.')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
