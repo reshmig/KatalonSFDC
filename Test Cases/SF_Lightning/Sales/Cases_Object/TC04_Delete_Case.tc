@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify user is able to Delete the Case from the Detail page</description>
+   <name>TC04_Delete_Case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3cc47b9-4abe-4a6e-82be-55e544d58d70</testCaseGuid>
+</TestCaseEntity>

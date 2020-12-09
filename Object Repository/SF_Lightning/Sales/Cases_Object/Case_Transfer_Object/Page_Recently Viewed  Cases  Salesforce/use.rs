@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>use</name>
+   <tag></tag>
+   <elementGuidId>3ff1b654-31e0-45ba-ae58-6dba193e4ebf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>lightning-icon.inputLookupIcon.slds-button_icon-xx-small.slds-icon-utility-search.slds-icon_container > lightning-primitive-icon > svg.slds-icon.slds-icon-text-default.slds-icon_xx-small > use</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>use</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xlink:href</name>
+      <type>Main</type>
+      <value>/_slds/icons/utility-sprite/svg/symbols.svg?cache=9.37.1#search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content_1562:0&quot;)/div[@class=&quot;changeOwnerContentWrapper slds-p-around--medium forceChangeOwnerContent&quot;]/div[@class=&quot;changeOwnerContentBody forceRecordLayout&quot;]/div[@class=&quot;modalContent&quot;]/div[1]/div[@class=&quot;colorBorder&quot;]/div[@class=&quot;full&quot;]/div[@class=&quot;uiInput forceSearchInputLookupDesktop uiInput--default&quot;]/div[1]/div[@class=&quot;contentWrapper slds-box--border&quot;]/div[@class=&quot;inputWrapper slds-grid slds-grid_vertical-align-center slds-p-right_x-small&quot;]/lightning-icon[@class=&quot;inputLookupIcon slds-button_icon-xx-small slds-icon-utility-search slds-icon_container&quot;]/lightning-primitive-icon[1]/svg[@class=&quot;slds-icon slds-icon-text-default slds-icon_xx-small&quot;]/use[1]</value>
+   </webElementProperties>
+</WebElementEntity>

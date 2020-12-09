@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Action_slds-checkbox--faux</name>
+   <tag></tag>
+   <elementGuidId>336da9cd-9c95-4bbf-9d43-23b6ca2cf488</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='brandBand_1']/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/td[2]/span/span/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.slds-grid.slds-grid--align-spread.slds-align_absolute-center.checkbox-container.uiInput.forceVirtualCheckbox.uiInput--default > label.slds-checkbox > span.slds-checkbox--faux</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-checkbox--faux</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-aura-rendered-by</name>
+      <type>Main</type>
+      <value>1348:0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;brandBand_1&quot;)/div[@class=&quot;slds-template__container&quot;]/div[@class=&quot;windowViewMode-maximized oneContent active lafPageHost&quot;]/div[@class=&quot;oneConsoleObjectHome&quot;]/div[@class=&quot;test-listViewManager slds-card slds-card_boundary slds-grid slds-grid--vertical forceListViewManager&quot;]/div[@class=&quot;slds-grid listDisplays safari-workaround-anchor&quot;]/div[@class=&quot;slds-grid listViewContainer safari-workaround&quot;]/div[@class=&quot;slds-col slds-no-space forceListViewManagerPrimaryDisplayManager&quot;]/div[@class=&quot;undefined forceListViewManagerGrid&quot;]/div[@class=&quot;listViewContent slds-table--header-fixed_container&quot;]/div[@class=&quot;uiScroller scroller-wrapper scroll-bidirectional native&quot;]/div[@class=&quot;scroller actionBarPlugin&quot;]/div[@class=&quot;slds-table--edit_container slds-is-relative  inlineEdit--enabled keyboardMode--inactive inlineEditGrid forceInlineEditGrid&quot;]/table[@class=&quot;slds-table forceRecordLayout slds-table--header-fixed slds-table--edit slds-table--bordered resizable-cols slds-table--resizable-cols uiVirtualDataTable&quot;]/tbody[1]/tr[1]/td[@class=&quot;slds-cell-edit cellContainer&quot;]/span[@class=&quot;slds-grid slds-grid--align-spread&quot;]/span[@class=&quot;slds-grid slds-grid--align-spread slds-align_absolute-center checkbox-container uiInput forceVirtualCheckbox uiInput--default&quot;]/label[@class=&quot;slds-checkbox&quot;]/span[@class=&quot;slds-checkbox--faux&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='brandBand_1']/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/table/tbody/tr/td[2]/span/span/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/label/span</value>
+   </webElementXpaths>
+</WebElementEntity>
