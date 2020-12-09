@@ -36,10 +36,6 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Type_Value_Prospect'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Industry_--None--'))
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Industry_Value_Agriculture'))
-
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_--None--'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_Value_Warm'))
@@ -62,6 +58,8 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Conta
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
 
+WebUI.refresh()
+
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_New Button'))
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Last Name'), 
@@ -74,6 +72,8 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Con
     'Contact created successfully from Account Related Tab')
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Save Button'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

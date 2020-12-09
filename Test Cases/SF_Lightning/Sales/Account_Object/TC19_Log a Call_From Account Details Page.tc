@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_Log a Call_From Account Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2653ef3a-9191-4eff-a7fa-bd8c3258fc7f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d28d2ed5-fab3-4966-987e-0497a17a9c1f</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>47f4a2fc-22d6-4cb4-96be-42fd99893d06</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

@@ -45,7 +45,9 @@ WebUI.verifyTextPresent('Test Last Name', false)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj02_Account_Add_From Lead Conv/Page_Recently Viewed  Leads  Salesforce/a_Lead_First Record'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj02_Account_Add_From Lead Conv/button_Lead_Convert'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj02_Account_Add_From Lead Conv/Account_Lead_Drop Down'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj02_Account_Add_From Lead Conv/Account_Lead_DD_Covert B'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj02_Account_Add_From Lead Conv/span_Lead_Convert_Account_Create New_Radio Button'))
 
@@ -56,6 +58,8 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj02_Account_Add_
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
 
 WebUI.verifyTextPresent('Test Company', false)
+
+WebUI.delay(4)
 
 WebUI.closeBrowser()
 

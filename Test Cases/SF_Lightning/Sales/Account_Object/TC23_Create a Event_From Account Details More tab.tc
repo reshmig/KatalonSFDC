@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC23_Create a Event_From Account Details More tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>058049d5-1aec-4185-ad3d-dc276aa38e3a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fcf98e16-92cc-4a08-8649-fc5006cbd69a</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf6e0634-eebf-49d8-a174-ce0bd342b5b8</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

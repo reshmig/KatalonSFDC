@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC24_Edit a Event_From Account Details More tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d13ffd38-c4de-40a6-982b-9c12c1b8aeb6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2fcb618-4dc6-44df-809a-52cb26c375db</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>151cd024-7838-4c2d-af06-6b7a25739f6c</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

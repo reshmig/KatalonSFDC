@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[@data-proxy-id = 'aura-pos-lib-1']</value>
+         <value>(//force-hoverable-link/div/a/span)[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[@data-proxy-id = 'aura-pos-lib-1']</value>
+         <value>//span[@id = 'window']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +28,14 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-proxy-id</name>
       <type>Main</type>
       <value>aura-pos-lib-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

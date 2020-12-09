@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC25_Delete a Event_From Account Details More tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>179eec3c-f1bb-4d2e-bb0d-b22542232566</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>839d9e0f-75ab-4abe-bea2-57a8b741a7cd</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7580c634-aa2e-45c3-8891-4f8b684d831d</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

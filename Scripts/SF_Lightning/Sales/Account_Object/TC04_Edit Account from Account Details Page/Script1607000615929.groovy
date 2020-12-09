@@ -37,5 +37,7 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Ad
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Account_Save'))
 
+WebUI.delay(4)
+
 WebUI.closeBrowser()
 

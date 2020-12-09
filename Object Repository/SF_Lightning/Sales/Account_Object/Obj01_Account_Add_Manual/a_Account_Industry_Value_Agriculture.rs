@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@role = 'menuitemradio' and @title = 'Agriculture']</value>
+         <value>//*[@title = 'Agriculture']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,13 +15,13 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[@role = 'menuitemradio' and @title = 'Agriculture']</value>
+         <value>//*[@title = 'Agriculture']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <value>javascript:void(0);</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>role</name>
       <type>Main</type>

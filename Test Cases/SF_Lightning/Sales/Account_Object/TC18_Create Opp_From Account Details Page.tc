@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_Create Opp_From Account Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>916b4280-5cbe-4f7f-9582-e34e729cd030</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>32d4f8e0-95ca-443c-8d7a-305a3e424885</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>798f6516-d5d6-46c8-85fa-0ab205b19efc</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

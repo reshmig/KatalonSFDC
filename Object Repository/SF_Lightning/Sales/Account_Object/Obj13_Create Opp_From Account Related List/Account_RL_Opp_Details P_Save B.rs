@@ -6,16 +6,15 @@
    <elementGuidId>4027270a-b739-4e09-a04b-31d6d632c219</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>(//span[(text() = 'Save' or . = 'Save')])[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@class = ' label bBody' and @dir = 'ltr' and (text() = 'Save' or . = 'Save')])[2]</value>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//span[@class = ' label bBody' and @dir = 'ltr' and (text() = 'Save' or . = 'Save')]</value>
+         <value>//span[(text() = 'Save' or . = 'Save')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +27,14 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value> label bBody</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>dir</name>
       <type>Main</type>

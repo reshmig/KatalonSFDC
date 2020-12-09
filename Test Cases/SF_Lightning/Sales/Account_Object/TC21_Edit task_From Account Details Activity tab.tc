@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_Edit task_From Account Details Activity tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b9aee372-cc37-469c-941d-3042233b07b5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1168f5e-0b86-4dff-ac48-c8785a143a5b</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2cc18332-4029-4f73-aa6b-75d04cb5fb11</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

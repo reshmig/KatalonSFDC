@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class = 'primaryLabel slds-truncate slds-lookup__result-text']</value>
+         <value>(//div[@class = 'primaryLabel slds-truncate slds-lookup__result-text'])[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>

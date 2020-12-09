@@ -26,12 +26,38 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_
 //WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption'))
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
 
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/div_Account_New Button'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/input__Account Name'), 'Test_Account_Name')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Type_--None--'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Type_Value_Prospect'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Industry_--None--'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Industry_Value_Agriculture'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_--None--'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_Value_Warm'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/textarea_Account_Billing Street'), 
+    'Test-Billing Street')
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/textarea_Account_Description'), 
+    'Account Created successfully.')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Account_Save'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
+
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj03_Account_Edit_From Listview/Account_RV_Record_Drop-Down'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj03_Account_Edit_From Listview/Account_RV_Record_Drop-Down_Change Owner'))
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj05_Account_Change Owner_From Record Details page/Account_Change Owner_Search Field Name'), 
-    'Jeeva Krishna')
+    'Integration User')
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj05_Account_Change Owner_From Record Details page/Account_Change Owner_Submit Button'))
 
@@ -41,8 +67,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj05_Account_Chan
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj05_Account_Change Owner_From Record Details page/Account_Change Owner_Submit Button'))
 
-WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/Obj06_Account_Change Owner_From List View Page/Account_RV_AO Alias Name'), 
-    'JKris')
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

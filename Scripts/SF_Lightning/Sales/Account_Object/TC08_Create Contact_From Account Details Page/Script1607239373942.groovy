@@ -36,10 +36,6 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Type_Value_Prospect'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Industry_--None--'))
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Industry_Value_Agriculture'))
-
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_--None--'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_Value_Warm'))
@@ -78,7 +74,11 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Conta
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
 
+WebUI.refresh()
+
 WebUI.verifyTextPresent('Test Contact via Account_LN', false)
+
+WebUI.delay(3)
 
 WebUI.closeBrowser()
 

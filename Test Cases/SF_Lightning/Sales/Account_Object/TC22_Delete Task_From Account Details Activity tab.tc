@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC22_Delete Task_From Account Details Activity tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b6807a6-be09-4b56-9128-7b395cd05af6</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0bff27b0-43e0-4ebd-b032-ca2a908610b4</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>042c0124-4932-4903-9fb0-28d92f8e65a9</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

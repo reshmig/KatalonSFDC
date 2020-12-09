@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_Create a task_From Account Details Activity tab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb1088a0-9007-430f-ac13-87736d03e234</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>85695d60-6407-4157-9a73-fb680abca7c4</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e579cf4f-34cc-4acd-8c5f-6995eb0af42d</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

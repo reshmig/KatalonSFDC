@@ -7,15 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Industry'])[1]/following::a[1]</value>
+         <value>(//a[@aria-required = 'false' and @role = 'button' and (text() = '--None--' or . = '--None--')])[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'select' and @role = 'button' and (text() = '--None--' or . = '--None--')]</value>
+         <value>//a[@aria-required = 'false' and @role = 'button' and (text() = '--None--' or . = '--None--')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,14 +27,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-required</name>
       <type>Main</type>
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
