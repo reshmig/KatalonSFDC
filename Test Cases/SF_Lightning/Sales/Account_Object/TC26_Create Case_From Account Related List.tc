@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC26_Create Case_From Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2a078330-26f3-4416-8863-88737a39165a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a76d758f-db0f-4c27-ab35-3b832e8d1de7</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2c8a6c1f-6252-4b75-8f13-46a796a2e4b0</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

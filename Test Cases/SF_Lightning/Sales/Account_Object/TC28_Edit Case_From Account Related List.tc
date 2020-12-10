@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC28_Edit Case_From Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>896b986b-8a73-4d5c-b8b9-637560161597</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8a453fd9-c41c-4831-9890-f77111e35a1f</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a57202f2-ff2e-4c03-babf-db66fee74d48</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

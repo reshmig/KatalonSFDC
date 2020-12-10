@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27_Create Case_From Account Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8e2614c6-76c4-4e8c-af7f-993a8a69a60c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>190a7ab2-1419-4af1-8d16-cb2684b36189</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00cda673-c738-4588-b5f2-d425b831f0a9</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
