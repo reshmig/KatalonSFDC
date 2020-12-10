@@ -45,5 +45,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Ca
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/span_Submit'))
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 

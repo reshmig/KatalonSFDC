@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit</name>
+   <name>search</name>
    <tag></tag>
-   <elementGuidId>57e63c54-6894-4dc1-b06f-25dfc8035b1d</elementGuidId>
+   <elementGuidId>2a3392b0-9aac-455b-a184-22f1e33432cc</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='Edit']</value>
+         <value>//input[@placeholder='Search Contacts...']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

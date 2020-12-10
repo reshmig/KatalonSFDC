@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit</name>
+   <name>dropdown</name>
    <tag></tag>
-   <elementGuidId>57e63c54-6894-4dc1-b06f-25dfc8035b1d</elementGuidId>
+   <elementGuidId>175ea198-cad6-457f-bd9a-95c6329ff88b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='Edit']</value>
+         <value>//a[@title='Show 7 more actions']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

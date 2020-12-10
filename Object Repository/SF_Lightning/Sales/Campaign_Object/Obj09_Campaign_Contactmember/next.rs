@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit</name>
+   <name>next</name>
    <tag></tag>
-   <elementGuidId>57e63c54-6894-4dc1-b06f-25dfc8035b1d</elementGuidId>
+   <elementGuidId>18ef08d8-cc63-4a2f-9fe4-24cb5e708195</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='Edit']</value>
+         <value>//span[@class=' label bBody'][contains(text(),'Next')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

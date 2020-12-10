@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit</name>
+   <name>sellead</name>
    <tag></tag>
-   <elementGuidId>57e63c54-6894-4dc1-b06f-25dfc8035b1d</elementGuidId>
+   <elementGuidId>724e999d-2e40-4e82-9536-982fe23b5c4d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='Edit']</value>
+         <value>(//span[@class='slds-checkbox--faux'])[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>edit</name>
+   <name>verify</name>
    <tag></tag>
-   <elementGuidId>57e63c54-6894-4dc1-b06f-25dfc8035b1d</elementGuidId>
+   <elementGuidId>b1cf438e-2478-465c-a4eb-54677b43e1f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='Edit']</value>
+         <value>//a[contains(text(),'Alice')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

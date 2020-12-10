@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='campaigntestupdtd']</value>
+         <value>//a[@title='campaigntest']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

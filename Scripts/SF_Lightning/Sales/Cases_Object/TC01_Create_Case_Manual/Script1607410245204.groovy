@@ -44,5 +44,7 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Cases_Object/Page_New Case  Sa
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_New Case  Salesforce/span_Save'))
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 

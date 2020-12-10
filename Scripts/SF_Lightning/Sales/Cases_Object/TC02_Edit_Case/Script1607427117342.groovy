@@ -41,11 +41,13 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Ed
 WebUI.clearText(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/Clear Text'))
 
 WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/edit_subject'), 
-    'Caes Edit')
+    'Cases Edit')
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/button_Save'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 
