@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify useris able to create asset manually from Asset home page</description>
+   <name>TC01_Create_Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef2415f8-3069-4681-b1a2-d13a983ca2bd</testCaseGuid>
+</TestCaseEntity>

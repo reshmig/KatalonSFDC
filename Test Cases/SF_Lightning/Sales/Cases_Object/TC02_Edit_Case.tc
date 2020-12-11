@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>To Verify user is able to Edit the Case Record from Detail page</description>
    <name>TC02_Edit_Case</name>
    <tag></tag>
    <comment></comment>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify user is able to Edit the Asset from the Detail page</description>
+   <name>TC03_Edit Asset_Detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54efc5a1-c9ac-45ae-9f63-36adf854bc10</testCaseGuid>
+</TestCaseEntity>
