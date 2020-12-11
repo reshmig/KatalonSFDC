@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Creation of Task based on different subjects</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1c24ad3c-6e5a-4a59-8dc8-3bf6a791bc2a</testCaseGuid>
+</TestCaseEntity>
