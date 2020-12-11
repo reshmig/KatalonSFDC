@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC24_Verify_stages_present_in detailpage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b34d0a45-2fdb-4f62-8673-a608c22b82df</testCaseGuid>
+</TestCaseEntity>

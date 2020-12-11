@@ -14,30 +14,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_Add_Manual_home page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/search text'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search text'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/search text'), 'sales')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search text'), 
+    'sales')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/Select sales'))
-
-WebUI.delay(3)
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/Select_Opportunities'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select sales'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Search box'))
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Search box'), 'Mani')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Click on the body of the list'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select_Opportunities'))
 
 WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC03_Opportunity_Edit_DetailPage/Click on the opp name'))
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search bar in opp list view'), 
+    Keys.chord('Blue Star', Keys.ENTER))
+
+WebUI.delay(2)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC03_Opportunity_Edit_DetailPage/Click on the opp name of searched name'))
 
 WebUI.delay(2)
 
@@ -47,9 +48,12 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC05_Opportuni
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC05_Opportunity_Delete_DetailPage/Click delete from popup'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC04_Opportunity_Delete_ListView/Click delete from popup'))
 
 WebUI.delay(2)
+
+WebUI.verifyElementNotPresent(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/verify the opp created or not'), 
+    5)
 
 WebUI.closeBrowser()
 

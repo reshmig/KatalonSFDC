@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_Create_Opportunityfrom_contactobject_relatedtab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e74de495-d0cf-44b1-96e4-05ef693925b0</testCaseGuid>
+</TestCaseEntity>

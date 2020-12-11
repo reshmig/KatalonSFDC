@@ -14,28 +14,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/search text'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search text'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/search text'), 'sales')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search text'), 
+    'sales')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/Select sales'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select sales'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual/Select_Opportunities'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select_Opportunities'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Search box'))
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search bar in opp list view'), 
+    Keys.chord('Blue Star', Keys.ENTER))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Search box'), 'Mani')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Click on the body of the list'))
-
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Click on the drop down'))
 
@@ -43,7 +42,12 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC04_Opportuni
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC04_Opportunity_Delete_ListView/Click delete on the popup'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC04_Opportunity_Delete_ListView/Click delete from popup'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementNotPresent(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/verify the opp created or not'), 
+    5)
 
 WebUI.closeBrowser()
 

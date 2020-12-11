@@ -27,9 +27,9 @@ WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Contact
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC12_Edit opp from Con rel tab/Page_Recently Viewed  Contacts  Salesforce/Con_sel first record'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC13_Edit Opp from Con rel tab (Opp det)/Page_Contact creation katalonn 071  Salesforce/Con detail_Opp tab'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Contact_Object/Contact creation on lead conversion/TC13_Edit Opp from Con rel tab (Opp det)/Page_Contact creation katalonn 071  Salesforce/Con detail_Opp tab'))
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC13_Edit Opp from Con rel tab (Opp det)/Page_Opportunities  Salesforce/Sel Opp first rec'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/Contact creation on lead conversion/TC13_Edit Opp from Con rel tab (Opp det)/Page_Opportunities  Salesforce/Sel Opp first rec'))
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC15_Del opp from Con rel tab (Opp det)/Page_test12345  Salesforce/lightning-primitive-icon'))
 

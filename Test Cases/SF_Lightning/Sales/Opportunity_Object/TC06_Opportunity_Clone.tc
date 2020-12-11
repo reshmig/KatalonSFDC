@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creation of Cases from Opportunity</description>
+   <name>TC06_Opportunity_Clone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>522a1269-55de-487b-b4ce-cc304bf6e254</testCaseGuid>
+</TestCaseEntity>

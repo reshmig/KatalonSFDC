@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_Create product_by change of price book</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef1055cf-b83b-4cc6-886a-61669c549504</testCaseGuid>
+</TestCaseEntity>

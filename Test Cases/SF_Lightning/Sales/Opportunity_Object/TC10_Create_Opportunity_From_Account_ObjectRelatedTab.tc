@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_Create_Opportunity_From_Account_ObjectRelatedTab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>beb871cb-4053-49d4-a9b6-ec057c67e315</testCaseGuid>
+</TestCaseEntity>
