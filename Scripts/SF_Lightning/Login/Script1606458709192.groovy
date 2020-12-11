@@ -19,9 +19,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setText(findTestObject('SF_Lightning/Login/username'), GlobalVariable.username)
+WebUI.setText(findTestObject('SF_Lightning/Login/username'), GlobalVariable.Username)
 
-WebUI.setText(findTestObject('SF_Lightning/Login/password'), GlobalVariable.password)
+WebUI.setText(findTestObject('SF_Lightning/Login/password'), GlobalVariable.Password)
 
 WebUI.click(findTestObject('SF_Lightning/Login/login'))
 
