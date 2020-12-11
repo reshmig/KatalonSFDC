@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Test Suite1</name>
+   <name>TestSuite4</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,35 +10,35 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>b4810d2f-6fbc-4e5a-bd76-3a05b385e89b</testSuiteGuid>
+   <testSuiteGuid>84a36b55-1f00-4e86-be0a-2044e3d128cd</testSuiteGuid>
    <testCaseLink>
-      <guid>b9dad36e-56e3-4ebc-88ba-5042762de197</guid>
+      <guid>c6f3c619-c639-41b3-be84-886f2cbf88bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC01_AddCampaign</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC13_Campaign_Clone</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ce99136-f7c2-4fe8-8487-26baaa2cb07e</guid>
+      <guid>75ff30a6-2a27-44fe-ad81-1a3ce68f9ad1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC02_EditCampaignListView</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC14_Campaign_Owner</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>7e9c91e4-d8ce-4881-a7dd-18cb8cb06467</guid>
+      <guid>27c1c18e-c59e-44c6-9e81-537bec0dc999</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC03_EditCampaignDetail</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC15_Campaign_ChangeOwnerList</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>43a17e9c-df36-4ee6-9a62-08032956aebd</guid>
+      <guid>95713d32-1959-43d4-9c56-744abd299fde</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC04_CampaignDelList</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC16_Campaign_Changeownerdetail</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7756bdd-dd5c-404e-b3ba-270fcc2d02c6</guid>
+      <guid>a964ee73-d50a-4e1c-8fd9-c7e29cf56a69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC05_CampaignDelDetail</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Campaign_Object/TC17_Campaign_Changestatus</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
