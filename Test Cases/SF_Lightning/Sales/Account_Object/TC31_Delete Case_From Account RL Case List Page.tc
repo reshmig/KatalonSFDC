@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC31_Delete Case_From Account RL Case List Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>071e6b2c-76ae-4e5a-ab88-1f62945d42dc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>68078746-6c81-43b6-a0e1-5f6407ce79d8</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b3b19147-f9b8-413d-948e-9eb93f3eb705</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

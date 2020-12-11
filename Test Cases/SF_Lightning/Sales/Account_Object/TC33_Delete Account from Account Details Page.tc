@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC33_Delete Account from Account Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a33fa61-8752-4c0b-8235-565e940a86e9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a08c617b-e766-42b9-8e20-fa210acca7c8</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1744fa7e-5839-4074-a22e-4e927e8440d6</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test_Account_Name'</defaultValue>
+      <description></description>
+      <id>989d9139-2e68-4eb5-941b-8fc5ecfc1f2c</id>
+      <masked>false</masked>
+      <name>Account_Rec</name>
+   </variable>
+</TestCaseEntity>

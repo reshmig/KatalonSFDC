@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC29_Edit Case_From Account RL Case List Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>62411d1b-536e-4914-8e28-96d52bae1e3b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ace327b6-2f68-442c-8ac8-f4234645299d</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a3e9b91f-1f3d-472c-b3cb-f1389c33a8b5</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

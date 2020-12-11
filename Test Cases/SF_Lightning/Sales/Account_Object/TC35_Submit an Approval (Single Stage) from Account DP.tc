@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC35_Submit an Approval (Single Stage) from Account DP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc1e4242-0c36-4064-a980-8a2e2149393a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eef5545f-557f-4072-933f-6340382bbc56</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5676b862-d8dc-4d14-8d38-e278aaeb035e</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test_Account_Name'</defaultValue>
+      <description></description>
+      <id>a1b3209d-8e86-4b4c-b72f-95b4f320b4bd</id>
+      <masked>false</masked>
+      <name>Account_Rec</name>
+   </variable>
+</TestCaseEntity>

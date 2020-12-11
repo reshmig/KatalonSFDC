@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC34_Submit an Approval from Account Details Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e80b6a82-4335-4eae-84a4-4588b256a128</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5128d5cc-2221-4874-aeb0-c9376b5dc636</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b2721d47-707a-4782-b70b-2b95e077b6a3</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test_Account_Name'</defaultValue>
+      <description></description>
+      <id>b21c31fa-7f11-4059-9081-087c97cc41ef</id>
+      <masked>false</masked>
+      <name>Account_Rec</name>
+   </variable>
+</TestCaseEntity>

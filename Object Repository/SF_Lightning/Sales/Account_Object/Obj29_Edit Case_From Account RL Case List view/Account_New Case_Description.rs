@@ -3,7 +3,7 @@
    <description></description>
    <name>Account_New Case_Description</name>
    <tag></tag>
-   <elementGuidId>5e73779b-0a68-4144-93e2-ddfae89d2b0b</elementGuidId>
+   <elementGuidId>8c153369-6c07-4175-b1ff-c87e53b670a8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC36_Submit an Approval (Multi Stage) from Account DP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>216e28b6-c727-4734-95ea-ac3608119454</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d2130611-2b7b-47c1-869b-89948f3725e8</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6676c305-6363-4225-9d6b-f52e6cbb2a0f</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test_Account_Name'</defaultValue>
+      <description></description>
+      <id>0b498ad7-0117-4897-bf0b-afeb1d9f0fea</id>
+      <masked>false</masked>
+      <name>Account_Rec</name>
+   </variable>
+</TestCaseEntity>

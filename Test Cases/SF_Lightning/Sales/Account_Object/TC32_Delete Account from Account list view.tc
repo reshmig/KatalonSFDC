@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC32_Delete Account from Account list view</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3332150-2cce-4d67-9cdf-bd9e19a39b88</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5a9e9f5-97b2-4eaf-bb91-f3c0de1718fc</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>60ef1e8a-a690-44bd-9c99-67af130abee8</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test_Account_Name'</defaultValue>
+      <description></description>
+      <id>ac862d8f-354e-405f-8b5f-9518170269a5</id>
+      <masked>false</masked>
+      <name>Account_Rec</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC30_Delete Case_From Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c54d49c2-24c5-4f67-887c-33b5036a547f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04ca9f95-22fc-43ef-a639-b10ca26649aa</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>20b357c8-c7c4-4ea0-b36f-3d5c6bc2a3e6</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
