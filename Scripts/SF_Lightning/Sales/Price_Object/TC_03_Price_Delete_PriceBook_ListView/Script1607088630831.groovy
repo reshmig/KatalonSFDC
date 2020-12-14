@@ -40,5 +40,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/Delete_button'))
 
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 

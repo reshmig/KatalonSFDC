@@ -25,7 +25,7 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  Salesforce/input_Search apps and items..._input-69'), 
     'Sales')
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  Salesforce/b_Sales'))
 

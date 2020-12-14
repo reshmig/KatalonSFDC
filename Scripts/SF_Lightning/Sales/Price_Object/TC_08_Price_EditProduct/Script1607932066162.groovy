@@ -9,14 +9,11 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-
-WebUI.callTestCase(findTestCase('SF_Lightning/Sales/Price_Object/TC_01_Price_Create_PriceBook'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -33,23 +30,19 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  S
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/span_Price Books'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed  Price Books  Salesforce/Test_Price_Book'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Recently Viewed  Price Books  Salesforce/list_view_option'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Obj07_Price_AddProduct/related'))
 
-WebUI.delay(4)
+WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_Test Price Book  Salesforce/edit_listview'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Obj08_Price_EditProduct/select'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input__Price_Book_Name'), 
-    'Edit Test Price Book3')
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Obj08_Price_EditProduct/edit'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Description_471556a'), 
-    'Edit Description Test Price Book3')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Price_Object/Obj08_Price_EditProduct/price'), '155,000')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/input_Active_271556a'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Page_New Price Book  Salesforce/span_Save'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Price_Object/Obj07_Price_AddProduct/save'))
 
 WebUI.delay(5)
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='07p2y000000XmYsAAK']//p[@class='slds-truncate']//b[text()='Sales']</value>
+         <value>(//b[contains(text(),'Sales')])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
