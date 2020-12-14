@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify user is able to create new task from Asset Activity tab.</description>
+   <name>TC07_Create Task_Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70d891f3-6151-44b3-b030-2353ede21b57</testCaseGuid>
+</TestCaseEntity>

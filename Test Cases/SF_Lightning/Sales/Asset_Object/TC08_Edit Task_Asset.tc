@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify user is able to Edit new task from Asset Activity tab.</description>
+   <name>TC08_Edit Task_Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce804bef-85a8-4292-828c-ce31cc376937</testCaseGuid>
+</TestCaseEntity>
