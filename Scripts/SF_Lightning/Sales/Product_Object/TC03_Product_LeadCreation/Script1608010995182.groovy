@@ -29,29 +29,27 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  S
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/products'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/new'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/select'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/name'), 'newproduct_autotest')
+WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj03_Product_LeadCreation/dropdown'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/save'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj03_Product_LeadCreation/addlead'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj07_CampaignContact/salutationclick'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/products'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj07_CampaignContact/salutationsel'))
 
-WebUI.delay(5)
+WebUI.setText(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj07_CampaignContact/lastname'), 'newproduct_autotest_lead')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/newcase'))
+WebUI.setText(findTestObject('SF_Lightning/Sales/Product_Object/Obj03_Product_LeadCreation/company'), 'Marlabs')
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/subject'), 'newproduct_autotest_case')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/save2'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj06_CampaignCase/save'))
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/case'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj03_Product_LeadCreation/lead'))
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/verify'), 5)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Product_Object/Obj03_Product_LeadCreation/verify'), 5)
 
 WebUI.closeBrowser()
 

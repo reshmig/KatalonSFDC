@@ -29,29 +29,23 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Price_Object/Page_Home  S
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/products'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/new'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/select'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/name'), 'newproduct_autotest')
+WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj02_Product_ContactCreation/addcontact'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/save'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj07_CampaignContact/salutationclick'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj07_CampaignContact/salutationsel'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/products'))
+WebUI.setText(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj07_CampaignContact/lastname'), 'newproduct_autotest_contact')
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/newcase'))
-
-WebUI.setText(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/subject'), 'newproduct_autotest_case')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/save2'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj06_CampaignCase/save'))
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/case'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Product_Object/Obj02_Product_ContactCreation/contact'))
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Product_Object/Obj01_Product_CaseCreation/verify'), 5)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Product_Object/Obj02_Product_ContactCreation/verify'), 5)
 
 WebUI.closeBrowser()
 

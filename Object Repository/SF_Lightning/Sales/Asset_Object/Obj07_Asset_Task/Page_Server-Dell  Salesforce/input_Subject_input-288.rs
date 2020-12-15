@@ -6,12 +6,12 @@
    <elementGuidId>5accc295-06a1-461f-aefd-81d3047d4166</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@class='slds-input slds-combobox__input'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#input-288</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@class='slds-input slds-combobox__input'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
