@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_To verify user is able to Edit Quote from Quote detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49f409dd-462d-48ea-87bf-4206c2f8b1bd</testCaseGuid>
+</TestCaseEntity>

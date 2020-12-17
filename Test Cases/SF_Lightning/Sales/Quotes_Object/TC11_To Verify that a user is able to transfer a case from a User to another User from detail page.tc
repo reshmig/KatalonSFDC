@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_To Verify that a user is able to transfer a case from a User to another User from detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6b836b66-0f05-46ff-845b-dff840f79ebe</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_To verify user is able to Delete Quote from Opportunity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db49e5c0-aa91-41fd-ac6d-7180e83b6caf</testCaseGuid>
+</TestCaseEntity>

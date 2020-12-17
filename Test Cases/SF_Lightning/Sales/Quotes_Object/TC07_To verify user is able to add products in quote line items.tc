@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_To verify user is able to add products in quote line items</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d85e8230-c6ed-4269-96b8-9c9fdc56cd4b</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_To verify user is able to create quote from Opportunity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5ab06f4-3dd5-47f7-86ed-8c038da2c153</testCaseGuid>
+</TestCaseEntity>

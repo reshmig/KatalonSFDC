@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_Verify the grand total value from quote line items</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f16c6e1d-42a0-476b-93a3-444860b39006</testCaseGuid>
+</TestCaseEntity>

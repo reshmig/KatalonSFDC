@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_To verify user is able to Delete Quote by redirecting to Quote object tab from Opportunity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61067ef8-6ecc-4b6a-8657-d9e3595ec939</testCaseGuid>
+</TestCaseEntity>
