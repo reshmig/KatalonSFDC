@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_To verify that the user is able create a report for Opportunity Field History</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c7cb9aac-379a-4e13-b59c-aee2f6bd7e6f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_To verify that the user is able create a report for Opportunity Trends</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce5d125b-e3d7-4262-b8d7-f73706c8cce2</testCaseGuid>
+</TestCaseEntity>

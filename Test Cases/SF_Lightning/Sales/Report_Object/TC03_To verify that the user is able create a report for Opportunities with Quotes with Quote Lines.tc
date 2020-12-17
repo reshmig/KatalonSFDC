@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_To verify that the user is able create a report for Opportunities with Quotes with Quote Lines</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e1773af7-b862-493b-9b53-384280b956bb</testCaseGuid>
+</TestCaseEntity>

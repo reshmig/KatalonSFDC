@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_To verify that the user is able create a report for Opportunities with Contact Roles- Products</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f260dd14-eeef-45fb-95fe-7dd74cbfaae6</testCaseGuid>
+</TestCaseEntity>
