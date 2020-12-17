@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select the opportunity history</name>
+   <name>opportunity select</name>
    <tag></tag>
-   <elementGuidId>d257c02b-a7a7-42b2-ae16-1e056ee1ca0f</elementGuidId>
+   <elementGuidId>46cb345d-e5e1-4f28-ba0d-49a854e80f31</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Opportunity History')]</value>
+         <value>//a[contains(text(),'Opportunities')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
