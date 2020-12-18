@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_Create Report for Account History</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>192f13aa-abbf-4fb3-b2f8-a3ef612906c5</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f82e07bc-3242-4021-9c5a-2b80dc72779a</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cfd05989-7dc8-4028-b1ba-9b80a18ba462</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

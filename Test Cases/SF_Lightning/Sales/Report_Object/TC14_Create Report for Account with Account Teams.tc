@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_Create Report for Account with Account Teams</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>48bea720-7968-49bd-9eb5-e5457683b974</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>60b37e53-5fed-4528-b4e3-809b01b59df2</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6771c46f-04d2-45bf-8268-e758402a4784</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

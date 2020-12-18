@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_Create Report for Accounts with Assets</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d441cbfa-982e-46ce-abc0-246cc296d5e4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d015192-9369-4f06-9853-bd2a65d8867d</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>071556cf-fe80-4b25-abad-7903310d32f7</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

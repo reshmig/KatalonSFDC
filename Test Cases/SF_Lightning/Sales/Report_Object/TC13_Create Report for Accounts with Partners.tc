@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_Create Report for Accounts with Partners</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfb3dec4-8246-4075-b79e-e6bccc484672</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>13f0c634-41d5-4f95-b4f2-7a36a7f761f3</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bd15ed96-f5c9-429d-8ed2-06b70681ef67</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

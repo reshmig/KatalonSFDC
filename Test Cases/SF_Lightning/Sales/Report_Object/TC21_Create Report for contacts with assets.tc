@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_Create Report for contacts with assets</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5fd0b029-fde1-4518-9b1d-049cfb79ba3a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>327e3c17-9ff6-46c9-bbe9-6bdbb93228a3</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>62e9a39a-5c2b-4cf2-83c2-a6133ca6e9d9</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

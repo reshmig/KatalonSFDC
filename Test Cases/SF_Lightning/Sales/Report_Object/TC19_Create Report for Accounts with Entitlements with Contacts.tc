@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_Create Report for Accounts with Entitlements with Contacts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0adcc74-1c72-4bc3-80ee-b21aee16e721</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2a8ef9e1-6a1c-4122-8d40-27fb8d5f5200</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>77451bc2-b828-410f-bbcf-fadf586a8991</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

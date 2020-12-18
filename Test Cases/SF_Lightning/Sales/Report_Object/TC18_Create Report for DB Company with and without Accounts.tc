@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_Create Report for DB Company with and without Accounts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7f75dcc-cf7d-48e7-946b-fe70e387bdbb</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>77a2121b-02ba-4c73-859b-73d52c2ea37c</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd5f1455-217d-46fb-b6a8-253898e16ec2</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

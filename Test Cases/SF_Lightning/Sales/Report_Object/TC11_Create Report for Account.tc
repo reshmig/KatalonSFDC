@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Create Report for Account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>817b0980-4b92-4f2c-b4f4-1e298a4b520f</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fe8bd880-5b17-4d2d-a8b3-84366b456e87</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>498b6fd7-dcac-42b9-8dd2-50425c71cac1</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

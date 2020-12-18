@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_Create Report for Account and Contacts</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>64bb0537-7285-4e1a-b3a2-c555db7fdb80</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e2299512-6be6-4273-9878-36934b2ea7d8</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba556e91-3b21-47a7-9725-55ceadf54a9f</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

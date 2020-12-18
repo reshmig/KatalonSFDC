@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC20_Create Report for contact history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f9ebaed-e6b5-495e-80b1-073b428febb3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c1d6aebb-7798-4207-a7df-718d1dec3a11</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1d1c080b-89b7-4fc6-ba0b-86a2bd059d1f</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
