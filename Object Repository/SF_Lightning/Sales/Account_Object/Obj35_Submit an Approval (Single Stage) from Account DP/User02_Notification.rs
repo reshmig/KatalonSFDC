@@ -6,16 +6,16 @@
    <elementGuidId>7cd8fa57-982f-4f32-a811-da6893c09af3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='126:235;a']/div</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.headerButtonBody</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//div[@class = 'headerButtonBody']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='126:235;a']/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

@@ -86,7 +86,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/log
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.Url)
+WebUI.navigateToUrl('https://login.salesforce.com/?locale=eu')
 
 WebUI.setText(findTestObject('SF_Lightning/Login/username'), 'qamarlabsapprover@gmail.com')
 

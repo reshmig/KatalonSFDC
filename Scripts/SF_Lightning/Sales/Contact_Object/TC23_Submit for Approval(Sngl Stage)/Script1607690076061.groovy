@@ -50,7 +50,15 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj34_Submit an 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj34_Submit an Approval from Account Details Page/Account_DP_SA_Submit B'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/sellogout'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/logout'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://login.salesforce.com/?locale=eu')
 
 WebUI.refresh()
 
