@@ -46,5 +46,8 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Asset_Object/Obj09_Asset_
 
 WebUI.delay(5)
 
+WebUI.verifyElementNotPresent(findTestObject('SF_Lightning/Sales/Asset_Object/Obj09_Asset_Delete_Task/Page_Recently Viewed  Assets  Salesforce/TxtElement'), 
+    0)
+
 WebUI.closeBrowser()
 

@@ -34,11 +34,14 @@ WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Asset_Object/
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Asset_Object/Obj07_Asset_Task/Page_Server-Dell  Salesforce/input_Due Date_32300'))
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Asset_Object/Obj07_Asset_Task/Page_Server-Dell  Salesforce/Enter Date'), 
-    '12/14/2020')
+    '12/25/2020')
 
 WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Asset_Object/Obj07_Asset_Task/Page_Server-Dell  Salesforce/span_Save'))
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Asset_Object/Obj07_Asset_Task/Page_Recently Viewed  Assets  Salesforce/TxtElement'), 
+    0)
 
 WebUI.delay(5)
 

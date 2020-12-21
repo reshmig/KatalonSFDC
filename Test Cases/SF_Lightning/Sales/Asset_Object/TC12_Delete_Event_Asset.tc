@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To Verify user is able to Delete Event from Asset Activity tab.</description>
+   <name>TC12_Delete_Event_Asset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e7a610bd-069c-40b2-a239-53fb7422a218</testCaseGuid>
+</TestCaseEntity>

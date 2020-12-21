@@ -41,5 +41,8 @@ WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Asset_O
 
 WebUI.delay(5)
 
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Asset_Object/Obj08_Asset_Edit_Task/Page_Recently Viewed  Assets  Salesforce/TxtElement'), 
+    0)
+
 WebUI.closeBrowser()
 

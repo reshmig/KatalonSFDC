@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify user is able create New Case from Asset Detail page</description>
+   <name>TC14_Case_Asset_DetailsPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99df6659-7c0b-4b5a-91b3-5467216d233a</testCaseGuid>
+</TestCaseEntity>

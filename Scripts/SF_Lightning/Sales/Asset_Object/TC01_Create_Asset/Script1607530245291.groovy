@@ -51,5 +51,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Asset_Object/Obj01_Asset_Create_O
 
 WebUI.delay(5)
 
+WebUI.verifyTextPresent('Server-Dell', false)
+
 WebUI.closeBrowser()
 

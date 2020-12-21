@@ -43,5 +43,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Asset_Object/Obj03_Asset_Edit_Det
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Asset_Object/Obj03_Asset_Edit_Detail/Page_Server-Dell  Salesforce/span_Assets'))
 
+WebUI.verifyTextPresent('Server-Dell', false)
+
 WebUI.closeBrowser()
 

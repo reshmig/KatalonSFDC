@@ -30,5 +30,7 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Asset_Object/Obj04_Asset_
 
 WebUI.delay(5)
 
+WebUI.verifyTextNotPresent('Server-Dell', false)
+
 WebUI.closeBrowser()
 

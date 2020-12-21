@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>To verify user is able create New Case from Asset Related tab</description>
+   <name>TC13_Case_Asset_RelatedTab</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7d58f722-bbd2-4c1e-8eb6-ea9874c68f39</testCaseGuid>
+</TestCaseEntity>
