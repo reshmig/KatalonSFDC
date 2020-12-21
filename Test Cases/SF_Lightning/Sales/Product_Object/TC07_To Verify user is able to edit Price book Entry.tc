@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_To Verify user is able to edit Price book Entry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>129127c3-980d-43f7-9eb2-0667129fcbb0</testCaseGuid>
+</TestCaseEntity>

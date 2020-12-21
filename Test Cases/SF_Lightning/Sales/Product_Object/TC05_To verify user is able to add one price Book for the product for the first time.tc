@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_To verify user is able to add one price Book for the product for the first time</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f80c6ad8-715d-453b-bac2-9e9c08047e83</testCaseGuid>
+</TestCaseEntity>

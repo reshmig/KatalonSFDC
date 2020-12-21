@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_To verify user is able to add more price book for a product</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb594cf9-c99f-4436-949f-3962a2887670</testCaseGuid>
+</TestCaseEntity>
