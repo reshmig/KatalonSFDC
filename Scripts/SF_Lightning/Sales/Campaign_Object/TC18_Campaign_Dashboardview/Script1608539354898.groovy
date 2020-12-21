@@ -23,19 +23,19 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/selectsales'))
 
 //WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption'))
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/leadobject'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj01_AddCampaign/campaign'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Edit_Newtask/LeadEditDet_select'))
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Edit_Newtask/EditLeadActivity'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj03_EditCampaignDetail/selcampaign'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Edit_Newtask/Lead_EditActivity_dropdown'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj18_Campaign_DashboardView/settings'))
 
-WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Edit_Newtask/comments'), 'testcomments')
+WebUI.click(findTestObject('SF_Lightning/Sales/Campaign_Object/Obj18_Campaign_DashboardView/chart'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Edit_Newtask/save'))
+WebUI.delay(5)
+
+WebUI.takeScreenshot('C:\\Users\\reshmi.unnithan\\git\\KatalonSFDC_final\\screenshots\\screenshot1.png')
 
 WebUI.delay(5)
 

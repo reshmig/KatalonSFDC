@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Click on Upload file</name>
+   <name>chart</name>
    <tag></tag>
-   <elementGuidId>933a5fa0-d37c-4e39-893d-2eee5c33549e</elementGuidId>
+   <elementGuidId>42667524-d19b-42f8-83be-5b6b032e8e6e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class='slds-button slds-button--icon-x-small slds-button--icon-border-filled'])[2]</value>
+         <value>//a[@title='Horizontal Bar Chart']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

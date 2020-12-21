@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Click on Upload file</name>
+   <name>upload1</name>
    <tag></tag>
-   <elementGuidId>933a5fa0-d37c-4e39-893d-2eee5c33549e</elementGuidId>
+   <elementGuidId>271ac875-cec8-4049-a979-88467000c2c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@class='slds-button slds-button--icon-x-small slds-button--icon-border-filled'])[2]</value>
+         <value>//div[@title='Upload Files']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

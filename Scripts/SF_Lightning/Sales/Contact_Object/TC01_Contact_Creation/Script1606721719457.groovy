@@ -43,3 +43,7 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Contact_Object/Contact Creation
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/Contact Creation/Page_New Contact  Salesforce/span_Save'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

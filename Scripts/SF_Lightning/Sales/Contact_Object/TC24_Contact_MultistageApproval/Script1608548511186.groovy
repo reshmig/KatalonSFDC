@@ -32,15 +32,17 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/a_Ms'))
 
 WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/First Name'), 
-    'Con submit for approval')
+    'MultiApproval_Client')
 
 WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/Contact lastname'), 
-    '123')
+    'test')
 
 WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/Phone'), 
-    '9876543321')
+    '4565432134')
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/span_Save'))
+WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/span_Save'))
+
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Contact_Object/TC22_Contact_Submit for Approval/Contact_Submit 4 Approval B'))
 
@@ -50,7 +52,55 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj34_Submit an 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj34_Submit an Approval from Account Details Page/Account_DP_SA_Submit B'), 
     FailureHandling.STOP_ON_FAILURE)
 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_ApprovalMultistage/bellicon'))
+
 WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC24_Contact_MultistageApproval/approvenote'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvefinal'))
+
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/commentsfinal'), 'approved')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvefinalbutton'))
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/sellogout'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/logout'))
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://login.salesforce.com/?locale=eu')
+
+WebUI.setText(findTestObject('SF_Lightning/Login/username'), 'qamarlabsapprover@gmail.com')
+
+WebUI.setText(findTestObject('SF_Lightning/Login/password'), 'marlabs5678')
+
+WebUI.click(findTestObject('SF_Lightning/Login/login'))
+
+WebUI.delay(7)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/bellicon'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvenote'))
+
+WebUI.delay(3)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvefinal'))
+
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/commentsfinal'), 'approved')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Approval/approvefinalbutton'))
+
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

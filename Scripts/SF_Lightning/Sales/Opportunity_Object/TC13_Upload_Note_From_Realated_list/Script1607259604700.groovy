@@ -34,8 +34,20 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC06_Clone_Opp
 
 WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/Click on Upload file'), 
-    'C:\\Users\\arunkumar.mani\\Desktop\\upload.txt')
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/Click on Upload file'))
+
+WebUI.delay(5)
+
+//WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/upload1'))
+
+CustomKeywords.'Marlabscustom.uploadFile'(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/upload1'), 
+    'C:\\Users\\reshmi.unnithan\\Desktop\\upload.txt')
+
+//WebUI.uploadFile(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/upload1'), 'C:\\Users\\reshmi.unnithan\\Desktop\\upload.txt')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/Click on done button'))
+
+WebUI.delay(5)
 

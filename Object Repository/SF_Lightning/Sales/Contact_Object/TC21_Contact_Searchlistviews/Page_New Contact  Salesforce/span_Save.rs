@@ -6,11 +6,11 @@
    <elementGuidId>d9d14f7f-24a7-418f-9a56-5a44c07f0e44</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//button[contains(@class,'slds-button slds-button--neutral uiButton--brand uiButton forceActionButton')]//span[contains(@class,'label bBody')][contains(text(),'Save')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//body/div[4]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/button[3]/span[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
