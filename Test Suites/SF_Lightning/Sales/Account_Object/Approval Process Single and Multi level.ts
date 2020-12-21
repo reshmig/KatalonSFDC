@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Approval Process Single and Multi level</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>3994686a-9be5-4eaa-b4f7-41623284ee93</testSuiteGuid>
+   <testCaseLink>
+      <guid>89a70b44-bc2f-472c-83b7-bcf598806129</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Account_Object/TC34_Submit an Approval from Account Details Page</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5128d5cc-2221-4874-aeb0-c9376b5dc636</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b2721d47-707a-4782-b70b-2b95e077b6a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b21c31fa-7f11-4059-9081-087c97cc41ef</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b0110121-c96c-4d06-82e3-08006421a32f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Account_Object/TC35_Submit an Approval (Single Stage) from Account DP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eef5545f-557f-4072-933f-6340382bbc56</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5676b862-d8dc-4d14-8d38-e278aaeb035e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a1b3209d-8e86-4b4c-b72f-95b4f320b4bd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a822960c-8015-40e6-8066-1ff193bcb80d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Account_Object/TC36_Submit an Approval (Multi Stage) from Account DP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d2130611-2b7b-47c1-869b-89948f3725e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6676c305-6363-4225-9d6b-f52e6cbb2a0f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0b498ad7-0117-4897-bf0b-afeb1d9f0fea</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

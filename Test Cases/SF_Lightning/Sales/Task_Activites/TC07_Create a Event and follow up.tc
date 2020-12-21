@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Create a Event and follow up</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>21883074-17bc-4d01-8de3-e318f9be229a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f67e4ead-196b-4aef-8edb-5461637300c5</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>37a36d71-8b72-4b18-82d1-115c68c77b5f</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

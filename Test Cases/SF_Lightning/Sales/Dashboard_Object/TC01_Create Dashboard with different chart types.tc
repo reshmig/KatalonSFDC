@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Create Dashboard with different chart types</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13299f47-94db-4767-8729-490a09e95567</testCaseGuid>
+</TestCaseEntity>

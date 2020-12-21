@@ -38,9 +38,6 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/a_Account_Rating_Value_Warm'))
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/textarea_Account_Billing Street'), 
-    'Test-Billing Street')
-
 WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/textarea_Account_Description'), 
     'Successfully Created from Account Home page using Katalon.')
 
@@ -58,9 +55,40 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj34_Submit an Ap
 
 WebUI.delay(5)
 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an Approval (Single Stage) from Account DP/User02_Notification'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an Approval (Single Stage) from Account DP/User02_Notification_1st item'))
+
 WebUI.refresh()
 
-WebUI.navigateToUrl(GlobalVariable.url1)
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an Approval (Single Stage) from Account DP/User02_AR_Approve B'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an Approval (Single Stage) from Account DP/User02_AR_Approve_Comment'), 
+    'Approved via Katalon')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an Approval (Single Stage) from Account DP/User02_AR_Approve_Aprrove B'))
+
+WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj36_Submit an Approval (Multi Stage) from Account DP/AP_Account Name'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Related Tab'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj36_Submit an Approval (Multi Stage) from Account DP/Account_Approval History header link'))
+
+WebUI.delay(3)
+
+WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/Obj36_Submit an Approval (Multi Stage) from Account DP/Approval History_first approved'), 
+    'Approved')
+
+WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/Obj36_Submit an Approval (Multi Stage) from Account DP/Approval history_first pending'), 
+    'Pending')
+
+WebUI.delay(3)
+
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.refresh()
 
@@ -82,6 +110,31 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an 
     'Approved via Katalon')
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an Approval (Single Stage) from Account DP/User02_AR_Approve_Aprrove B'))
+
+WebUI.delay(3)
+
+WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'Sales')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/b_Sales_App Launcher'), FailureHandling.STOP_ON_FAILURE)
+
+//WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/salesoption'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Accounts_Tab'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj04_Account_Edit_From Record Details page/Account_RV_Open 1st Record'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Related Tab'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj36_Submit an Approval (Multi Stage) from Account DP/Account_Approval History header link'))
+
+WebUI.refresh()
+
+WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/Obj36_Submit an Approval (Multi Stage) from Account DP/Approval History_second approved 01'), 
+    'Approved')
+
+WebUI.verifyElementText(findTestObject('SF_Lightning/Sales/Account_Object/Obj36_Submit an Approval (Multi Stage) from Account DP/Approval History_second approved'), 
+    'Approved')
 
 WebUI.delay(3)
 

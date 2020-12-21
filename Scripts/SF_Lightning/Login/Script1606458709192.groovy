@@ -17,11 +17,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.url02)
+WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.setText(findTestObject('SF_Lightning/Login/username'), GlobalVariable.username02)
+WebUI.setText(findTestObject('SF_Lightning/Login/username'), GlobalVariable.username01)
 
-WebUI.setText(findTestObject('SF_Lightning/Login/password'), GlobalVariable.password2)
+WebUI.setText(findTestObject('SF_Lightning/Login/password'), GlobalVariable.password01)
 
 WebUI.click(findTestObject('SF_Lightning/Login/login'))
 
