@@ -33,3 +33,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC08_Contact changeowner_Listview/Page_Recently Viewed  Contacts  Salesforce/span_Submit'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

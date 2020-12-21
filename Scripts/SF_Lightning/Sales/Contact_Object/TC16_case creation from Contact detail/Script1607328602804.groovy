@@ -52,3 +52,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC16_case creation from Contact detail/Page_New Case  Salesforce/span_Save'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

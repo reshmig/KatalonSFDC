@@ -56,3 +56,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.verifyElementVisible(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/Contact creation from account/Page_Katalon new Account  Salesforce/a_New Contact from account'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

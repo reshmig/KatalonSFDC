@@ -47,4 +47,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/SF_Lightning/Sales/Asset_Object/TC14_Case_Asset_DetailsPage</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1cda6072-6777-4e00-95cd-9879cbd59d45</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Asset_Object/TC15_Asset_EditCase</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58ac2db5-fc09-4135-bf0e-ca43958d4fc3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Asset_Object/TC16_Asset_DeleteCase</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

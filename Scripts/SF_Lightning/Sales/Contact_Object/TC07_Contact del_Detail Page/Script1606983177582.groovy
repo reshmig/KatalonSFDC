@@ -33,3 +33,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC07_Contact del_D
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC07_Contact del_Detail Page/Page_New Contact from account  Salesforce/Click_Delete button'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

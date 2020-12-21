@@ -18,6 +18,12 @@
       <testCaseId>Test Cases/SF_Lightning/Sales/Product_Object/TC10_ProductAdd</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>1e7d0c79-33dd-4156-ae0d-7b77ebc3cb1d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Sales/Product_Object/TC07_Product_Clone</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>74e6b6aa-ac31-4bfc-b5e4-ddc597932f17</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -40,11 +46,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SF_Lightning/Sales/Product_Object/TC09_Product_Delete_Detailpage</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>1e7d0c79-33dd-4156-ae0d-7b77ebc3cb1d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Sales/Product_Object/TC07_Product_Clone</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

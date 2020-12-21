@@ -35,3 +35,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC09_Contact Changeowner_Detail page/Page_New Contact from account  Salesforce/span_Submit'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

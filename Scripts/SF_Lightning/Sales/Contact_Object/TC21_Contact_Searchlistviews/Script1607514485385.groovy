@@ -59,3 +59,7 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Contact_Object/TC21_Contact_Se
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj04_Account_Edit_From Record Details page/Account_RV_Open 1st Record'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

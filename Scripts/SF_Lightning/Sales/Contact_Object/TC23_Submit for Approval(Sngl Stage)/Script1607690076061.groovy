@@ -81,3 +81,7 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an 
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj35_Submit an Approval (Single Stage) from Account DP/User02_AR_Approve_Aprrove B'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

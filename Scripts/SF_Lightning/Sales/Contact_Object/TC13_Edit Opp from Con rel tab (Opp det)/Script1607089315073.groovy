@@ -40,3 +40,7 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Contact_Object/Contact creation
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/Contact creation on lead conversion/TC13_Edit Opp from Con rel tab (Opp det)/Page_Edit test12345  Salesforce/span_Save'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

@@ -40,3 +40,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC18_Edit Case frm con rel tab (Case det)/Page_00001274  Salesforce/a_Details'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

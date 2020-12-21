@@ -35,3 +35,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC14_Del opp from 
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC14_Del opp from Con rel tab/Page_Opportunities  Salesforce/span_Delete'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

@@ -45,3 +45,7 @@ WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Objec
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC05_Contact edit_detail page/Page_Edit TOSCA Contact  Salesforce/span_Save'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

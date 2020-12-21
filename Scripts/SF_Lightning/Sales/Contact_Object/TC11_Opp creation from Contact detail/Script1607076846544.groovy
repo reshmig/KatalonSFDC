@@ -58,3 +58,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC11_Opp creation from Contact detail/Page_New Opportunity  Salesforce/Con_opp creation_save'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

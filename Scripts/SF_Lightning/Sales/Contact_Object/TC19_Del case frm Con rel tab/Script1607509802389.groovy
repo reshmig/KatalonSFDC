@@ -36,3 +36,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC19_Del case frm Con rel tab/Page_Cases  Salesforce/span_Delete'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

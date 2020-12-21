@@ -41,3 +41,7 @@ WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Objec
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC12_Edit opp from Con rel tab/Page_Edit Opp from con detail  Salesforce/Con_Opp_edit_save button'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+

@@ -35,3 +35,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC06_Contact del_L
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Contact_Object/TC06_Contact del_Listview/Page_All Contacts  Contacts  Salesforce/Delete button on homepage'))
 
+WebUI.delay(5)
+
+WebUI.closeBrowser()
+
