@@ -17,29 +17,3 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'service console')
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/select service console'))
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/span_Cases'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/div_New'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/sel_case'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/a_Phone'))
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'Service Cloud case')
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'Case created using Katalon')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
-
-WebUI.delay(5)
-
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/verify'), 0)
-
-WebUI.delay(3)
-
-WebUI.closeBrowser()
-
