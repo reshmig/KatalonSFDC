@@ -30,8 +30,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Ed
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Home  Salesforce/span_More'))
-
+//WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Home  Salesforce/span_More'))
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Home  Salesforce/span_Cases'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Recently Viewed  Cases  Salesforce/Select_Case'))
@@ -48,6 +47,11 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/button_Save'))
 
 WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_Cases'))
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/verify'), 
+    0)
 
 WebUI.closeBrowser()
 

@@ -28,8 +28,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/SF_Lightning/Sales/Case
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Login  Salesforce/input_Password_Login'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_More'))
-
+//WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_More'))
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_Cases'))
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Recently Viewed  Cases  Salesforce/div_New'))
@@ -45,6 +44,10 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Cases_Object/Page_New Case  Sa
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_New Case  Salesforce/span_Save'))
 
 WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_Cases'))
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Cases_Object/Page_New Case  Salesforce/verify'), 0)
 
 WebUI.closeBrowser()
 

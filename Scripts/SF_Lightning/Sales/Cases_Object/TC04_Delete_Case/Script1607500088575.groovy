@@ -30,8 +30,7 @@ WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/De
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_Home  Salesforce/span_More'))
-
+//WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_Home  Salesforce/span_More'))
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_Home  Salesforce/span_Cases'))
 
 WebUI.delay(5)
@@ -43,6 +42,11 @@ WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_O
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_00001030  Salesforce/span_Delete'))
 
 WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_Cases'))
+
+WebUI.verifyElementNotPresent(findTestObject('SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_00001030  Salesforce/verify'), 
+    0)
 
 WebUI.closeBrowser()
 

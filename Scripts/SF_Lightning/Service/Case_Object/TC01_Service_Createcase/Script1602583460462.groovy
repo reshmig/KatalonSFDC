@@ -15,21 +15,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.URL)
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'service console')
 
-WebUI.setText(findTestObject('SF_Lightning/Login/username'), GlobalVariable.username_01)
-
-WebUI.setText(findTestObject('SF_Lightning/Login/password'), GlobalVariable.username)
-
-WebUI.click(findTestObject('SF_Lightning/Login/login'))
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Login/applauncher'))
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/viewall'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/service'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/select service console'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/span_Cases'))
 
@@ -39,13 +29,15 @@ WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createc
 
 WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/a_Phone'))
 
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'test')
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'Service Cloud case')
 
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'Case created using recorder with modifying the objects')
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'Case created using Katalon')
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
 
 WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/verify'), 0)
 
 WebUI.closeBrowser()
 

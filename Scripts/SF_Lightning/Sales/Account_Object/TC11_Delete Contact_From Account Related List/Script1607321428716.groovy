@@ -87,6 +87,8 @@ WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj11_Delete Contact_From Account Related List/Account_RL_Contact_DD_Delete_Delete B'))
 
+WebUI.delay(5)
+
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj07_Create Contact_From Account Related List/Account_Contact_Header Link'))
 
 WebUI.delay(5)

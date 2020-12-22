@@ -28,7 +28,7 @@ WebUI.setEncryptedText(findTestObject('Object Repository/SF_Lightning/Sales/Case
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Login  Salesforce/input_Password_Login'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Home  Salesforce/span_More'))
+//WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Home  Salesforce/span_More'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Home  Salesforce/span_Cases'))
 
