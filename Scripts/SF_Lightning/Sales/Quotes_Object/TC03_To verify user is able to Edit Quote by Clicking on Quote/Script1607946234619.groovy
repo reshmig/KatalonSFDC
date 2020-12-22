@@ -60,7 +60,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Quotes_Object/TC02_To verify user
 
 WebUI.delay(4)
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC04_To verify user is able to Edit Quote from Quote detail page/verify quotes'), 
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC01_To verify user is able to create quote from Opportunity/To verify Quotes'), 
     4)
 
 WebUI.closeBrowser()

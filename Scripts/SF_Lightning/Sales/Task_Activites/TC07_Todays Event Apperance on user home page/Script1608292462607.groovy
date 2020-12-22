@@ -31,8 +31,28 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_O
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select new'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Enter Opp Name'), 
+    'Blue Star 1')
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Set text in date field'), 
+    '12/10/2021')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/stage values'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/select stage value prospecting'))
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/click on save button'))
+
+WebUI.delay(2)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select_Opportunities'))
+
+WebUI.delay(2)
+
 WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search bar in opp list view'), 
-    Keys.chord('Blue Star', Keys.ENTER))
+    Keys.chord('Blue Star 1', Keys.ENTER))
 
 WebUI.delay(2)
 

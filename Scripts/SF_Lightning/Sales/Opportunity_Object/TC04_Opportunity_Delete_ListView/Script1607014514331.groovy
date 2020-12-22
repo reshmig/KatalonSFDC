@@ -34,7 +34,7 @@ WebUI.delay(2)
 WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search bar in opp list view'), 
     Keys.chord('Blue Star', Keys.ENTER))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC02_Opportunity_Edit_ListView/Click on the drop down'))
 
@@ -45,9 +45,6 @@ WebUI.delay(2)
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC04_Opportunity_Delete_ListView/Click delete from popup'))
 
 WebUI.delay(2)
-
-WebUI.verifyElementNotPresent(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/verify the opp created or not'), 
-    5)
 
 WebUI.closeBrowser()
 

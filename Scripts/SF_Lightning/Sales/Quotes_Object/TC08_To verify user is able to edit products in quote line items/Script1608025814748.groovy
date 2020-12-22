@@ -55,8 +55,7 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC15_E
 
 WebUI.delay(3)
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC08_To verify user is able to edit products in quote line items/Verify products'), 
-    5)
+WebUI.verifyTextPresent('GenWatt Diesel 1000kW', false)
 
 WebUI.closeBrowser()
 

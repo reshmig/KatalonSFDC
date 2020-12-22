@@ -38,17 +38,17 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To verify u
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To verify user is able to add products in quote line items/Select the 1st record name'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To verify user is able to add products in quote line items/Select the 1st record name'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Quotes_Object/TC11_To Verify that a user is able to transfer a case from a User to another User from detail page/Click on the new case button'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Quotes_Object/TC11_To Verify that a user is able to transfer a case from a User to another User from detail page/Click on the new case button'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on the drop down of status field'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on the drop down of status field'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Select new from the drop down of stage feild'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Select new from the drop down of stage feild'))
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Enter text on subject'), 
     'Enquire with quotes')

@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,6 +31,11 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_O
 
 WebUI.delay(2)
 
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search bar in opp list view'), 
+    Keys.chord('Blue Star', Keys.ENTER))
+
+WebUI.delay(3)
+
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC06_Clone_Opportunity/select the 1st record from the list view'))
 
 WebUI.delay(2)
@@ -39,12 +45,10 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_U
 WebUI.delay(5)
 
 //WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/upload1'))
-
 CustomKeywords.'Marlabscustom.uploadFile'(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/upload1'), 
-    'C:\\Users\\reshmi.unnithan\\Desktop\\upload.txt')
+    'C:\\Users\\arunkumar.mani\\Desktop\\upload.txt')
 
 //WebUI.uploadFile(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/upload1'), 'C:\\Users\\reshmi.unnithan\\Desktop\\upload.txt')
-
 WebUI.delay(5)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_Note_From_Realatedlist/Click on done button'))

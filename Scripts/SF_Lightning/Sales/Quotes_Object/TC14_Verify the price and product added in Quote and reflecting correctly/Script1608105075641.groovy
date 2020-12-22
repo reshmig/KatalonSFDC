@@ -40,17 +40,17 @@ WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To verify user is able to add products in quote line items/Select the 1st record name'))
 
-WebUI.delay(3)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC13_Verify the grand total value from quote line items/Verify grand total'), 
+    4)
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC14_Verify the price and product added in Quote and reflecting correctly/Verify item price'), 
-    5)
+WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Quotes_Object/TC14_Verify the price and product added in Quote and reflecting correctly/Click on products object tab'))
 
 WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Quotes_Object/TC14_Verify the price and product added in Quote and reflecting correctly/Click on the product search field'), 
-    Keys.chord('GenWatt Diesel 200kW', Keys.ENTER))
+    Keys.chord('GenWatt Diesel 1000kW', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -61,9 +61,6 @@ WebUI.delay(2)
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Quotes_Object/TC14_Verify the price and product added in Quote and reflecting correctly/Click on related tab'))
 
 WebUI.delay(2)
-
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC14_Verify the price and product added in Quote and reflecting correctly/Verify product price'), 
-    3)
 
 WebUI.closeBrowser()
 

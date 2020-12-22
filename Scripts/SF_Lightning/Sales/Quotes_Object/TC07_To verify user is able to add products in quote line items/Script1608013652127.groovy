@@ -49,6 +49,19 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To ver
 
 WebUI.delay(2)
 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on the select price book drop down'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on the standard button'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on the save button'))
+
+WebUI.delay(2)
+
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on the search product field'), 
+    Keys.chord('GenWatt Diesel 1000kW', Keys.ENTER))
+
+WebUI.delay(3)
+
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/click on the check box'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on next button'))
@@ -62,6 +75,8 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Pro
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on save'))
 
 WebUI.delay(4)
+
+WebUI.verifyTextPresent('GenWatt Diesel 1000kW', false)
 
 WebUI.closeBrowser()
 

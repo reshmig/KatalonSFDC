@@ -74,7 +74,7 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To verify u
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To verify user is able to add products in quote line items/Select the 1st record name'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Quotes_Object/TC07_To verify user is able to add products in quote line items/Select the 1st record name'))
 
 WebUI.delay(3)
 
@@ -87,6 +87,11 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Produ
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on the standard button'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on the save button'))
+
+WebUI.delay(3)
+
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on the search product field'), 
+    Keys.chord('GenWatt Diesel 1000kW', Keys.ENTER))
 
 WebUI.delay(3)
 
@@ -103,6 +108,8 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Pro
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC14_Add_Product_to_Opportunity/Click on save'))
 
 WebUI.delay(4)
+
+WebUI.verifyTextPresent('GenWatt Diesel 1000kW', false)
 
 WebUI.closeBrowser()
 

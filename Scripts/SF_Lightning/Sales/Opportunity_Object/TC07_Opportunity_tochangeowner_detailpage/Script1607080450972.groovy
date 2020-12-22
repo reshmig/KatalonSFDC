@@ -36,11 +36,11 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opport
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC06_Clone_Opportunity/select the 1st record from the list view'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC06_Clone_Opportunity/select the 1st record from the list view'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC03_Opportunity_Edit_DetailPage/Click on the drop down arrow'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC03_Opportunity_Edit_DetailPage/Click on the drop down arrow'))
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC07_Opportunity_ToChangeOwner_DetailPage/Click on the change owner button from dropdown'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC07_Opportunity_ToChangeOwner_DetailPage/Click on the change owner button from dropdown'))
 
 WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC07_Opportunity_ToChangeOwner_DetailPage/Click on the search box to select owner'), 
     'James')

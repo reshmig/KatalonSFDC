@@ -41,7 +41,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC09_Create_Op
 WebUI.delay(3)
 
 WebUI.scrollToElement(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC10_CreateOpportunityFromAccountRealtedTab/Opportunity to get identify for scroll postion'), 
-    0)
+    5)
 
 WebUI.delay(2)
 

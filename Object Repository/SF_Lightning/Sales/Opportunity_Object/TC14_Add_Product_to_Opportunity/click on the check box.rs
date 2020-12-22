@@ -6,12 +6,11 @@
    <elementGuidId>e2effb91-a011-49d4-a019-b5b75dc2e152</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//span[@class='slds-checkbox--faux'])[6]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@title='GenWatt Diesel 1000kW']/ancestor::tr/descendant::label/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

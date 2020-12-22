@@ -45,6 +45,8 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportuni
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/click on save button'))
 
+WebUI.delay(2)
+
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select_Opportunities'))
 
 WebUI.delay(2)

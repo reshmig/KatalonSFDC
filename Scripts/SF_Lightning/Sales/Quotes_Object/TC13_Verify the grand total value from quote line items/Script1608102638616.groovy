@@ -44,10 +44,10 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Quotes_Object/TC04_To verify user is able to Edit Quote from Quote detail page/Click on the detail page'))
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC13_Verify the grand total value from quote line items/Verify grand total'), 
-    5)
-
 WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Quotes_Object/TC13_Verify the grand total value from quote line items/Verify grand total'), 
+    3)
 
 WebUI.closeBrowser()
 

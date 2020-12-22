@@ -37,7 +37,7 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Ad
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj01_Account_Add_Manual/span_Account_Save'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC09_Create_Opportunity_From_Account_QuickAction/Click on the drop down'))
 
