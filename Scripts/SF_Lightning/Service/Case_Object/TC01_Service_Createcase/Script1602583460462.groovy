@@ -37,9 +37,11 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/s
 
 WebUI.delay(5)
 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/span_Cases'))
+
 WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/verify'), 0)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

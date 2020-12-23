@@ -33,25 +33,35 @@ WebUI.delay(5)
 //WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Home  Salesforce/span_More'))
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Home  Salesforce/span_Cases'))
 
+WebUI.maximizeWindow()
+
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Recently Viewed  Cases  Salesforce/Select_Case'))
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/button_Edit Status'))
+WebUI.delay(5)
 
-WebUI.clearText(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/Clear Text'))
+WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/button_Edit Status'))
 
-WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/edit_subject'), 
+WebUI.delay(5)
+
+//WebUI.clearText(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/Clear Text'))
+WebUI.setText(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/edit_subject'), 
     'Cases Edit')
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/button_Save'))
+WebUI.scrollToElement(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/save'), 
+    0)
 
-WebUI.delay(5)
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/save'))
+
+WebUI.delay(10)
 
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_Cases'))
 
+WebUI.delay(5)
+
 WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/verify'), 
-    0)
+    5)
 
 WebUI.closeBrowser()
 

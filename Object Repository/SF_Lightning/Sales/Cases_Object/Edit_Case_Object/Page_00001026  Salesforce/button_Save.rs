@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@title='Save']</value>
+         <value>(//span[contains(text(),'Save')])[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
