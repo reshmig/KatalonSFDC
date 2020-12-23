@@ -3,11 +3,11 @@
    <description></description>
    <name>verify</name>
    <tag></tag>
-   <elementGuidId>5b6efd6f-89a2-4069-8d02-d5ead282fd92</elementGuidId>
+   <elementGuidId>b6da9fc9-484e-43bf-a7ef-2b61cb31b597</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'sales updated case')]</value>
+         <value>//a[contains(text(),'Service Cloud case_updated')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify</name>
+   <name>cancel</name>
    <tag></tag>
-   <elementGuidId>5b6efd6f-89a2-4069-8d02-d5ead282fd92</elementGuidId>
+   <elementGuidId>e5be00df-0785-4537-8ae2-5d40c89304c1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'sales updated case')]</value>
+         <value>(//span[contains(text(),'Cancel')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

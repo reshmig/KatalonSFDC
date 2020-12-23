@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify</name>
+   <name>dropdown</name>
    <tag></tag>
-   <elementGuidId>5b6efd6f-89a2-4069-8d02-d5ead282fd92</elementGuidId>
+   <elementGuidId>a48bde39-41c1-4591-88de-5b7a6244a3ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'sales updated case')]</value>
+         <value>//span[contains(text(),'Show Actions')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

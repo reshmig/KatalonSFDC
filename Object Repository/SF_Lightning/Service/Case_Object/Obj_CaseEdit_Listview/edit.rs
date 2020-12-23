@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify</name>
+   <name>edit</name>
    <tag></tag>
-   <elementGuidId>5b6efd6f-89a2-4069-8d02-d5ead282fd92</elementGuidId>
+   <elementGuidId>a178c9b9-0e38-43cc-a9a3-b8d9358e2c2e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'sales updated case')]</value>
+         <value>//button[contains(text(),'Edit')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

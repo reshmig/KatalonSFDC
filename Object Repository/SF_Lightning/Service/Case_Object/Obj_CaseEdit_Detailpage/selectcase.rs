@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify</name>
+   <name>selectcase</name>
    <tag></tag>
-   <elementGuidId>5b6efd6f-89a2-4069-8d02-d5ead282fd92</elementGuidId>
+   <elementGuidId>ad146e96-c488-4525-ac6a-2dff916b256c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'sales updated case')]</value>
+         <value>(//span[@class='slds-checkbox--faux'])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

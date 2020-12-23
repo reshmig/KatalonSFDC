@@ -6,11 +6,11 @@
    <elementGuidId>f10a9202-9ba8-45ca-a306-49b4ea2b0861</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(//a[contains(text(),'sales updated case')])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Cases Edit')])[1]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

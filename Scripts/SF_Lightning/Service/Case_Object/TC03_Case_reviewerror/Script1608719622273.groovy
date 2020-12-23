@@ -14,32 +14,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'sales')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'service console')
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/selectsales'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/select service console'))
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_Home  Salesforce/span_Cases'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseVerify/dropdown'))
 
-WebUI.delay(5)
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/span_Cases'))
 
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_Recently Viewed  Cases  Salesforce/a_00001030'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/div_New'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown'))
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_00001030  Salesforce/deletesel'))
-
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_00001030  Salesforce/span_Delete'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_Cases'))
+WebUI.verifyTextPresent('These required fields must be completed: Case Origin', false)
 
-WebUI.verifyElementNotPresent(findTestObject('SF_Lightning/Sales/Cases_Object/Delete_Case_Object/Page_00001030  Salesforce/verify'), 
-    0)
+WebUI.delay(5)
+
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_reviewerror/cancel'))
 
 WebUI.closeBrowser()
 

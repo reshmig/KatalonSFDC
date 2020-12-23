@@ -6,12 +6,12 @@
    <elementGuidId>8ca20736-896e-4efe-9c13-dedee3eab301</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div[title=&quot;Change Owner&quot;]</value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Change Owner')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@name='ChangeOwnerOne']</value>
+         <key>CSS</key>
+         <value>div[title=&quot;Change Owner&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

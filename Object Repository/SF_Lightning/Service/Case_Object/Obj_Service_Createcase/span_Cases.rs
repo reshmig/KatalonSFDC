@@ -6,11 +6,11 @@
    <elementGuidId>77ff659f-a13b-4c0c-ad57-55fd1f33f395</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//span[contains(text(),'Cases')])</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class='slds-truncate'][contains(text(),'Cases')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -16,19 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://login.salesforce.com/')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'sales')
 
-WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Login  Salesforce/input_Username_username'), 
-    'qa.katalonautomation@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Login  Salesforce/input_Password_pw'), 
-    'y6DZPm+MBX0CnWA9hcdx/w==')
-
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Login  Salesforce/input_Password_Login'))
-
-WebUI.delay(5)
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/selectsales'))
 
 //WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Home  Salesforce/span_More'))
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_Home  Salesforce/span_Cases'))
@@ -39,22 +31,13 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Ob
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/button_Edit Status'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseEdit_Listview/edit'))
+
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'sales updated case')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
 
 WebUI.delay(5)
-
-//WebUI.clearText(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/Clear Text'))
-WebUI.setText(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/edit_subject'), 
-    'Cases Edit')
-
-WebUI.delay(5)
-
-WebUI.scrollToElement(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/save'), 
-    0)
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Edit_Case_Object/Page_00001026  Salesforce/save'))
-
-WebUI.delay(10)
 
 WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Page_Home  Salesforce/span_Cases'))
 

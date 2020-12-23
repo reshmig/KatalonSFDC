@@ -51,5 +51,25 @@ WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_
 
 WebUI.delay(5)
 
+WebUI.check(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseEdit_Detailpage/selectcase'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseEdit_Detailpage/dropdown'))
+
+WebUI.delay(2)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseEdit_Detailpage/edit'))
+
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'Service Cloud case_updated2')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
+
+WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/caselist'))
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseEdit_Detailpage/verify'), 0)
+
+WebUI.delay(5)
+
 WebUI.closeBrowser()
 

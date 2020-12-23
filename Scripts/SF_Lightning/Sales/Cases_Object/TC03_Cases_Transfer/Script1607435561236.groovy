@@ -16,29 +16,22 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('https://login.salesforce.com/')
+WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'), 'sales')
 
-WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Login  Salesforce/input_Username_username'), 
-    'qa.katalonautomation@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Login  Salesforce/input_Password_pw'), 
-    'y6DZPm+MBX0CnWA9hcdx/w==')
-
-WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Login  Salesforce/input_Password_Login'))
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/selectsales'))
 
 //WebUI.enhancedClick(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Home  Salesforce/span_More'))
-
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Home  Salesforce/span_Cases'))
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/span_Show Actions_slds-checkbox--faux'))
 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown'))
+
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/div_Change Owner'))
 
-WebUI.clearText(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/clear_text'))
-
-WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/Enter Name'), 
+WebUI.setText(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/Enter Name'), 
     'james')
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/mark_James'))

@@ -55,3 +55,5 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC13_Upload_No
 
 WebUI.delay(5)
 
+WebUI.closeBrowser()
+
