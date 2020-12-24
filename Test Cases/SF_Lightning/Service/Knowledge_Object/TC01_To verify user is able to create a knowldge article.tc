@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_To verify user is able to create a knowldge article</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df694aea-3fd9-49b0-80e3-02bb6ba3c6dd</testCaseGuid>
+</TestCaseEntity>

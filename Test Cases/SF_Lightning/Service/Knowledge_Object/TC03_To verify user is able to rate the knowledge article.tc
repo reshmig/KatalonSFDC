@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_To verify user is able to rate the knowledge article</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2900bdf-991a-49a1-95d2-9c4b3396dec4</testCaseGuid>
+</TestCaseEntity>

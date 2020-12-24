@@ -55,7 +55,7 @@ WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC07_Opportuni
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/verify the opp created or not'), 
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC08_Opportunity_ToChangeOwner_ListView/Verify owner'), 
     5)
 
 WebUI.closeBrowser()

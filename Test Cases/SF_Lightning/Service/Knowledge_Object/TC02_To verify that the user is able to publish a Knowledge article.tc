@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_To verify that the user is able to publish a Knowledge article</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0297372-83a1-4007-832c-406da37e2989</testCaseGuid>
+</TestCaseEntity>

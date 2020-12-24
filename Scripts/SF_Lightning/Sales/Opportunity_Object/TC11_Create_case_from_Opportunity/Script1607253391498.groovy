@@ -29,22 +29,22 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/Select_Opportunities'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC01_Opportunity_add_manual_home page/search bar in opp list view'), 
     Keys.chord('Blue Star', Keys.ENTER))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC06_Clone_Opportunity/select the 1st record from the list view'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC06_Clone_Opportunity/select the 1st record from the list view'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on case buton'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on case buton'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on the drop down of status field'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on the drop down of status field'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Select new from the drop down of stage feild'))
 
@@ -57,6 +57,20 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create 
 WebUI.click(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on save button'))
 
 WebUI.delay(2)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Task_Activites/TC01_Creation of Task based on different subject/Click on the more option'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Click on cases object'))
+
+WebUI.delay(4)
+
+WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Search text for case'), 
+    Keys.chord('Enquire with Opp', Keys.ENTER))
+
+WebUI.delay(3)
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC11_Create of Case In Opportunity/Verify case'), 
+    3)
 
 WebUI.closeBrowser()
 

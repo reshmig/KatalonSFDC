@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_To verify user is able to scheduling articles to be publish</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3e12ad6-ea02-484f-b2e5-0d8f7706953d</testCaseGuid>
+</TestCaseEntity>

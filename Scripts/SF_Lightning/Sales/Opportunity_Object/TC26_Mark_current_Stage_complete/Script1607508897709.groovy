@@ -44,5 +44,8 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC26_M
 
 WebUI.delay(2)
 
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Sales/Opportunity_Object/TC26_Mark_current_stage/Verify stage'), 
+    3)
+
 WebUI.closeBrowser()
 
