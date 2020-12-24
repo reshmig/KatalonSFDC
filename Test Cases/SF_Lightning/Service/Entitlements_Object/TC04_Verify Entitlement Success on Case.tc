@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CreateEntitlement</name>
+   <name>TC04_Verify Entitlement Success on Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3beaa6bf-fa4e-4771-8820-dbe41dd7e61e</testCaseGuid>
+   <testCaseGuid>60b4b861-9479-47bf-8965-7d7d5b9a7433</testCaseGuid>
 </TestCaseEntity>

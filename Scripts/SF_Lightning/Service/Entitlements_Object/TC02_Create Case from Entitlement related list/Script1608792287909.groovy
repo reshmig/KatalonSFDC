@@ -26,9 +26,9 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual
 WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/App Launcher_Service Console'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_Tab Drop Down'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_Tab Drop Down'))
 
-WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_DD_Entitlements'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_DD_Entitlements'))
 
 WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/Entitlements_New B'))
 
@@ -51,7 +51,51 @@ WebUI.setText(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_Crea
 
 WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_Save B'))
 
+WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/Ent_Related Tab'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_RL_Case HEader Link'))
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_RL_Case_New B'))
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Subject'), 
+    'Test_Case Created from Entitlement RL')
+
+WebUI.setText(findTestObject('SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Description'), 
+    'Case created successfully from Entitlement related list')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin_Email'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_RL_Case_Save B'))
+
 WebUI.delay(3)
+
+WebUI.refresh()
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Case_Drop Down'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Case_DD_Delete B'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_DD_Delete_Confirm Delete'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_Tab Drop Down'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_DD_Entitlements'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/Ent_First item'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_Drop Down'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_DD_Delete B'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj02_Create Case from Entitlement related list/Ent_DD_Delete_Confirm Delete'))
+
+WebUI.delay(5)
 
 WebUI.closeBrowser()
 

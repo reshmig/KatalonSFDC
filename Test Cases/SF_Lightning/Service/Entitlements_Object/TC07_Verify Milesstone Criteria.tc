@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CreateEntitlement</name>
+   <name>TC07_Verify Milesstone Criteria</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3beaa6bf-fa4e-4771-8820-dbe41dd7e61e</testCaseGuid>
+   <testCaseGuid>1fca9b31-463a-42b6-9302-630116db6afe</testCaseGuid>
 </TestCaseEntity>

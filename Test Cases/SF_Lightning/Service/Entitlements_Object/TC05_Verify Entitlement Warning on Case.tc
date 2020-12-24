@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CreateEntitlement</name>
+   <name>TC05_Verify Entitlement Warning on Case</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3beaa6bf-fa4e-4771-8820-dbe41dd7e61e</testCaseGuid>
+   <testCaseGuid>b8c9ad90-8f30-41ac-90dc-04a76fcd96db</testCaseGuid>
 </TestCaseEntity>
