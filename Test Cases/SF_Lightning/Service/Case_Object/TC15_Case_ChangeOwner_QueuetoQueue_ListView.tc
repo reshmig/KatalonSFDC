@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC15_Case_ChangeOwner_QueuetoQueue_ListView</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e41704c3-433b-4723-8a9f-ff5b5b449696</testCaseGuid>
+</TestCaseEntity>
