@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown</name>
+   <name>Click on Save</name>
    <tag></tag>
-   <elementGuidId>02ac86e4-e8a0-44c5-8767-2580c02b7488</elementGuidId>
+   <elementGuidId>67fb499f-91bd-44e8-9d3a-39f2b22987a3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@title='Save']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@class='slds-button slds-button_icon-border-filled'])</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

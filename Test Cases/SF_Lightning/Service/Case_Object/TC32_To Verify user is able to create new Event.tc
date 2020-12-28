@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CreateKnowledge</name>
+   <name>TC32_To Verify user is able to create new Event</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a2fb542a-4c26-4242-b615-010ce8012013</testCaseGuid>
+   <testCaseGuid>d36bdef8-14eb-400e-8e1a-e33c818cee6f</testCaseGuid>
 </TestCaseEntity>

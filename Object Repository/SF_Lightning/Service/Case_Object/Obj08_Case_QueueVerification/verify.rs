@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown</name>
+   <name>verify</name>
    <tag></tag>
-   <elementGuidId>02ac86e4-e8a0-44c5-8767-2580c02b7488</elementGuidId>
+   <elementGuidId>9b49b5dc-9e94-435f-bf95-96947e5bde4f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='slds-button slds-button_icon-border-filled'])</value>
+         <value>//a[contains(text(),'Case Queue verify')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

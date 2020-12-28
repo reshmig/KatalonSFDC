@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown</name>
+   <name>click on new event</name>
    <tag></tag>
-   <elementGuidId>02ac86e4-e8a0-44c5-8767-2580c02b7488</elementGuidId>
+   <elementGuidId>77f4c0f4-6aab-4fad-a99f-185e4ce50cd6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[@title='New Event']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@class='slds-button slds-button_icon-border-filled'])</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

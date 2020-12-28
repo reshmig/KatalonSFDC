@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown</name>
+   <name>Click on search list</name>
    <tag></tag>
-   <elementGuidId>02ac86e4-e8a0-44c5-8767-2580c02b7488</elementGuidId>
+   <elementGuidId>a4242491-699e-481b-adc8-71d984230dde</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@name='Case-search-input']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@class='slds-button slds-button_icon-border-filled'])</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

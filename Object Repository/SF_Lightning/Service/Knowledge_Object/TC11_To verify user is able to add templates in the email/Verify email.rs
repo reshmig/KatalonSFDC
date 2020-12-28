@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>dropdown</name>
+   <name>Verify email</name>
    <tag></tag>
-   <elementGuidId>02ac86e4-e8a0-44c5-8767-2580c02b7488</elementGuidId>
+   <elementGuidId>999372b2-26c5-4c75-b2ac-5eead666961e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='slds-button slds-button_icon-border-filled'])</value>
+         <value>//span[contains(text(),'QA Katalon')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

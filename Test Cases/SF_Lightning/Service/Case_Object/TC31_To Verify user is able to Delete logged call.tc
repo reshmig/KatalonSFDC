@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC07_</name>
+   <name>TC31_To Verify user is able to Delete logged call</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4dceb4b8-ee64-450e-a2ae-4d57b859f78d</testCaseGuid>
+   <testCaseGuid>314fc669-5a5d-48c5-bfcf-974d8c9b49c3</testCaseGuid>
 </TestCaseEntity>

@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('SF_Lightning/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -22,25 +21,9 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual
 
 WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/select service console'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Click on drop down to select knowledge'))
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/select case from drop down'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/div_New'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/sel_case'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/a_Phone'))
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'Knowledge from home')
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'case for the knowledge')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseVerify/dropdown'))
 
 WebUI.delay(5)
 
@@ -48,26 +31,37 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/click on case object'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/div_New'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/sel_case'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on list drop down'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/a_Phone'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on All open cases'))
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'Test Assignment Katalon')
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'Case created using Katalon')
 
-WebUI.sendKeys(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on saerch field'), Keys.chord('Knowledge', 
-        Keys.ENTER))
+WebUI.check(findTestObject('SF_Lightning/Service/Case_Object/Obj_Casecreation_Queueautolink/checkbox'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on case name'))
+WebUI.delay(5)
 
-WebUI.delay(3)
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/caselist'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on drop down of the knowledge'))
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_Casecreation_Queueautolink/verify'), 0)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on attach article'))
+WebUI.delay(5)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/sort'))
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Casecreation_Queueautolink/caseselect'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_Casecreation_Queueautolink/verify2'), 0)
+
+WebUI.delay(5)
+
+WebUI.closeBrowser()
 

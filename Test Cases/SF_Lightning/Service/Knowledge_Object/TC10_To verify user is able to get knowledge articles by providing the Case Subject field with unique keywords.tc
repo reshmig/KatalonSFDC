@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_To verify user is able to get knowledge articles by providing the Case Subject field with unique keywords</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>80a3bd99-3ee3-4ba3-8366-1df47034851e</testCaseGuid>
+</TestCaseEntity>

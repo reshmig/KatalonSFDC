@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_To verify user is able to deattach article to a case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8703401-3e81-4453-88af-a0c4fadeeb1a</testCaseGuid>
+</TestCaseEntity>
