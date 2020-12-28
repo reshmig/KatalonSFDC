@@ -26,48 +26,30 @@ WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Click on drop down to select knowledge'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/select case from drop down'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_To verify user is able to attach article to a case/select case from drop down'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/div_New'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_To verify user is able to attach article to a case/Click on list drop down'))
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/sel_case'))
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/a_Phone'))
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'Knowledge from home')
-
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'case for the knowledge')
-
-WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
-
-WebUI.delay(5)
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/span_Cases'))
-
-WebUI.delay(5)
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/click on case object'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_To verify user is able to attach article to a case/Click on All open cases'))
 
 WebUI.delay(3)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on list drop down'))
+WebUI.sendKeys(findTestObject('SF_Lightning/Service/Knowledge_Object/TC10_To verify user is able to get knowledge articles by providing the Case Subject field with unique keywords/Click on saerch field'), 
+    Keys.chord('Knowledge', Keys.ENTER))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on All open cases'))
+WebUI.delay(4)
 
-WebUI.delay(3)
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_To verify user is able to attach article to a case/Click on case name'))
 
-WebUI.sendKeys(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on saerch field'), Keys.chord('Knowledge', 
-        Keys.ENTER))
+WebUI.delay(4)
 
-WebUI.delay(3)
+WebUI.verifyElementText(findTestObject('SF_Lightning/Service/Knowledge_Object/TC10_To verify user is able to get knowledge articles by providing the Case Subject field with unique keywords/Verify case subject'), 
+    'Knowledge from home')
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on case name'))
+WebUI.verifyElementText(findTestObject('SF_Lightning/Service/Knowledge_Object/TC10_To verify user is able to get knowledge articles by providing the Case Subject field with unique keywords/Verify element present for unique'), 
+    'Knowledge from home')
 
-WebUI.delay(3)
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on drop down of the knowledge'))
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_/Click on attach article'))
+WebUI.closeBrowser()
 

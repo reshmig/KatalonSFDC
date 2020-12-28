@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_To verify user is able to add templates in the email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e553f993-5e82-4ac3-85ba-ce4e88db20c8</testCaseGuid>
+</TestCaseEntity>
