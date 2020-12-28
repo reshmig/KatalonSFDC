@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Create a task_From Case record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5ac14c0c-22c1-4058-8f93-b9311c384ee0</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63e9a028-ba9a-4869-aead-1d5ed0849ab4</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2e045f72-f67d-4138-87ec-77bd8a488602</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

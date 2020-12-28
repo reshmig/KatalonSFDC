@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_Edit a task_From Case record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d41b560-3fa8-491c-b19d-dc7d0ac68dac</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ee52dca4-83c1-49de-afe9-ad15f9898009</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>536063db-81c5-4c7c-93fe-1859b84b9dce</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
