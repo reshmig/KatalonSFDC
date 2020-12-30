@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Create Report for Case Lifecycle</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>120b2388-a7ef-44f9-911d-c0d39f5decb8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e1f113c2-6aa8-41e2-be6b-c029a5f74901</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f80cd8d0-2737-4dc5-b87e-e3a46de59836</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

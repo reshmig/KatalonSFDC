@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Create Report for Cases with Assets</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70d1b391-a002-4ff0-ae87-4da36ab5f6b9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4480f041-2cc7-4efe-b9f9-c968d1bc6a13</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>18d0c412-3b44-4145-925d-007e5629641a</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

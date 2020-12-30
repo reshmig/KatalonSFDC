@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Create Report for Cases</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55423f56-9e45-4842-b7fa-da0b08cd9fa4</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa33f786-48ff-4b2d-b663-b2b41820c8a0</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38fe142c-87bb-4243-8949-d1374a7d82a1</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

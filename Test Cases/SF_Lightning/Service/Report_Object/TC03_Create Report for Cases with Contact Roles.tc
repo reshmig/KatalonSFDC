@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Create Report for Cases with Contact Roles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc225793-6f93-4d4e-ab27-ec2ea10f1fa3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e590798-dbe8-4b16-be58-ec1a54a1e726</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>785f3984-6637-4553-88df-17adc3d4e288</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
