@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Create Dashboard for case with contact roles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce0cfb8a-7033-4698-bb50-725142a41914</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Create Dashboard for case lifecycle report</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55e73206-bc5f-4565-99fb-f96bf1be2cb2</testCaseGuid>
+</TestCaseEntity>

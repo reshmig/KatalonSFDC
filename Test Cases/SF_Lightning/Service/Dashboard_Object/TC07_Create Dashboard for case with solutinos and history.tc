@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Create Dashboard for case with solutinos and history</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fac4aed5-12e2-4552-b756-5aaf8f028a00</testCaseGuid>
+</TestCaseEntity>
