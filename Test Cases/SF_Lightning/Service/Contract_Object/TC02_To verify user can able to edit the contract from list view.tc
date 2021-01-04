@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_To verify user can able to edit the contract from list view</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc4944c5-eb0d-4335-b5e5-6dbc3fc2dd26</testCaseGuid>
+</TestCaseEntity>

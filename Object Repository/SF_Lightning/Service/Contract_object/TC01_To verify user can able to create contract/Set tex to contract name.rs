@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click on save button</name>
+   <name>Set tex to contract name</name>
    <tag></tag>
-   <elementGuidId>43081aa9-0fdc-4480-ae47-c394ac08d949</elementGuidId>
+   <elementGuidId>e429700a-b836-4812-93ce-a2d4ccb6315a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='slds-button slds-button--neutral uiButton--brand uiButton forceActionButton']
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Contract Name')]/parent::label/following::input[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

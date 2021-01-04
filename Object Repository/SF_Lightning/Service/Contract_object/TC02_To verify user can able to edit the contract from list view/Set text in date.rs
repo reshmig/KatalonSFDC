@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click on save button</name>
+   <name>Set text in date</name>
    <tag></tag>
-   <elementGuidId>43081aa9-0fdc-4480-ae47-c394ac08d949</elementGuidId>
+   <elementGuidId>320a3d39-4642-44a4-a664-0cbfcd6e1fd2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='slds-button slds-button--neutral uiButton--brand uiButton forceActionButton']
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//div[@class='form-element']/input)[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

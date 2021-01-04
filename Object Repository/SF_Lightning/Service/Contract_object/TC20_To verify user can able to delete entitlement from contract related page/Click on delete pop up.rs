@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click on save button</name>
+   <name>Click on delete pop up</name>
    <tag></tag>
-   <elementGuidId>43081aa9-0fdc-4480-ae47-c394ac08d949</elementGuidId>
+   <elementGuidId>e9638d7c-2cc6-4792-8e8b-294ea6fdcacd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='slds-button slds-button--neutral uiButton--brand uiButton forceActionButton']
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//button[@title='Delete']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

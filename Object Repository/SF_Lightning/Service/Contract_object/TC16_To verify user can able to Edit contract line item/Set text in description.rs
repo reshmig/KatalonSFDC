@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click on save button</name>
+   <name>Set text in description</name>
    <tag></tag>
-   <elementGuidId>43081aa9-0fdc-4480-ae47-c394ac08d949</elementGuidId>
+   <elementGuidId>e2bceb25-c6f5-457e-ab0b-98257d360e9c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='slds-button slds-button--neutral uiButton--brand uiButton forceActionButton']
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//textarea[@class=' textarea']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

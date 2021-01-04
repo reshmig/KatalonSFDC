@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>click on save button</name>
+   <name>Select Katalon account</name>
    <tag></tag>
-   <elementGuidId>43081aa9-0fdc-4480-ae47-c394ac08d949</elementGuidId>
+   <elementGuidId>b84a8aed-9837-4d9a-ba88-9824f6b4fb7d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@class='slds-button slds-button--neutral uiButton--brand uiButton forceActionButton']
-</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@title='Katalon new Account']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

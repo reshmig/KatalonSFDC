@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_To verify that user can able to add event to the contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52d1cbc8-0b1c-4c26-b21f-ed6e58410065</testCaseGuid>
+</TestCaseEntity>

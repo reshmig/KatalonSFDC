@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_To verify user can able to clone the contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a0525b6-31c7-456d-b7f7-ee75f119cea0</testCaseGuid>
+</TestCaseEntity>

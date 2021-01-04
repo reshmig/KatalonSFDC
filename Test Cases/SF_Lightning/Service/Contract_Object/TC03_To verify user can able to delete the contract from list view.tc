@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_To verify user can able to delete the contract from list view</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2309603-6618-4597-9383-632a7003fc81</testCaseGuid>
+</TestCaseEntity>

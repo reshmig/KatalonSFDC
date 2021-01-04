@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_To verify user can able to change the owner of the contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>075f6fcd-ff5d-4d32-bba0-9ddf7b5f9ef3</testCaseGuid>
+</TestCaseEntity>

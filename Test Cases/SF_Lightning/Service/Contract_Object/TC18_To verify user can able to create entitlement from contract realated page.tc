@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_To verify user can able to create entitlement from contract realated page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d7d3d5a-cc7c-4a12-bc3a-01391438aea3</testCaseGuid>
+</TestCaseEntity>

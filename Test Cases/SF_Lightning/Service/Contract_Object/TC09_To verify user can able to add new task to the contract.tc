@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_To verify user can able to add new task to the contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f023c5dc-5e47-4cbc-a0a1-66b1248d300f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_To verify user can able to Delete contract line item</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9795dc36-6e48-4c7d-b524-22bd0175a654</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_To verify user is able to delete article from list view</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edd712e9-a713-4aa9-b5c7-6af574495114</testCaseGuid>
+</TestCaseEntity>

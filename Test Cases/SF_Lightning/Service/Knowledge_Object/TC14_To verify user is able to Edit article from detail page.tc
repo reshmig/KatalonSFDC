@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_To verify user is able to Edit article from detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a071a224-08d2-4c6a-bc35-c6517010ed45</testCaseGuid>
+</TestCaseEntity>

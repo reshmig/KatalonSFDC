@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_To verify user can able to restore the article</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0c04fe5-2274-400f-9f4a-7ca741efed7e</testCaseGuid>
+</TestCaseEntity>
