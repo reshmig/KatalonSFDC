@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Creation of Case with status New</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c84842de-0aeb-4fb4-8ef5-71f0ed24cf9d</testCaseGuid>
+</TestCaseEntity>

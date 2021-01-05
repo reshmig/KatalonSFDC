@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC01_Creation of Case with status New","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC01_Creation of Case with status New"}
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC02_Edit the case and Add Entitlement","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC02_Edit the case and Add Entitlement"}
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC03_Assign the New Case to Queue","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC03_Assign the New Case to Queue"}
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC04_Agent accept the case","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC04_Agent accept the case"}
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC05_Verify Agent able to view the Milestone","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC05_Verify Agent able to view the Milestone"}
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC06_Agent able to view the Warning on Subject","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC06_Agent able to view the Warning on Subject"}
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC07_Agent complete the task within the Milestone","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC07_Agent complete the task within the Milestone"}
+{"testCaseName":"Test Cases/SF_Lightning/Service/TaT_Cases/TC08_Agent Update the Subject and Exit Milestone","testCaseId":"Test Cases/SF_Lightning/Service/TaT_Cases/TC08_Agent Update the Subject and Exit Milestone"}

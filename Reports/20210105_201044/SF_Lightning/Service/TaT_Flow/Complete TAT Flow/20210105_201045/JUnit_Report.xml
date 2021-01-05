@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Complete TAT Flow" time="286.448" tests="8" failures="0" errors="0">
+   <testsuite name="Complete TAT Flow" tests="8" failures="0" errors="0" time="286.448" timestamp="2021-01-05 20:10:48" hostname="Jeevan.Krishna - MLBETL-105628.in.marlabs.com" id="Test Suites/SF_Lightning/Service/TaT_Flow/Complete TAT Flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Jeevan.krishna\\git\\KatalonSFDC16122020\\Reports\\20210105_201044\\SF_Lightning\\Service\\TaT_Flow\\Complete TAT Flow\\20210105_201045"/>
+         <property name="logFiles" value="C:\\Users\\Jeevan.krishna\\git\\KatalonSFDC16122020\\Reports\\20210105_201044\\SF_Lightning\\Service\\TaT_Flow\\Complete TAT Flow\\20210105_201045\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Jeevan.Krishna - MLBETL-105628.in.marlabs.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.7.2.205"/>
+         <property name="browser" value="Chrome 87.0.4280.88"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="0dbb03549dfe86c04acdfa8664892c9e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC01_Creation of Case with status New" time="46.705" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC01_Creation of Case with status New" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:10:48 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC01_Creation of Case with status New: Test Cases/SF_Lightning/Service/TaT_Cases/TC01_Creation of Case with status New
+
+2021-01-05 20:10:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("SF_Lightning/Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/SF_Lightning/Login' successfully
+
+2021-01-05 20:10:48 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Login: Test Cases/SF_Lightning/Login
+
+2021-01-05 20:10:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-01-05 20:10:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-01-05 20:10:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-01-05 20:10:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-01-05 20:10:54 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://login.salesforce.com/?locale=in' successfully
+
+2021-01-05 20:10:56 - [MESSAGE][PASSED] - Navigate to 'https://login.salesforce.com/?locale=in' successfully
+
+2021-01-05 20:10:56 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Login/username"), username01): Text 'qa.katalonautomation@gmail.com' is set on object 'Object Repository/SF_Lightning/Login/username'
+
+2021-01-05 20:10:57 - [MESSAGE][PASSED] - Text 'qa.katalonautomation@gmail.com' is set on object 'Object Repository/SF_Lightning/Login/username'
+
+2021-01-05 20:10:57 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Login/password"), password01): Text 'marlabs1234' is set on object 'Object Repository/SF_Lightning/Login/password'
+
+2021-01-05 20:10:58 - [MESSAGE][PASSED] - Text 'marlabs1234' is set on object 'Object Repository/SF_Lightning/Login/password'
+
+2021-01-05 20:10:58 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Login/login")): Object: 'Object Repository/SF_Lightning/Login/login' is clicked on
+
+2021-01-05 20:11:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Login/login' is clicked on
+
+2021-01-05 20:11:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:11:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-05 20:11:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Login/applauncher")): Object: 'Object Repository/SF_Lightning/Login/applauncher' is clicked on
+
+2021-01-05 20:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Login/applauncher' is clicked on
+
+2021-01-05 20:11:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/SF_Lightning/Login' successfully
+
+2021-01-05 20:11:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:11:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-05 20:11:15 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales"), "Service Console"): Text 'Service Console' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'
+
+2021-01-05 20:11:15 - [MESSAGE][PASSED] - Text 'Service Console' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'
+
+2021-01-05 20:11:15 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/App Launcher_Service Console"), STOP_ON_FAILURE): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/App Launcher_Service Console' is clicked on
+
+2021-01-05 20:11:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/App Launcher_Service Console' is clicked on
+
+2021-01-05 20:11:16 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_Tab Drop Down")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_Tab Drop Down' is clicked on
+
+2021-01-05 20:11:22 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/SC_Tab Drop Down' is clicked on
+
+2021-01-05 20:11:22 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/SC_DD_Cases")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/SC_DD_Cases' is clicked on
+
+2021-01-05 20:11:23 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/SC_DD_Cases' is clicked on
+
+2021-01-05 20:11:23 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_New B")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_New B' is clicked on
+
+2021-01-05 20:11:24 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_New B' is clicked on
+
+2021-01-05 20:11:24 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Subject"), "Test_Case Created from Case Home Page"): Text 'Test_Case Created from Case Home Page' is set on object 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Subject'
+
+2021-01-05 20:11:27 - [MESSAGE][PASSED] - Text 'Test_Case Created from Case Home Page' is set on object 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Subject'
+
+2021-01-05 20:11:27 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Description"), "Case created successfully from Case Home Page"): Text 'Case created successfully from Case Home Page' is set on object 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Description'
+
+2021-01-05 20:11:28 - [MESSAGE][PASSED] - Text 'Case created successfully from Case Home Page' is set on object 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Description'
+
+2021-01-05 20:11:28 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin")): Object: 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin' is clicked on
+
+2021-01-05 20:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin' is clicked on
+
+2021-01-05 20:11:29 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin_Email")): Object: 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin_Email' is clicked on
+
+2021-01-05 20:11:29 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Case Origin_Email' is clicked on
+
+2021-01-05 20:11:29 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_New_Save B")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_New_Save B' is clicked on
+
+2021-01-05 20:11:30 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_New_Save B' is clicked on
+
+2021-01-05 20:11:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:11:35 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC02_Edit the case and Add Entitlement" time="20.077" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC02_Edit the case and Add Entitlement" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:11:35 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC02_Edit the case and Add Entitlement: Test Cases/SF_Lightning/Service/TaT_Cases/TC02_Edit the case and Add Entitlement
+
+2021-01-05 20:11:35 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:11:35 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:11:35 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2021-01-05 20:11:39 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2021-01-05 20:11:39 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Edit B")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit B' is clicked on
+
+2021-01-05 20:11:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit B' is clicked on
+
+2021-01-05 20:11:41 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority' is clicked on
+
+2021-01-05 20:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority' is clicked on
+
+2021-01-05 20:11:43 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority_High")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority_High' is clicked on
+
+2021-01-05 20:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority_High' is clicked on
+
+2021-01-05 20:11:43 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Ent Name"), "Test_Entitlement"): Text 'Test_Entitlement' is set on object 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Ent Name'
+
+2021-01-05 20:11:44 - [MESSAGE][PASSED] - Text 'Test_Entitlement' is set on object 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Ent Name'
+
+2021-01-05 20:11:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:11:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-05 20:11:48 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Ent Name_1st ITem"), STOP_ON_FAILURE): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Ent Name_1st ITem' is clicked on
+
+2021-01-05 20:11:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Ent Name_1st ITem' is clicked on
+
+2021-01-05 20:11:48 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Subject"), "Service Cloud case_updated and Entitlement Added"): Text 'Service Cloud case_updated and Entitlement Added' is set on object 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Subject'
+
+2021-01-05 20:11:49 - [MESSAGE][PASSED] - Text 'Service Cloud case_updated and Entitlement Added' is set on object 'Object Repository/SF_Lightning/Sales/Account_Object/Obj26_Create Case_From Account Related List/Account_RL_Cases_Subject'
+
+2021-01-05 20:11:49 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Edit_Save B")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Save B' is clicked on
+
+2021-01-05 20:11:50 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Save B' is clicked on
+
+2021-01-05 20:11:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:11:55 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC03_Assign the New Case to Queue" time="17.919" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC03_Assign the New Case to Queue" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:11:55 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC03_Assign the New Case to Queue: Test Cases/SF_Lightning/Service/TaT_Cases/TC03_Assign the New Case to Queue
+
+2021-01-05 20:11:55 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown")): Object: 'Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown' is clicked on
+
+2021-01-05 20:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown' is clicked on
+
+2021-01-05 20:11:56 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/changeowner")): Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/changeowner' is clicked on
+
+2021-01-05 20:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/changeowner' is clicked on
+
+2021-01-05 20:11:57 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/imageclick")): Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/imageclick' is clicked on
+
+2021-01-05 20:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/imageclick' is clicked on
+
+2021-01-05 20:11:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:12:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-05 20:12:03 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwnertoQueue/queue")): Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwnertoQueue/queue' is clicked on
+
+2021-01-05 20:12:04 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwnertoQueue/queue' is clicked on
+
+2021-01-05 20:12:04 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename"), "Medium"): Text 'Medium' is set on object 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename'
+
+2021-01-05 20:12:05 - [MESSAGE][PASSED] - Text 'Medium' is set on object 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename'
+
+2021-01-05 20:12:05 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Change Owner_1st item"), STOP_ON_FAILURE): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Change Owner_1st item' is clicked on
+
+2021-01-05 20:12:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Change Owner_1st item' is clicked on
+
+2021-01-05 20:12:07 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/submit"), STOP_ON_FAILURE): Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/submit' is clicked on
+
+2021-01-05 20:12:08 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/submit' is clicked on
+
+2021-01-05 20:12:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:12:13 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC04_Agent accept the case" time="46.357" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC04_Agent accept the case" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:12:13 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC04_Agent accept the case: Test Cases/SF_Lightning/Service/TaT_Cases/TC04_Agent accept the case
+
+2021-01-05 20:12:13 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://login.salesforce.com/?locale=in' successfully
+
+2021-01-05 20:12:13 - [MESSAGE][PASSED] - Navigate to 'https://login.salesforce.com/?locale=in' successfully
+
+2021-01-05 20:12:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:12:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-05 20:12:18 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:12:18 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:12:18 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Login/username"), "qamarlabsapprover@gmail.com"): Text 'qamarlabsapprover@gmail.com' is set on object 'Object Repository/SF_Lightning/Login/username'
+
+2021-01-05 20:12:19 - [MESSAGE][PASSED] - Text 'qamarlabsapprover@gmail.com' is set on object 'Object Repository/SF_Lightning/Login/username'
+
+2021-01-05 20:12:19 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Login/password"), "marlabs5678"): Text 'marlabs5678' is set on object 'Object Repository/SF_Lightning/Login/password'
+
+2021-01-05 20:12:20 - [MESSAGE][PASSED] - Text 'marlabs5678' is set on object 'Object Repository/SF_Lightning/Login/password'
+
+2021-01-05 20:12:20 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Login/login")): Object: 'Object Repository/SF_Lightning/Login/login' is clicked on
+
+2021-01-05 20:12:21 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Login/login' is clicked on
+
+2021-01-05 20:12:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:12:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-05 20:12:26 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Login/applauncher")): Object: 'Object Repository/SF_Lightning/Login/applauncher' is clicked on
+
+2021-01-05 20:12:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Login/applauncher' is clicked on
+
+2021-01-05 20:12:28 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales"), "Service Console"): Text 'Service Console' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'
+
+2021-01-05 20:12:30 - [MESSAGE][PASSED] - Text 'Service Console' is set on object 'Object Repository/SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/searchsales'
+
+2021-01-05 20:12:30 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/App Launcher_Service Console"), STOP_ON_FAILURE): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/App Launcher_Service Console' is clicked on
+
+2021-01-05 20:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj01_CreateEntitlement/App Launcher_Service Console' is clicked on
+
+2021-01-05 20:12:31 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:12:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-05 20:12:34 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Omni Channel/Obj04_Verify Omni channel is available/Omni Channel_Header Lnk"), STOP_ON_FAILURE): Object: 'Object Repository/SF_Lightning/Service/Omni Channel/Obj04_Verify Omni channel is available/Omni Channel_Header Lnk' is clicked on
+
+2021-01-05 20:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Omni Channel/Obj04_Verify Omni channel is available/Omni Channel_Header Lnk' is clicked on
+
+2021-01-05 20:12:36 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Drop Down")): Object: 'Object Repository/SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Drop Down' is clicked on
+
+2021-01-05 20:12:37 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Drop Down' is clicked on
+
+2021-01-05 20:12:37 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status_Available")): Object: 'Object Repository/SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status_Available' is clicked on
+
+2021-01-05 20:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status_Available' is clicked on
+
+2021-01-05 20:12:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:12:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-05 20:12:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Title"), "Available - Case"): Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Title' are matched.
+
+2021-01-05 20:12:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Title' are matched.
+
+2021-01-05 20:12:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:12:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-05 20:12:53 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/TaT_Cases/OmniChannel_Accept Case B")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/OmniChannel_Accept Case B' is clicked on
+
+2021-01-05 20:12:54 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/OmniChannel_Accept Case B' is clicked on
+
+2021-01-05 20:12:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:12:59 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC05_Verify Agent able to view the Milestone" time="10.646" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC05_Verify Agent able to view the Milestone" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:12:59 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC05_Verify Agent able to view the Milestone: Test Cases/SF_Lightning/Service/TaT_Cases/TC05_Verify Agent able to view the Milestone
+
+2021-01-05 20:12:59 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:12:59 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:12:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:13:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-05 20:13:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SF_Lightning/Service/TaT_Cases/Case_TAT_Ent Name Details Page"), "Test EP 01_Milestone"): Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_TAT_Ent Name Details Page' are matched.
+
+2021-01-05 20:13:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_TAT_Ent Name Details Page' are matched.
+
+2021-01-05 20:13:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:13:10 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC06_Agent able to view the Warning on Subject" time="111.147" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC06_Agent able to view the Warning on Subject" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:13:10 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC06_Agent able to view the Warning on Subject: Test Cases/SF_Lightning/Service/TaT_Cases/TC06_Agent able to view the Warning on Subject
+
+2021-01-05 20:13:10 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:13:10 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:13:10 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:13:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-05 20:13:13 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Edit B")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit B' is clicked on
+
+2021-01-05 20:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit B' is clicked on
+
+2021-01-05 20:13:16 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority' is clicked on
+
+2021-01-05 20:13:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority' is clicked on
+
+2021-01-05 20:13:17 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority_High")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority_High' is clicked on
+
+2021-01-05 20:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj03_Verify Entitlement Process name in Case/Ent_RL_Case_Priority_High' is clicked on
+
+2021-01-05 20:13:18 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Edit_Save B")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Save B' is clicked on
+
+2021-01-05 20:13:18 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Save B' is clicked on
+
+2021-01-05 20:13:18 - [TEST_STEP][PASSED] - delay(90): Delayed 90 second(s)
+
+2021-01-05 20:14:49 - [MESSAGE][PASSED] - Delayed 90 second(s)
+
+2021-01-05 20:14:49 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:14:49 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:14:49 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:14:50 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:14:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Subject_Title_Warning"), "Warning action completed"): Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Subject_Title_Warning' are matched.
+
+2021-01-05 20:14:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Subject_Title_Warning' are matched.
+
+2021-01-05 20:14:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:15:01 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC07_Agent complete the task within the Milestone" time="14.445" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC07_Agent complete the task within the Milestone" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:15:01 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC07_Agent complete the task within the Milestone: Test Cases/SF_Lightning/Service/TaT_Cases/TC07_Agent complete the task within the Milestone
+
+2021-01-05 20:15:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:15:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2021-01-05 20:15:04 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Mark as Complete")): Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Mark as Complete' is clicked on
+
+2021-01-05 20:15:07 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Mark as Complete' is clicked on
+
+2021-01-05 20:15:07 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:15:07 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:15:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Subject_Title Name"), "Entitlement Success Message completed"): Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Subject_Title Name' are matched.
+
+2021-01-05 20:15:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/SF_Lightning/Service/Entitlement_Object/Obj04_Verify Entitlement Success on Case/Case_Subject_Title Name' are matched.
+
+2021-01-05 20:15:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2021-01-05 20:15:15 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SF_Lightning/Service/TaT_Cases/TC08_Agent Update the Subject and Exit Milestone" time="18.483" classname="Test Cases/SF_Lightning/Service/TaT_Cases/TC08_Agent Update the Subject and Exit Milestone" status="PASSED">
+         <system-out><![CDATA[2021-01-05 20:15:15 - [TEST_CASE][PASSED] - Test Cases/SF_Lightning/Service/TaT_Cases/TC08_Agent Update the Subject and Exit Milestone: Test Cases/SF_Lightning/Service/TaT_Cases/TC08_Agent Update the Subject and Exit Milestone
+
+2021-01-05 20:15:15 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:15:16 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:15:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:15:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-05 20:15:21 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Drop Down")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Drop Down' is clicked on
+
+2021-01-05 20:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Drop Down' is clicked on
+
+2021-01-05 20:15:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-01-05 20:15:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-01-05 20:15:24 - [TEST_STEP][PASSED] - enhancedClick(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Edit B")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit B' is clicked on
+
+2021-01-05 20:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit B' is clicked on
+
+2021-01-05 20:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Edit_Subject"), "Case is closed."): Text 'Case is closed.' is set on object 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Subject'
+
+2021-01-05 20:15:27 - [MESSAGE][PASSED] - Text 'Case is closed.' is set on object 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Subject'
+
+2021-01-05 20:15:27 - [TEST_STEP][PASSED] - click(findTestObject("SF_Lightning/Service/TaT_Cases/Case_Edit_Save B")): Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Save B' is clicked on
+
+2021-01-05 20:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/SF_Lightning/Service/TaT_Cases/Case_Edit_Save B' is clicked on
+
+2021-01-05 20:15:28 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2021-01-05 20:15:28 - [MESSAGE][PASSED] - Refresh successfully
+
+2021-01-05 20:15:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2021-01-05 20:15:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2021-01-05 20:15:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-01-05 20:15:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-05 20:10:48 - [TEST_SUITE][PASSED] - Complete TAT Flow: Test Cases/SF_Lightning/Service/TaT_Cases/TC08_Agent Update the Subject and Exit Milestone]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

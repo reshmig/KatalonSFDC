@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Agent accept the case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>76a9f878-0a75-47d1-913f-ae8389b21063</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>15a800c4-27f0-453d-ae94-8316028505b2</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>46d61b49-d9d2-4900-85a0-e5833cf812a7</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test_Account_Name'</defaultValue>
+      <description></description>
+      <id>a6a63537-4880-4bdf-894d-341df089905f</id>
+      <masked>false</masked>
+      <name>Account_Rec</name>
+   </variable>
+</TestCaseEntity>

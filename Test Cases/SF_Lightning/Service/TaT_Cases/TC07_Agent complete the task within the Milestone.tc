@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Agent complete the task within the Milestone</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db9425a9-cf0d-409f-9694-706b05faf185</testCaseGuid>
+</TestCaseEntity>
