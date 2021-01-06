@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Click on the drop down</name>
+   <name>click close</name>
    <tag></tag>
-   <elementGuidId>a8d353ac-f792-4467-9fb8-885f6d401622</elementGuidId>
+   <elementGuidId>608877b7-d246-4b3e-a4c2-232ff22c5732</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='slds-grid slds-grid--vertical-align-center slds-grid--align-center sldsButtonHeightFix']
-</value>
+         <value>//button[@title='Close Knowledge from home']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

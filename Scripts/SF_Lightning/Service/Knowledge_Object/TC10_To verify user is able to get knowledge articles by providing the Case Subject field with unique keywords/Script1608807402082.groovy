@@ -48,8 +48,5 @@ WebUI.delay(4)
 WebUI.verifyElementText(findTestObject('SF_Lightning/Service/Knowledge_Object/TC10_To verify user is able to get knowledge articles by providing the Case Subject field with unique keywords/Verify case subject'), 
     'Knowledge from home')
 
-WebUI.verifyElementText(findTestObject('SF_Lightning/Service/Knowledge_Object/TC10_To verify user is able to get knowledge articles by providing the Case Subject field with unique keywords/Verify element present for unique'), 
-    'Knowledge from home')
-
 WebUI.closeBrowser()
 

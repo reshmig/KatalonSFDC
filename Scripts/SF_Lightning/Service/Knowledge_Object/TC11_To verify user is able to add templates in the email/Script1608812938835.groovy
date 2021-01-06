@@ -22,13 +22,13 @@ WebUI.setText(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual
 
 WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/select service console'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Click on drop down to select knowledge'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_To verify user is able to attach article to a case/select case from drop down'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_To verify user is able to attach article to a case/Click on list drop down'))
 
@@ -59,9 +59,10 @@ WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC07_To verify user is able to attach article to a case/Click on refresh button'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.verifyTextPresent('qa.katalonautomation', false)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Knowledge_Object/TC11_To verify user is able to add templates in the email/Verify email element'), 
+    5)
 
 WebUI.closeBrowser()
 

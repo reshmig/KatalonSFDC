@@ -55,7 +55,7 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC12_T
 
 WebUI.delay(3)
 
-WebUI.verifyTextNotPresent('Edit test', false)
+WebUI.verifyTextNotPresent('Article test', false)
 
 WebUI.closeBrowser()
 

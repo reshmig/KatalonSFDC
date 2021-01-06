@@ -39,6 +39,8 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC04_To
 
 WebUI.delay(3)
 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC19_To verify user can able to Edit entitlement from contract related page/click on obj'))
+
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC15_To verify user can able to add contract line item/CLick on Related tab'))
 
 WebUI.delay(5)

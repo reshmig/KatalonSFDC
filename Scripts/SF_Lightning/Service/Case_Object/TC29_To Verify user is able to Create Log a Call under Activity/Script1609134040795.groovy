@@ -31,7 +31,7 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/div_New'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/TC29_To Verify user is able to Create Log a Call under Activity/Click on New'))
 
 WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/sel_case'))
 

@@ -50,7 +50,7 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC14_T
 WebUI.delay(3)
 
 WebUI.setText(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Set text in title'), 
-    ' Edit test')
+    ' Article test')
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Click on save'))
 

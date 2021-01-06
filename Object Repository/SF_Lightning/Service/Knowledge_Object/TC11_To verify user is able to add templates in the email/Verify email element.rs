@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Click on the drop down</name>
+   <name>Verify email element</name>
    <tag></tag>
-   <elementGuidId>a8d353ac-f792-4467-9fb8-885f6d401622</elementGuidId>
+   <elementGuidId>d31b37c4-18aa-47a9-9808-519a8b84809c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@class='slds-grid slds-grid--vertical-align-center slds-grid--align-center sldsButtonHeightFix']
-</value>
+         <value>//span[@title='qa.katalonautomation@gmail.com']</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

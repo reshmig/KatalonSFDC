@@ -28,18 +28,18 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_T
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC01_To verify user can able to create contract/CLick on the service contract from drop down'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('SF_Lightning/Service/Contract_object/TC02_To verify user can able to edit the contract from list view/Click on the search field'), 
     Keys.chord('Clone', Keys.ENTER))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC05_To verify user can able to clone the contract/Verify clone'))
 
-WebUI.delay(3)
+WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC04_To verify user can able to edit the contract/Click on the drop down'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC06_To verify user can able to delete the contract/Click on the drop down'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC06_To verify user can able to delete the contract/Click on delete'))
 
@@ -50,6 +50,10 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC06_To
 WebUI.delay(3)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC01_To verify user can able to create contract/Click on service contaract object'))
+
+WebUI.delay(3)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC06_To verify user can able to delete the contract/click on refresh'))
 
 WebUI.delay(3)
 

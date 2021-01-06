@@ -46,7 +46,7 @@ WebUI.delay(3)
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC06_To verify user is able to scheduling articles to be publish/CLick on the check box of schedule publish'))
 
 WebUI.setText(findTestObject('SF_Lightning/Service/Knowledge_Object/TC06_To verify user is able to scheduling articles to be publish/Click on the date field'), 
-    'Dec 24,2020')
+    'Dec 24,2021')
 
 WebUI.delay(3)
 

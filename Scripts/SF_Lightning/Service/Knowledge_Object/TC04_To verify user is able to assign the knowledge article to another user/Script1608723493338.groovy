@@ -30,6 +30,16 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_T
 
 WebUI.delay(3)
 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Click on drop down of list view'))
+
+WebUI.delay(3)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC05_To verify user have access to different list views of Knowledge object/CLick on Recent viewed'))
+
+WebUI.delay(3)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC04_To verify user is able to assign the knowledge article to another user/click close'))
+
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Click on New button'))
 
 WebUI.delay(3)
@@ -37,8 +47,9 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Set text in title'), 
     'Change Owner')
 
-WebUI.click(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Set text in URL'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
+
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Knowledge_Object/TC01_To verify user is able to create a knowldge article/Set text in URL'))
 
 WebUI.delay(3)
 
