@@ -28,7 +28,7 @@ WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_Create
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('SF_Lightning/Service/Omni Channel/Obj04_Verify Omni channel is available/Omni Channel_Header Lnk'), 
+WebUI.verifyElementText(findTestObject('SF_Lightning/Service/OmniChannel/Obj04_Verify Omni channel is available/Omni Channel_Header Lnk'), 
     'Omni-Channel (Offline)')
 
 WebUI.delay(3)

@@ -40,16 +40,16 @@ WebUI.click(findTestObject('SF_Lightning/Service/Entitlement_Object/Obj01_Create
 
 WebUI.delay(3)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Omni Channel/Obj04_Verify Omni channel is available/Omni Channel_Header Lnk'), 
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/OmniChannel/Obj04_Verify Omni channel is available/Omni Channel_Header Lnk'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Drop Down'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/OmniChannel/Obj05_Verify change in status of Omni channel/OC_Status Drop Down'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status_Available'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/OmniChannel/Obj05_Verify change in status of Omni channel/OC_Status_Available'))
 
 WebUI.delay(3)
 
-WebUI.verifyElementText(findTestObject('SF_Lightning/Service/Omni Channel/Obj05_Verify change in status of Omni channel/OC_Status Title'), 
+WebUI.verifyElementText(findTestObject('SF_Lightning/Service/OmniChannel/Obj05_Verify change in status of Omni channel/OC_Status Title'), 
     'Available - Case')
 
 WebUI.delay(3)
