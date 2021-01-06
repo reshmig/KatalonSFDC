@@ -18,19 +18,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/changeowner'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/changeowner'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/imageclick'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/imageclick'))
 
 WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwnertoQueue/queue'))
 
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename'), 'Medium')
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/queuename'), 'Medium')
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/TaT_Cases/Case_Change Owner_1st item'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/submit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/submit'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 

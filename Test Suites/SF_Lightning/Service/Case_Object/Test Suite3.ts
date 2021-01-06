@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Test Suite3</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>4403fedd-58f4-45b0-8a40-72d72d664c8f</testSuiteGuid>
+   <testCaseLink>
+      <guid>cdd7fdef-ece8-43ab-a602-01650bf1fa02</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC18_Clone a Case record</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>59561389-f701-4973-a461-f98e0c286bb0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>09f72c6f-dda0-4e84-ad39-8fe27b35bbf6</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0a628102-8a24-4360-a377-26d1a4755ee4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC19_Create a task_From Case record</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>63e9a028-ba9a-4869-aead-1d5ed0849ab4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2e045f72-f67d-4138-87ec-77bd8a488602</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>12545522-d180-44f5-b603-64cc2b9c31b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC20_Edit a task_From Case record</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee52dca4-83c1-49de-afe9-ad15f9898009</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>536063db-81c5-4c7c-93fe-1859b84b9dce</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>41b27d4e-281c-4708-98f5-a39320b137f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC21_Delete a task_From Case record</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e63254d7-bf4a-4dcf-bae5-c9da75da413e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2aba0929-26b5-4410-a094-6642537e1d8b</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

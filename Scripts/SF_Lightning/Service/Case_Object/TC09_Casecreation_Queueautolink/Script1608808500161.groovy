@@ -53,7 +53,7 @@ WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/sort'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/sort'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Casecreation_Queueautolink/caseselect'))
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC27_To Verify user is able to Delete Event</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2813359-f911-4891-822c-ed0bd3a6ca58</testCaseGuid>
+</TestCaseEntity>

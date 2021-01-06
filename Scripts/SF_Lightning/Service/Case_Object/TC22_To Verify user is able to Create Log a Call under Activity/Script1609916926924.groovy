@@ -31,40 +31,37 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwnertoQueue/select'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_To Verify user is able to Create Log a Call under Activity/Click on New'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/sel_case'))
+
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/a_Phone'))
+
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/subject'), 'Case to log call')
+
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/description'), 'Case created using Katalon')
+
+WebUI.click(findTestObject('SF_Lightning/Sales/Lead_Object/Obj_Lead_Add_Manual/save'))
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_To Verify user is able to Create Log a Call under Activity/Click on call log tab'))
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/changeowner'))
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_To Verify user is able to Create Log a Call under Activity/Set text on text area'), 
+    'Logg a call')
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/imageclick'))
-
-WebUI.delay(5)
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwnertoQueue/queue'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_To Verify user is able to Create Log a Call under Activity/Click on save object'))
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/queuename'), 'Test_Queues 02')
-
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwner_QueuetoQueue/selqueue'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_To Verify user is able to Create Log a Call under Activity/Click on call logs'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/submit'))
-
-WebUI.delay(5)
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/caselist'))
-
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwnertoPeople/selectcase'))
-
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwner_QueuetoQueue/verify'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_To Verify user is able to Create Log a Call under Activity/Verify call log'), 
+    5)
 
 WebUI.closeBrowser()
 

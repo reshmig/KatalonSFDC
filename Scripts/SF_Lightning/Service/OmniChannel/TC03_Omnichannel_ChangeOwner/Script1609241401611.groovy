@@ -39,9 +39,9 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfe
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/changeowner'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/changeowner'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/imageclick'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/imageclick'))
 
 WebUI.delay(5)
 
@@ -49,13 +49,13 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_Ch
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename'), 'James Clifton')
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/queuename'), 'James Clifton')
 
 WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwner_QueuetoUser/seluser'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/submit'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/submit'))
 
 WebUI.delay(5)
 

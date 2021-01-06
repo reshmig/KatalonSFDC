@@ -47,37 +47,37 @@ WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/caselist'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/sort'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/sort'))
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/verify'), 0)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/verify'), 0)
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/selectcase'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/selectcase'))
 
 WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Cases_Object/Case_Transfer_Object/Page_Recently Viewed  Cases  Salesforce/dropdown'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/changeowner'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/changeowner'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/imageclick'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/imageclick'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queue'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/queue'))
 
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename'), 'Test_Queues')
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/queuename'), 'Test_Queues')
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/selqueue'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/selqueue'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/submit'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/submit'))
 
 WebUI.delay(5)
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Service_Createcase/caselist'))
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/selectcase'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/selectcase'))
 
 WebUI.verifyTextPresent('Test_Queues', false)
 

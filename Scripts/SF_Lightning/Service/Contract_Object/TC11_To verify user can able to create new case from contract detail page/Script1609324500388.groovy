@@ -64,7 +64,7 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Contract_object/TC11_To
 
 WebUI.delay(3)
 
-WebUI.sendKeys(findTestObject('SF_Lightning/Service/Case_Object/TC30_To Verify user is able to Edit logged call/Click on search list'), 
+WebUI.sendKeys(findTestObject('SF_Lightning/Service/Case_Object/Obj_To Verify user is able to Edit logged call/Click on search list'), 
     Keys.chord('Case for contract', Keys.ENTER))
 
 WebUI.delay(3)

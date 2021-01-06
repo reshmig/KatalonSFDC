@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_Delete a task_From Case record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73891519-8181-481e-bd60-aab216e4ca3d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e63254d7-bf4a-4dcf-bae5-c9da75da413e</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2aba0929-26b5-4410-a094-6642537e1d8b</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

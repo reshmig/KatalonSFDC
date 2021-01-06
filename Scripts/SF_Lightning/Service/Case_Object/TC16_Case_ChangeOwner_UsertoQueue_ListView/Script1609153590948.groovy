@@ -43,7 +43,7 @@ WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_ChangeOwne
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/imageclick'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/imageclick'))
 
 WebUI.delay(5)
 
@@ -51,9 +51,9 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_Ch
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/queuename'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/queuename'), 'Test')
+WebUI.setText(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/queuename'), 'Test')
 
 WebUI.delay(5)
 
@@ -61,7 +61,7 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_Ch
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj08_Case_QueueVerification/submit'))
+WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_Case_QueueVerification/submit'))
 
 WebUI.delay(5)
 

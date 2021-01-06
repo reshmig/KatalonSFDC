@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC18_Clone a Case record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4ac8e2d-604d-4eec-b861-86448347711d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59561389-f701-4973-a461-f98e0c286bb0</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>09f72c6f-dda0-4e84-ad39-8fe27b35bbf6</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

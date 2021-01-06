@@ -12,39 +12,45 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>4b3b0921-e13f-4d88-a439-468ddfc2aa91</testSuiteGuid>
    <testCaseLink>
-      <guid>fda910f9-d77c-4477-89a5-d21ee274a9a0</guid>
+      <guid>4528ac7b-7767-43c8-9733-6e1b5b107e03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC29_To Verify user is able to Create Log a Call under Activity</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC01_Service_Createcase</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3fbad155-679d-4723-893b-ff5710bea8ec</guid>
+      <guid>2aa059cc-cfc5-4bda-9614-6d0fb813e870</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC30_To Verify user is able to Edit logged call</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC02_CaseVerify</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>3b2bdf2b-a8d0-40f2-9b1a-a4be30b5f706</guid>
+      <guid>2ef8fdaa-86ce-42a1-95e6-dbc30b7409ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC31_To Verify user is able to Delete logged call</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC03_Case_reviewerror</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>059fc53f-dece-4035-b147-33fc4ee23e2c</guid>
+      <guid>c74be18b-3ad5-4087-91dd-bbe509c09605</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC32_To Verify user is able to create new Event</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC04_CaseEdit_Listview</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>03ebb292-08d7-4f6d-92fb-b7a18919dec1</guid>
+      <guid>a5e9a9b0-bc9f-4453-a792-7c28188781af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC33_To Verify user is able to Edit Event</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC05_CaseEdit_Detailpage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>523bbe02-da93-4f18-b9c1-3f4421db7765</guid>
+      <guid>6892de18-1e9a-4f53-b843-234c5dd4e67c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC34_To Verify user is able to Delete Event</testCaseId>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC06_Case_Delete_Listview</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8c372afa-cffb-41e8-897e-08f2ef592f99</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SF_Lightning/Service/Case_Object/TC07_Case_Delete_Detailpage</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
