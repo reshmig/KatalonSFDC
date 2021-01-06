@@ -28,7 +28,7 @@ WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseVerify/drop
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Reports_Object/Obj05_CasewithEmails_Report/report'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Report_Object/Obj05_CasewithEmails_Report/report'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify that the user is able create a report for Opportunity History/CLick on new reports button'))
 
@@ -38,9 +38,9 @@ WebUI.switchToFrame(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To ve
     4)
 
 WebUI.setText(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify that the user is able create a report for Opportunity History/Click on the search field'), 
-    'Solution')
+    'Case')
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Reports_Object/Obj09_Caseswithsolutioncategories_Report/selreport'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Report_Object/Obj06_CaseHistory_Report/reportselect'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify that the user is able create a report for Opportunity History/Click on continue'))
 
@@ -74,12 +74,11 @@ WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To ve
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify that the user is able create a report for Opportunity History/Click on the search report in list view'), 
-    Keys.chord('New Solution Categories Report Katalon', Keys.ENTER))
+    Keys.chord('New Case History Report Katalon', Keys.ENTER))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Reports_Object/Obj09_Caseswithsolutioncategories_Report/verify'), 
-    4)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Report_Object/Obj06_CaseHistory_Report/verify'), 4)
 
 WebUI.closeBrowser()
 

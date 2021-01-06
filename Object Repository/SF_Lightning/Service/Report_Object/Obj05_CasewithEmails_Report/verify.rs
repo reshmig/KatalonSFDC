@@ -3,15 +3,14 @@
    <description></description>
    <name>verify</name>
    <tag></tag>
-   <elementGuidId>07b06c21-cae2-40fc-b92e-f5ec537b3b27</elementGuidId>
+   <elementGuidId>92f59b30-00a0-464b-b403-f90574ae702e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='New Solution Categories Report Katalon']</value>
+         <value>//a[@title='New Cases with Emails Report Katalon']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

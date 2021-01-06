@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>reportselect</name>
+   <name>verify</name>
    <tag></tag>
-   <elementGuidId>91708a3a-2932-4e5c-9be7-b26dcd7e8b31</elementGuidId>
+   <elementGuidId>07b06c21-cae2-40fc-b92e-f5ec537b3b27</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Cases with Emails')]</value>
+         <value>//a[@title='New Solution Categories Report Katalon']</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

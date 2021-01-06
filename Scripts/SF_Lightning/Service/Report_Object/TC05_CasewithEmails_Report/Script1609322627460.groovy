@@ -28,7 +28,7 @@ WebUI.click(findTestObject('SF_Lightning/Service/Case_Object/Obj_CaseVerify/drop
 
 WebUI.delay(5)
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Reports_Object/Obj05_CasewithEmails_Report/report'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Report_Object/Obj05_CasewithEmails_Report/report'))
 
 WebUI.enhancedClick(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify that the user is able create a report for Opportunity History/CLick on new reports button'))
 
@@ -40,7 +40,7 @@ WebUI.switchToFrame(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To ve
 WebUI.setText(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify that the user is able create a report for Opportunity History/Click on the search field'), 
     'Case')
 
-WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Reports_Object/Obj05_CasewithEmails_Report/reportselect'))
+WebUI.enhancedClick(findTestObject('SF_Lightning/Service/Report_Object/Obj05_CasewithEmails_Report/reportselect'))
 
 WebUI.click(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify that the user is able create a report for Opportunity History/Click on continue'))
 
@@ -78,7 +78,7 @@ WebUI.sendKeys(findTestObject('SF_Lightning/Sales/Reports_object/TC01_To verify 
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Reports_Object/Obj05_CasewithEmails_Report/verify'), 4)
+WebUI.verifyElementPresent(findTestObject('SF_Lightning/Service/Report_Object/Obj05_CasewithEmails_Report/verify'), 4)
 
 WebUI.closeBrowser()
 

@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>report</name>
+   <name>selreport</name>
    <tag></tag>
-   <elementGuidId>7c6819b6-c5f6-44f4-aa57-6d6e7f91f7f0</elementGuidId>
+   <elementGuidId>0deda945-5249-447c-9ae5-085c1fb64c1e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='Reports']</value>
+         <value>//a[contains(text(),'Cases with Solutions')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

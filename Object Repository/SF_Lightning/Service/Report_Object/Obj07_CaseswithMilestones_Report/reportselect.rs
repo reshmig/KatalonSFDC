@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>verify</name>
+   <name>reportselect</name>
    <tag></tag>
-   <elementGuidId>0caa1b0a-606c-459e-8278-20b5cd0ba9c9</elementGuidId>
+   <elementGuidId>75123b32-3f6b-47c5-8586-e9846aa07a65</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='New Case History Report Katalon']</value>
+         <value>//a[contains(text(),'Cases with Milestones')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
