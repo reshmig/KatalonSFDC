@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Edit a New Task from Lead Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e89bcee1-13d7-4298-8651-3e5a90e016da</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de4a444e-fc4a-4ed6-a6c6-215109b6694e</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>38ed3b52-d40a-4847-9d9b-0440b5c6d114</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

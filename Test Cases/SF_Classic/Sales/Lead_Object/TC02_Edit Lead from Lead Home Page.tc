@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Edit Lead from Lead Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c10c099-46fa-4e2d-898b-038e6e5ea2c8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44bdfd4e-9d90-45d5-89ad-9225724ffb54</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de8abc16-ef69-4e09-818a-3e8b76465950</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

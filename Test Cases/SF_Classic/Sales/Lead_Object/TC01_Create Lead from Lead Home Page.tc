@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Create Lead from Lead Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc3c2820-879a-49eb-ab0d-c09423dc3c24</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bda11f4c-8631-4023-9105-b68af1fd3506</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2b71f688-1674-45ad-9dc8-75a0840d3f7a</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
