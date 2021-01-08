@@ -21,7 +21,7 @@ WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/co
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC02_ContactEdit/contactselect'))
+WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC03_ContactDelete/selectcontact'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC03_ContactDelete/delete'))
 
@@ -30,6 +30,8 @@ WebUI.delay(3)
 WebUI.acceptAlert()
 
 WebUI.delay(5)
+
+WebUI.verifyTextNotPresent('KatalonContact_clone, Marlabs_auto', false)
 
 WebUI.closeBrowser()
 

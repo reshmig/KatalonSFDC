@@ -21,7 +21,7 @@ WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/co
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC02_ContactEdit/contactselect'))
+WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC04_ContactClone/selectcontact'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC04_ContactClone/clone'))
 
@@ -32,6 +32,8 @@ WebUI.setText(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/
 WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/save'))
 
 WebUI.delay(5)
+
+WebUI.verifyTextPresent('Marlabs_auto KatalonContact_clone', false)
 
 WebUI.closeBrowser()
 

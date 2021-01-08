@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>contactselect</name>
+   <name>title</name>
    <tag></tag>
-   <elementGuidId>bd6e1baa-cf76-4a71-b7fa-a3c321612bf3</elementGuidId>
+   <elementGuidId>2098ba82-5d1d-4b14-8ec9-5c61935bba57</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'KatalonContact, Marlabs_auto')]</value>
+         <value>//input[@id='con5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

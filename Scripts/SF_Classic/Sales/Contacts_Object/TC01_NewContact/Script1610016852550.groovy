@@ -25,11 +25,17 @@ WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/ne
 
 WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/salutation'), 'Mrs.', false)
 
+WebUI.setText(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/firstname'), 'Marlabs_auto')
+
 WebUI.setText(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/lastname'), 'KatalonContact')
+
+WebUI.setText(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/title'), 'QAAutomation')
 
 WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/save'))
 
 WebUI.delay(5)
+
+WebUI.verifyTextPresent('Marlabs_auto KatalonContact', false)
 
 WebUI.closeBrowser()
 

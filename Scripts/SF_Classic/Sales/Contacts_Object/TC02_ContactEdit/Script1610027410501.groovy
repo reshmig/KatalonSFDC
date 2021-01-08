@@ -31,6 +31,8 @@ WebUI.setText(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/
 
 WebUI.click(findTestObject('SF_Classic/Sales/Contacts_Object/TC01_NewContract/save'))
 
+WebUI.verifyTextPresent('KatalonContact_updated', false)
+
 WebUI.delay(5)
 
 WebUI.closeBrowser()
