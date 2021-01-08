@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Log a call from Lead Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7bbe18f-7509-4ef5-9d0a-5c57fe5d432b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a8aca6a9-48cd-4a83-b554-aded243708b8</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>87182e3d-0844-4f4f-aa5c-506379fe2c11</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

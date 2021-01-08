@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Efit Log a call from Lead Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b98b34a4-0b1e-45c9-8942-db6f042160e8</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c281af8b-d861-4657-b2be-e6e69b520946</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7c9e3ffb-e9be-44d2-b922-7dd9b48b1f12</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

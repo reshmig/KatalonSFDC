@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_Delete Log a call from Lead Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd1c90c1-8e27-4720-981b-a2ead2681351</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>df44e31d-d3d1-4092-bd35-9ad3dd7fc716</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d900d46-2369-4783-a0d3-18092333aadc</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

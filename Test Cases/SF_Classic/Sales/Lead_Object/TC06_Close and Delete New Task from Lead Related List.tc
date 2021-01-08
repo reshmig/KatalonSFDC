@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_Close and Delete New Task from Lead Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8a035b2-58e3-4294-a135-86bfc476279b</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f3d4aa2d-3525-4713-9245-a7e6d3dc2611</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c7f69d28-916e-4ed5-b7a0-20818c921e70</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
