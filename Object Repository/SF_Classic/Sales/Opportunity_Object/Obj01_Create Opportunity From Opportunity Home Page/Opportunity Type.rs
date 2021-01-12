@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Closed Date</name>
+   <name>Opportunity Type</name>
    <tag></tag>
-   <elementGuidId>16980d69-a6da-44ab-9249-5950c02c77ba</elementGuidId>
+   <elementGuidId>09bc0835-0810-4f81-877b-87728361fbcb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@class='dateFormat']</value>
+         <key>CSS</key>
+         <value>#opp5</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span.dateFormat > a</value>
+         <key>XPATH</key>
+         <value>//select[@id='opp5']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,83 +21,90 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
+      <value>select</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>id</name>
       <type>Main</type>
-      <value>javascript:DatePicker.insertDate('1/12/2021', 'opp9', true);</value>
+      <value>opp5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>opp5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
-      <value>7</value>
+      <value>4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>1/12/2021</value>
+      <value>--None--Existing Customer - UpgradeExisting Customer - ReplacementExisting Customer - DowngradeNew Customer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ep&quot;)/div[@class=&quot;pbBody&quot;]/div[@class=&quot;pbSubsection&quot;]/table[@class=&quot;detailList&quot;]/tbody[1]/tr[2]/td[@class=&quot;dataCol&quot;]/div[@class=&quot;requiredInput&quot;]/span[@class=&quot;dateInput dateOnlyInput&quot;]/span[@class=&quot;dateFormat&quot;]/a[1]</value>
+      <value>id(&quot;opp5&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='opp5']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ep']/div[2]/div[3]/table/tbody/tr[2]/td[4]/div/span/span/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'1/12/2021')]</value>
+      <value>//div[@id='ep']/div[2]/div[3]/table/tbody/tr[5]/td[2]/span/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::select[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='1/12/2021']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Probability (%)'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, &quot;javascript:DatePicker.insertDate('1/12/2021', 'opp9', true);&quot;)]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lead Source'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span/a</value>
+      <value>//td[2]/span/select</value>
    </webElementXpaths>
 </WebElementEntity>
