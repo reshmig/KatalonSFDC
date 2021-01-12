@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_Clone the Lead</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>568761cc-b189-4073-ab22-233b64925062</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>59930a91-2280-4402-937e-e7394a1be4b5</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9193ee50-17ed-46b9-81d4-8323458e5248</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

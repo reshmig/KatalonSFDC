@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_Edit an Event from Lead Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edb761ee-f7a7-4690-9bc9-83c34cfae97c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2f49ef2-7c71-472a-83c5-c282966e5536</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>00b67cbc-cdcf-4cfa-9a72-23e26670120b</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

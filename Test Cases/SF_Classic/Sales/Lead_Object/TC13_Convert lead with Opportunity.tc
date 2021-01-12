@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_Convert lead with Opportunity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>523e6086-06a8-4079-8b64-9e21a63fb916</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3e407074-0c5d-46aa-89fc-9b93e674ed78</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5fbeacba-26e5-4fff-a65f-ed10cc5a9944</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

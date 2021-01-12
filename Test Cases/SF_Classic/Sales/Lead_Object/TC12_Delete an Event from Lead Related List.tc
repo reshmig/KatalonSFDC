@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_Delete an Event from Lead Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9fc69f75-26cc-467d-b1d5-9b965228289a</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>44baf707-8339-47fc-8afe-57e0c0156c8c</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4adfdc2f-0fa2-4956-8f24-21158d28024b</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

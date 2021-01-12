@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC16_Change Owner of the lead</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>342fd74e-800b-418b-8627-6af17bbe3a57</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb3cd18f-a093-4ab1-9be4-e5312d08c334</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c75dda74-b1fe-43db-bddf-e76ac9feca22</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>

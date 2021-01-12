@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_Convert lead with Opportunity with Task</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8679182-168e-469b-8364-040132159da3</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>201a5cfb-8fb9-42ba-b439-cd51b219cb35</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c8482578-0a0d-43af-9aae-1255e59d13e9</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+</TestCaseEntity>
