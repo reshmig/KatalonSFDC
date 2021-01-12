@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_To Verify that a user is able to edit a account record from the List view</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>15582102-d718-40a3-9ea6-041d8c37fa02</testCaseGuid>
+</TestCaseEntity>

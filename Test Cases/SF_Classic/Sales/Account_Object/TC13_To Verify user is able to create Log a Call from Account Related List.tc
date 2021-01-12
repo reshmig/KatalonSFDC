@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC13_To Verify user is able to create Log a Call from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5a23190-6f09-4663-b631-c709795443e9</testCaseGuid>
+</TestCaseEntity>

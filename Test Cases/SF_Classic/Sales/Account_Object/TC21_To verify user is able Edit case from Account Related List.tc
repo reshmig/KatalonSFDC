@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_To verify user is able Edit case from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>20ef0025-cb0d-4bb4-9efc-a6a5659f5fa1</testCaseGuid>
+</TestCaseEntity>

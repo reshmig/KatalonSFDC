@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC26_To verify user is able to create Account on Lead Conversion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eeeac35f-a786-4b55-bc27-c19275d32834</testCaseGuid>
+</TestCaseEntity>

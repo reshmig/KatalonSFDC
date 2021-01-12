@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_To verify user is able create New Contact from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>559733d0-1822-404f-b005-295ca45264dd</testCaseGuid>
+</TestCaseEntity>

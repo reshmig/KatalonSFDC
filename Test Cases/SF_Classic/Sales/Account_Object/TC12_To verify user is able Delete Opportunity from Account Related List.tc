@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC12_To verify user is able Delete Opportunity from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e77607c-48c5-45a0-8d74-024a1b11c6e1</testCaseGuid>
+</TestCaseEntity>

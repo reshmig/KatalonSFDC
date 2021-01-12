@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_To Verify that the user is able to create Account from Account home page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfa81316-eae3-429a-b3c8-82f5ea0cda1d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_To verify user is able Edit Contact from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c277561f-3caa-4978-8778-3c29697325f4</testCaseGuid>
+</TestCaseEntity>

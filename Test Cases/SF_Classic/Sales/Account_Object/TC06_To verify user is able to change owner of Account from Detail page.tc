@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC06_To verify user is able to change owner of Account from Detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>445c41be-e979-4a68-a8a8-6763babad9c7</testCaseGuid>
+</TestCaseEntity>

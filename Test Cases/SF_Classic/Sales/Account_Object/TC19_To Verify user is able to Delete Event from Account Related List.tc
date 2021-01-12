@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC19_To Verify user is able to Delete Event from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>54aa99fb-8e79-479c-bd9b-32c3a00a9748</testCaseGuid>
+</TestCaseEntity>

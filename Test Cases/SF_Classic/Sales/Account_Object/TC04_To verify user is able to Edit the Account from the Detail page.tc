@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_To verify user is able to Edit the Account from the Detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>967dd9e9-ac40-45ec-b380-08036a5f589e</testCaseGuid>
+</TestCaseEntity>

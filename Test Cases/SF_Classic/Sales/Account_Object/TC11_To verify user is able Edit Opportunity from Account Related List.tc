@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11_To verify user is able Edit Opportunity from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab8c726f-db84-4209-b071-53937605219f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC17_To Verify user is able to create new Event from Account Related List</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>46060cea-e15b-4c7e-bc08-a19ed6723bf0</testCaseGuid>
+</TestCaseEntity>
