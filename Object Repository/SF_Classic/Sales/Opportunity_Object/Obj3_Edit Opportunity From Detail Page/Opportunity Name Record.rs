@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Opportunity Name Element</name>
+   <name>Opportunity Name Record</name>
    <tag></tag>
-   <elementGuidId>a1b9007a-30d9-4d79-91fc-c15901cf80e4</elementGuidId>
+   <elementGuidId>d4ac8553-742a-42f4-8c14-3c9026777532</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[contains(text(),'Steve')])[2]</value>
+         <value>(//a//span[contains(text(),'Rocky')])[2]</value>
       </entry>
       <entry>
          <key>BASIC</key>

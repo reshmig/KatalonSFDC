@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1_Create Opportunity from Opportunity Home Page</name>
+   <name>TC3_Edit Opportunity From Detail Page</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>f2654dcb-dcb0-4acc-9f26-a826e950626b</testCaseGuid>
+   <testCaseGuid>7c23c58b-ddd5-4e9e-b957-617d40b9f3d4</testCaseGuid>
 </TestCaseEntity>
