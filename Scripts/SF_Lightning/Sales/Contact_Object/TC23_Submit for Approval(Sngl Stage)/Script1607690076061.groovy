@@ -38,7 +38,7 @@ WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Objec
     'firststage')
 
 WebUI.setText(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/Phone'), 
-    '9876543321')
+    '(987) 654-3321')
 
 WebUI.click(findTestObject('Object Repository/SF_Lightning/Sales/Contact_Object/TC21_Contact_Searchlistviews/Page_New Contact  Salesforce/span_Save'))
 
