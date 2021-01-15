@@ -25,8 +25,12 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj01_Create Opportunity From Opportunity Home Page/Opportunity_New tab'))
 
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj01_Create Opportunity From Opportunity Home Page/Opportunity Name'))
+
+WebUI.clearText(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj01_Create Opportunity From Opportunity Home Page/Opportunity Name'))
+
 WebUI.sendKeys(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj01_Create Opportunity From Opportunity Home Page/Opportunity Name'), 
-    'Adam')
+    'Robert')
 
 WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj01_Create Opportunity From Opportunity Home Page/Opportunity Type'))
 
@@ -57,7 +61,7 @@ WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj01_Create Opp
 WebUI.selectOptionByLabel(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj01_Create Opportunity From Opportunity Home Page/Opportunity View'), 
     'Recently Viewed Opportunities', false)
 
-WebUI.verifyTextPresent('Adam', false)
+WebUI.verifyTextPresent('Robert', false)
 
 WebUI.closeBrowser()
 
