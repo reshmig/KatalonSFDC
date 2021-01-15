@@ -18,17 +18,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj4_Delete Opportunity From List View/Opportunity tab'))
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj5_Delete Opportunity From Detail Page/Opportunity tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj4_Delete Opportunity From List View/Go'))
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj5_Delete Opportunity From Detail Page/Go'))
 
 WebUI.delay(3)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj4_Delete Opportunity From List View/Delete tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj5_Delete Opportunity From Detail Page/Opportunity Name Record'))
+
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj5_Delete Opportunity From Detail Page/Delete tab'))
 
 WebUI.acceptAlert()
 
-WebUI.verifyTextNotPresent('Ricky', false)
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj5_Delete Opportunity From Detail Page/Go'))
+
+WebUI.verifyTextNotPresent('Allan Smith', false)
 
 WebUI.closeBrowser()
 
