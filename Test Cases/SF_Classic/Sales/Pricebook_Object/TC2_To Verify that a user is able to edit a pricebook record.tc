@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC2_To Verify that a user is able to edit a pricebook record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b17e3ae6-3da9-4744-ad91-36547d80dea2</testCaseGuid>
+</TestCaseEntity>
