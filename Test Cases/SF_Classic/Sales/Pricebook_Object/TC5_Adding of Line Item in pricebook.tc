@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC3_To verify that a user is able to clone a pricebook record</name>
+   <name>TC5_Adding of Line Item in pricebook</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3ce8583e-a6ab-49a1-b7c6-98907bce7c12</testCaseGuid>
+   <testCaseGuid>a783cb34-92fe-4d25-a7f8-6a3ca05901d0</testCaseGuid>
 </TestCaseEntity>

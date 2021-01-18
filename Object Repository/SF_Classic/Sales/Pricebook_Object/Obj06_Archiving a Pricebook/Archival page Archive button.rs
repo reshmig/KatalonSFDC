@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Record link</name>
+   <name>Archival page Archive button</name>
    <tag></tag>
-   <elementGuidId>5b5743ef-0fa3-4dd8-9aba-af3fedfc1c10</elementGuidId>
+   <elementGuidId>8c4f8a44-149e-487b-a56a-165d5db1a799</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),&quot;EDITED USING KATALON&quot;)]</value>
+         <value>//input[@name='thePage:j_id0:j_id8:thePageBlock:pageBlockButtons:submit']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

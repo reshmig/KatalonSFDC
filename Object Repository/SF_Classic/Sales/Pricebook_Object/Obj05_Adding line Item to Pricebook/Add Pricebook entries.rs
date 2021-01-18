@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Record link</name>
+   <name>Add Pricebook entries</name>
    <tag></tag>
-   <elementGuidId>5b5743ef-0fa3-4dd8-9aba-af3fedfc1c10</elementGuidId>
+   <elementGuidId>d1830b71-80fb-4201-8a9a-7f5f119c19db</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),&quot;EDITED USING KATALON&quot;)]</value>
+         <value>//input[@name='add']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

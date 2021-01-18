@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Record link</name>
+   <name>List Price Field</name>
    <tag></tag>
-   <elementGuidId>5b5743ef-0fa3-4dd8-9aba-af3fedfc1c10</elementGuidId>
+   <elementGuidId>2057f3b5-af9c-40a4-801a-c63aebb313ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),&quot;EDITED USING KATALON&quot;)]</value>
+         <value>//input[@title='List Price 1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

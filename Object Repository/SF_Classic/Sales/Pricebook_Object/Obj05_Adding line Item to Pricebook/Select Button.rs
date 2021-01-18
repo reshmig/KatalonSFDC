@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Record link</name>
+   <name>Select Button</name>
    <tag></tag>
-   <elementGuidId>5b5743ef-0fa3-4dd8-9aba-af3fedfc1c10</elementGuidId>
+   <elementGuidId>81c55ff1-8ba7-43c2-b09d-d7e1034c1760</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),&quot;EDITED USING KATALON&quot;)]</value>
+         <value>//input[@title='Select']
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

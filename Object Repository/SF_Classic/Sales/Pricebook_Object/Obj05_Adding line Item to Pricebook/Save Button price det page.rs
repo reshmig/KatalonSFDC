@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Record link</name>
+   <name>Save Button price det page</name>
    <tag></tag>
-   <elementGuidId>5b5743ef-0fa3-4dd8-9aba-af3fedfc1c10</elementGuidId>
+   <elementGuidId>d7b4af2f-e655-47eb-b5e0-50bf236c11c4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),&quot;EDITED USING KATALON&quot;)]</value>
+         <value>//input[@name='save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
