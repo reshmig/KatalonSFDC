@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7_Add Product to Opportunity for Existing Price Book</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18b3c926-dc97-45aa-9fde-5e5184cb0c11</testCaseGuid>
+</TestCaseEntity>
