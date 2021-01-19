@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC6_Archiving a pricebook</name>
+   <name>TC02_Editing a Pricebook</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cb03a1dd-a376-4cdd-bf8d-e3a77b0f89c7</testCaseGuid>
+   <testCaseGuid>b17e3ae6-3da9-4744-ad91-36547d80dea2</testCaseGuid>
 </TestCaseEntity>

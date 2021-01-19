@@ -21,20 +21,11 @@ WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Crea
 
 WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj03_Clone a Pricebook/Record link'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj03_Clone a Pricebook/Clone Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj08_Giving Std price to line item/Edit All button Pricebook Line Item'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj03_Clone a Pricebook/Name Field Clone'), '"CLONED USING KATALON"')
+WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj08_Giving Std price to line item/Use Std Price Button'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj03_Clone a Pricebook/Desc Field Clone'), '" CLONE  VW223!@#$%^&"')
-
-WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Create new Pricebook/Pricebook selection from existing'), 
-    '01s5g000004AM9N', false)
-
-WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj03_Clone a Pricebook/Save Button Clone page'))
-
-WebUI.delay(5)
-
-WebUI.verifyTextPresent('CLONED USING KATALON', false)
+WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj08_Giving Std price to line item/Save Button Edit product page'))
 
 WebUI.closeBrowser()
 

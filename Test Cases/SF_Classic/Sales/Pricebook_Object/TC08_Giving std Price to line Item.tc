@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC2_Editing a Pricebook</name>
+   <name>TC08_Giving std Price to line Item</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b17e3ae6-3da9-4744-ad91-36547d80dea2</testCaseGuid>
+   <testCaseGuid>43f0ea68-7a7c-4f98-8a3b-4f6e113ac082</testCaseGuid>
 </TestCaseEntity>

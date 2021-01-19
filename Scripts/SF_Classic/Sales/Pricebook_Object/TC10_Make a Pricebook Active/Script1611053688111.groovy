@@ -19,22 +19,13 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Create new Pricebook/Pricebook Tab Click'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Create new Pricebook/New Button Price Book Home Page'))
+WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj02_Edit a Pricebook/Price Book Record'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Create new Pricebook/Name field on Creation page'), 
-    'TEST SR  KAT123')
+WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj02_Edit a Pricebook/Edit Button on Record detail page'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Create new Pricebook/Description Field on Creation Page'), 
-    '" ST TEST THIS RECORD HAS BEEN CREATED USING KATALON"')
+WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj10_Making PB active/Active check box'))
 
-WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Create new Pricebook/Pricebook selection from existing'), 
-    '01s5g000001tvCf', false)
+WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj10_Making PB active/Save Button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Pricebook_Object/Obj01_Create new Pricebook/Save Button on Creation Page'))
-
-WebUI.delay(5)
-
-WebUI.verifyTextPresent('TEST SR  KAT123', false)
-
-WebUI.closeBrowser()
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 

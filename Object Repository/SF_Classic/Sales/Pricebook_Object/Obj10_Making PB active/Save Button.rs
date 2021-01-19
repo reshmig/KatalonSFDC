@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Price Book Record</name>
+   <name>Save Button</name>
    <tag></tag>
-   <elementGuidId>e87af293-2ab2-453b-918e-e9fc89d2239b</elementGuidId>
+   <elementGuidId>665a83d5-2e0d-488a-b6e3-28a8062a6722</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'&quot;CLONED USING KATALON&quot;')]
-</value>
+         <value>(//input[@name='save'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

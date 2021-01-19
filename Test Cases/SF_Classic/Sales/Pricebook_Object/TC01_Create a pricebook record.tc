@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>TEST OF PRICEBOOK CASES</description>
-   <name>TC1_Create a pricebook record</name>
+   <name>TC01_Create a pricebook record</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>015a7ea3-70b0-4526-816a-0106af27436d</testCaseGuid>

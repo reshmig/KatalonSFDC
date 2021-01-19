@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC7_Deleting a Pricebook</name>
+   <name>TC04_ Removal of line item from pricebook</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b2757ab0-be1d-4a9d-ab67-98601c839361</testCaseGuid>
+   <testCaseGuid>2a267a48-0644-4421-a67b-c6ec6f2f68c3</testCaseGuid>
 </TestCaseEntity>

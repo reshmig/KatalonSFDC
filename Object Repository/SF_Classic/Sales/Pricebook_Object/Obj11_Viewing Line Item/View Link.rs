@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Price Book Record</name>
+   <name>View Link</name>
    <tag></tag>
-   <elementGuidId>e87af293-2ab2-453b-918e-e9fc89d2239b</elementGuidId>
+   <elementGuidId>8726366c-f374-4281-a7f0-884654dc7599</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'&quot;CLONED USING KATALON&quot;')]
-</value>
+         <value>//a[@title='View - Record 10 - GenWatt Propane 1500kW']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

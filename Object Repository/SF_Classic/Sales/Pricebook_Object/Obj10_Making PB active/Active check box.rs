@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Price Book Record</name>
+   <name>Active check box</name>
    <tag></tag>
-   <elementGuidId>e87af293-2ab2-453b-918e-e9fc89d2239b</elementGuidId>
+   <elementGuidId>9748945f-871f-4a36-8df2-9bd7f32d9f57</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'&quot;CLONED USING KATALON&quot;')]
-</value>
+         <value>//input[@name='IsActive']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
