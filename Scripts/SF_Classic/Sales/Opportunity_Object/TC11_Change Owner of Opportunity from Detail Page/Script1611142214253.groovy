@@ -9,36 +9,31 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj08_Edit Product from Existing Product Action Menu drop down/Opportunity tab'))
 
-WebUI.setText(findTestObject('SF_Lightning/Login/username'), GlobalVariable.username)
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj08_Edit Product from Existing Product Action Menu drop down/Go'))
 
-WebUI.setText(findTestObject('SF_Lightning/Login/password'), GlobalVariable.password)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Lightning/Login/login'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj08_Edit Product from Existing Product Action Menu drop down/Opportunity Name Record'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj11_Change Owner of Opportunity from Detail Page/Change link'))
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Login sales/Click close on pop up'), FailureHandling.OPTIONAL)
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj11_Change Owner of Opportunity from Detail Page/Owner'), 
+    'James')
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Login sales/Click on App menu'))
+WebUI.click(findTestObject('SF_Classic/Sales/Opportunity_Object/Obj11_Change Owner of Opportunity from Detail Page/Save button'))
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Login sales/Click on App launcher'))
+WebUI.verifyTextPresent('James Clifton', false)
 
-WebUI.delay(5)
-
-WebUI.sendKeys(findTestObject('SF_Classic/Login sales/Click on qick find box'), Keys.chord('Sales', Keys.ENTER))
-
-WebUI.delay(5)
-
-WebUI.enhancedClick(findTestObject('SF_Classic/Login sales/Click on Sales'))
+WebUI.closeBrowser()
 
