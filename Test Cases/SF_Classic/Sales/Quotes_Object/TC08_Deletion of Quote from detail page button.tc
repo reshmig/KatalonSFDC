@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Deletion of Quote from detail page button</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf0640aa-36b4-4dfa-919a-6f6444f40207</testCaseGuid>
+</TestCaseEntity>
