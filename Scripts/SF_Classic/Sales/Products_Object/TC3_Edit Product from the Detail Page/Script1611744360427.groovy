@@ -28,3 +28,20 @@ WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj03_Edit Product 
 
 WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj03_Edit Product from the Detail Page/Edit button'))
 
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Name'))
+
+WebUI.clearText(findTestObject('SF_Classic/Sales/Products_Object/Obj03_Edit Product from the Detail Page/Product Name'))
+
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Name'), 
+    'QA Katalon1Edit')
+
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Save button'))
+
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Products Tab'))
+
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Views Go'))
+
+WebUI.verifyTextPresent('QA Katalon1Edit', false)
+
+WebUI.closeBrowser()
+
