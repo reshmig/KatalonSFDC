@@ -19,13 +19,13 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/TC03_Editing a quote from Quote record detail pageb/Quote Tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Quote Rec'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Quote Rec'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC06_Clicking of Start Sync Button/Start Sync Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj06_Clicking of Start Sync Button/Start Sync Button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC06_Clicking of Start Sync Button/Pop Window Sync Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj06_Clicking of Start Sync Button/Pop Window Sync Button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC06_Clicking of Start Sync Button/Pop Up Window Done Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj06_Clicking of Start Sync Button/Pop Up Window Done Button'))
 

@@ -19,11 +19,17 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Tab'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Assets'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Quote Rec'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj03_Edit Asset Record from List View/View Go Button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj08_Deletion of Quote From Detail Page/Delete Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj03_Edit Asset Record from List View/Edit Link in Record List page'))
 
-WebUI.acceptAlert()
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Name Field'), 'Edited Test by KATALON ')
+
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Serial Number Field'), '3BCUEO90123ER-56894A')
+
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Save Button'))
+
+WebUI.closeBrowser()
 

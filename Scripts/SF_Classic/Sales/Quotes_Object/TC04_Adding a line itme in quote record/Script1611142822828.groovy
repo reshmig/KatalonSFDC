@@ -19,23 +19,23 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/TC03_Editing a quote from Quote record detail pageb/Quote Tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Quote Rec'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Quote Rec'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Add Line Item button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Add Line Item button'))
 
-not_run: WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/PB Picklist'), 
+not_run: WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/PB Picklist'), 
     '01s5g000001tvCe', false)
 
-not_run: WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Save Button Pricebook Selection page'))
+not_run: WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Save Button Pricebook Selection page'))
 
-WebUI.check(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Checkbox'))
+WebUI.check(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Checkbox'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Select Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Select Button'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Quantity Field'), 
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Quantity Field'), 
     '25')
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Save button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Save button'))
 

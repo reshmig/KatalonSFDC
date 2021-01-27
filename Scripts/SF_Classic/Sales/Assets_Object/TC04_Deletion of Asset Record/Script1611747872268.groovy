@@ -19,11 +19,11 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Tab'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Assets'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Quote Rec'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Asset Record'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj08_Deletion of Quote From Detail Page/Delete Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj04_Deletion of Asset Record/Delete Button'))
 
 WebUI.acceptAlert()
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01_CreateAsset</name>
+   <name>TC04_Deletion of Asset Record</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d7a61da7-bc4e-402b-aa91-06cf1b978f35</testCaseGuid>
+   <testCaseGuid>ccf50898-4a8d-427a-becb-6cd020fa5277</testCaseGuid>
 </TestCaseEntity>

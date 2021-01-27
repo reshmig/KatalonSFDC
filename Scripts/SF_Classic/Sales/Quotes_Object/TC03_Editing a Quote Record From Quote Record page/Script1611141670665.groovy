@@ -17,16 +17,16 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/TC03_Editing a quote from Quote record detail pageb/Quote Tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC03_Editing a quote from Quote record detail pageb/Quote Record Link'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Record Link'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC03_Editing a quote from Quote record detail pageb/Edit Button Quote Record Detail Page'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Edit Button Quote Record Detail Page'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation page Name field'), 'Edited using directly from Quote record page ')
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation page Name field'), 'Edited using directly from Quote record page ')
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation Page Description Field'), 
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation Page Description Field'), 
     'Edited using Katalon from Quote det page ')
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC02_Editing a quote from Opportunity record detail page/Save Button Quote Detail Page'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj02_Editing a quote from Opportunity record detail page/Save Button Quote Detail Page'))
 

@@ -17,16 +17,16 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Opportunities tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Opportunities tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Opp record'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Opp record'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC02_Editing a quote from Opportunity record detail page/Edit Link Quote Opp Detail Page'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj02_Editing a quote from Opportunity record detail page/Edit Link Quote Opp Detail Page'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation page Name field'), 'Edited using Katalon ')
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation page Name field'), 'Edited using Katalon ')
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation Page Description Field'), 
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation Page Description Field'), 
     'Edited using Katalon')
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC02_Editing a quote from Opportunity record detail page/Save Button Quote Detail Page'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj02_Editing a quote from Opportunity record detail page/Save Button Quote Detail Page'))
 

@@ -17,18 +17,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Opportunities tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Opportunities tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Opp record'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Opp record'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Detail Page New quote Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Detail Page New quote Button'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation page Name field'), 'Test SR Quote from Opp1234')
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation page Name field'), 'Test SR Quote from Opp1234')
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation Page Description Field'), 
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation Page Description Field'), 
     'This record s created using Katalon')
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation Page Tax Field'), '550')
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation Page Tax Field'), '550')
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC01_Creation of Quote/Quote Creation Page Save button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj01_Creation of Quote/Quote Creation Page Save button'))
 

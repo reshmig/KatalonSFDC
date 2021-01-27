@@ -19,17 +19,17 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/TC03_Editing a quote from Quote record detail pageb/Quote Tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC04_Adding of line items in quote record/Quote Rec'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Quote Rec'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC05_Edit Line Items in Quote/Edit Link Line items'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj05_Edit Line Items in Quote/Edit Link Line items'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC05_Edit Line Items in Quote/Sales Price Field in edit page'), 
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj05_Edit Line Items in Quote/Sales Price Field in edit page'), 
     '999')
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/TC05_Edit Line Items in Quote/Quantity field in edit page'), 
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Quotes_Object/Obj05_Edit Line Items in Quote/Quantity field in edit page'), 
     '648')
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/TC05_Edit Line Items in Quote/Save Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj05_Edit Line Items in Quote/Save Button'))
 

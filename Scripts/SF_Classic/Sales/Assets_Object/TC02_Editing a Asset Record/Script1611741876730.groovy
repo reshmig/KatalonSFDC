@@ -19,11 +19,21 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Quotes_Object/Obj03_Editing a quote from Quote record detail pageb/Quote Tab'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Assets'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj04_Adding of line items in quote record/Quote Rec'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Asset Record'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Quotes_Object/Obj08_Deletion of Quote From Detail Page/Delete Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Edit button'))
 
-WebUI.acceptAlert()
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Name Field'), 'Edited using Katalon')
+
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Serial Number Field'), '3AEO90123ER-5604A')
+
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj02_Edit Asset record/Save Button'))
+
+WebUI.delay(10)
+
+WebUI.verifyTextPresent('Edited using Katalon', false)
+
+WebUI.closeBrowser()
 

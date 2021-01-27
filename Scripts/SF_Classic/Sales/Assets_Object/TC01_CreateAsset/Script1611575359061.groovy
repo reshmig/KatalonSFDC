@@ -43,13 +43,13 @@ WebUI.delay(5)
 
 WebUI.switchToWindowTitle('Asset Edit: New Asset ~ Salesforce - Developer Edition')
 
-WebUI.setText(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/name'), 'KatalonAsset')
+WebUI.setText(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/name'), 'Test SR Check 123')
 
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/save'))
 
 WebUI.delay(3)
 
-WebUI.verifyTextPresent('KatalonAsset', false)
+WebUI.verifyTextPresent('Test SR Check 123', false)
 
 WebUI.closeBrowser()
 
