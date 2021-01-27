@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Products Tab</name>
+   <name>Product Name</name>
    <tag></tag>
-   <elementGuidId>37dbd545-b7aa-4fc2-bb89-4ba6905d84a1</elementGuidId>
+   <elementGuidId>5a8cce49-a9ee-448c-b5c4-302633e40599</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//a[contains(text(),'Products')])[1]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id='Name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

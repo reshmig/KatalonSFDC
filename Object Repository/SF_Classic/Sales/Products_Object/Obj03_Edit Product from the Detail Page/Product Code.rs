@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product Views Go</name>
+   <name>Product Code</name>
    <tag></tag>
-   <elementGuidId>2dc9690e-37ac-448a-b7ef-04b10dbc3187</elementGuidId>
+   <elementGuidId>051d845a-3678-4d6b-b8de-28a1c5d7faca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@name='go'])[3]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//input[@id='ProductCode']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>new button</name>
+   <name>Edit button</name>
    <tag></tag>
-   <elementGuidId>88c47b33-76b1-4156-8537-27188af8ee95</elementGuidId>
+   <elementGuidId>73dc1c70-e2c5-4b4b-9f36-94a47ba0ef43</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@name='new']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='edit'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
