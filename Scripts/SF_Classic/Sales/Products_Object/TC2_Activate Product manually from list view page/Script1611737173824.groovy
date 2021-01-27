@@ -22,27 +22,9 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Products Tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/new button'))
-
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Name'))
-
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Name'), 
-    'QA Katalon1')
-
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Code'))
-
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Code'), 
-    '001')
-
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Active Checkbox'))
-
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Save button'))
-
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Products Tab'))
-
 WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj01_Create Product manually from Home Page/Product Views Go'))
 
-WebUI.verifyTextPresent('QA Katalon1', false)
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj02_Activate Product manually from list view page/Activate'))
 
 WebUI.closeBrowser()
 
