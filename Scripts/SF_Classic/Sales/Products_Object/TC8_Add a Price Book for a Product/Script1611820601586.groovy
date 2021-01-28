@@ -26,28 +26,23 @@ WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price
 
 WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Product name link'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Add Standard Price'))
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj08_Add a Price Book for a Product/Add to Price Book button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Standard Price text box'))
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj08_Add a Price Book for a Product/Price Book name checkbox'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Standard Price text box'), 
-    '20')
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj08_Add a Price Book for a Product/Select button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Save button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj08_Add a Price Book for a Product/List Price text field'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Add to Price Book button'))
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Products_Object/Obj08_Add a Price Book for a Product/List Price text field'), 
+    '30')
 
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Price Book name checkbox'))
+WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj08_Add a Price Book for a Product/Save button for Add List Price'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Select button'))
-
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/List Price text field'))
-
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/List Price text field'), 
-    '10')
-
-WebUI.click(findTestObject('SF_Classic/Sales/Products_Object/Obj07_Add one Price Book for the Product for the first time/Save button for Add List Price'))
+WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('SF_Classic/Sales/Products_Object/Obj08_Add a Price Book for a Product/Price Book Name value'), 
     2)
+
+WebUI.closeBrowser()
 
