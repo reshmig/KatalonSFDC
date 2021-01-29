@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_Editing of Task in asset record from detail page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08c5711c-2dd2-4967-937b-0c2c4f4d6381</testCaseGuid>
+</TestCaseEntity>

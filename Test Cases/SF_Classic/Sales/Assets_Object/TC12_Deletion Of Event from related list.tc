@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03_Editing a test case from List View</name>
+   <name>TC12_Deletion Of Event from related list</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>8a0253cc-2d9b-4f60-89d9-64c80d9f0b34</testCaseGuid>
+   <testCaseGuid>8ff38c05-7ef9-44e4-b397-3073a103a357</testCaseGuid>
 </TestCaseEntity>
