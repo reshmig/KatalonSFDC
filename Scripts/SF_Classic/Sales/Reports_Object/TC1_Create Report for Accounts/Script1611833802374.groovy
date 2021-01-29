@@ -26,7 +26,7 @@ WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report 
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Accounts_and_Contacts Maximize button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Contacts and Accounts Report Type'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Accounts Report Type'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Create button'))
 
