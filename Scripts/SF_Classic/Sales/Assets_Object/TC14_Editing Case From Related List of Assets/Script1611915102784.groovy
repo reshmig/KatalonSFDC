@@ -23,10 +23,10 @@ WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Ass
 
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj06_Cloning a Asset/Asset Record'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/New Case Button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj14_Editing of the case from related list of Assets/Edit Link'))
 
 WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Subject Field'), 
-    'Case from Asset Related List Katalon')
+    'Edited Case from Asset Related List Katalon')
 
 WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Status Field'), 
     'Working', false)
@@ -39,7 +39,7 @@ WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of 
 
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Save Button'))
 
-WebUI.verifyTextPresent('Case from Asset Related List Katalon', false)
+WebUI.verifyTextPresent('Edited Case from Asset Related List Katalon', false)
 
 WebUI.closeBrowser()
 

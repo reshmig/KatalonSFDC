@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Status Field</name>
+   <name>Edit Link</name>
    <tag></tag>
-   <elementGuidId>c1ead61a-52c4-4022-85e4-37f16ce8ee1d</elementGuidId>
+   <elementGuidId>6afb2d37-9209-4609-96fa-520519edda82</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[2]/form[1]/div[1]/div[2]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/select[1]</value>
+         <value>//a[@title='Edit - Record 1 - Case from Asset Related List Katalon']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

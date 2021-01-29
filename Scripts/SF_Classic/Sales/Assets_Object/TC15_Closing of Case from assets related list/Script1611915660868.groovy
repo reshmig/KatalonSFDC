@@ -19,27 +19,23 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Assets'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Assets'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj06_Cloning a Asset/Asset Record'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/New Case Button'))
-
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Subject Field'), 
-    'Case from Asset Related List Katalon')
+WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj15_Closing of case from related list of Assets/Close Link'))
 
 WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Status Field'), 
-    'Working', false)
+    'Closed', false)
 
-WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Case Origin Field'), 
-    'Phone', false)
-
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Description Field'), 
-    'Created using KATALON')
+WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Assets_Object/Obj15_Closing of case from related list of Assets/Case Reason'), 
+    'Performance', false)
 
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Save Button'))
 
-WebUI.verifyTextPresent('Case from Asset Related List Katalon', false)
+WebUI.delay(5)
+
+WebUI.verifyTextNotPresent('Edited Case from Asset Related List Katalon', false)
 
 WebUI.closeBrowser()
 
