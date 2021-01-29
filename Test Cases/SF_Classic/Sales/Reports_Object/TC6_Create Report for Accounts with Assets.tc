@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC6_Create Report for Accounts with Assets</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce4d927c-9fb9-4a4c-aa22-5eab3b2e26a6</testCaseGuid>
+</TestCaseEntity>
