@@ -3,7 +3,7 @@
    <description></description>
    <name>Verify Report name</name>
    <tag></tag>
-   <elementGuidId>f2f4139f-deb3-42bd-bfd8-aad6ff181abe</elementGuidId>
+   <elementGuidId>2a1d886a-defc-4db8-a402-1e91b879eecd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'SH Katalon Accounts Reports')]</value>
+         <value>//span[contains(text(),'SH Account with Account Teams Report')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Verify Report name</name>
+   <name>Accounts_and_Contacts Maximize button</name>
    <tag></tag>
-   <elementGuidId>f2f4139f-deb3-42bd-bfd8-aad6ff181abe</elementGuidId>
+   <elementGuidId>f58aa07f-8613-4965-aca2-bfd32cc73638</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'SH Katalon Accounts Reports')]</value>
+         <value>(//img[@class='x-tree-ec-icon x-tree-elbow-plus'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Verify Report name</name>
+   <name>Report Unique Name</name>
    <tag></tag>
-   <elementGuidId>f2f4139f-deb3-42bd-bfd8-aad6ff181abe</elementGuidId>
+   <elementGuidId>6bca5196-47e4-4922-bae2-f3b1e437ba70</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'SH Katalon Accounts Reports')]</value>
+         <value>//input[@id='saveReportDlg_DeveloperName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

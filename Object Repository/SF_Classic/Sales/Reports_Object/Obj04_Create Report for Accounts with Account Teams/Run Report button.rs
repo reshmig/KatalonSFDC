@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Verify Report name</name>
+   <name>Run Report button</name>
    <tag></tag>
-   <elementGuidId>f2f4139f-deb3-42bd-bfd8-aad6ff181abe</elementGuidId>
+   <elementGuidId>1e027a67-ec75-4517-8a87-05098823e42f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'SH Katalon Accounts Reports')]</value>
+         <value>//button[contains(text(),'Run Report')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

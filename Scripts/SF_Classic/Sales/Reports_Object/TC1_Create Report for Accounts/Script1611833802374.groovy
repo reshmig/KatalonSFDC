@@ -20,36 +20,35 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Reports tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Reports tab'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/New Report button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/New Report button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Accounts_and_Contacts Maximize button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Accounts_and_Contacts Maximize button'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Accounts Report Type'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Create button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Create button'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/From Date icon'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/From Date icon'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Date Picker'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Date Picker'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Report Save button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Report Save button'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Report Name'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Report Name'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Report Name'), 
-    'SH Katalon Accounts Reports')
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Report Name'), 'SH Katalon Accounts Reports')
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Report Unique Name'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Report Unique Name'))
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Save Report'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Save Report'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj02_Create Report for Accounts and Contacts/Run Report button'))
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Run Report button'))
 
 WebUI.delay(2)
 
