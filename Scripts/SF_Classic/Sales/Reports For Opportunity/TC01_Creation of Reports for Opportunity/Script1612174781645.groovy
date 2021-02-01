@@ -15,27 +15,3 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.maximizeWindow()
-
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Assets'))
-
-WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj06_Cloning a Asset/Asset Record'))
-
-WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj15_Closing of case from related list of Assets/Close Link'))
-
-WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Status Field'), 
-    'Closed', false)
-
-WebUI.selectOptionByValue(findTestObject('SF_Classic/Sales/Assets_Object/Obj15_Closing of case from related list of Assets/Case Reason'), 
-    'Performance', false)
-
-WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj13_Creation of New Case From related List/Save Button'))
-
-WebUI.delay(5)
-
-WebUI.verifyTextPresent('Closed', false)
-
-WebUI.closeBrowser()
-
