@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC21_Delete the Lead from the list view</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44d1dee9-3d2a-494a-886e-9b4c61cf9941</testCaseGuid>
+</TestCaseEntity>
