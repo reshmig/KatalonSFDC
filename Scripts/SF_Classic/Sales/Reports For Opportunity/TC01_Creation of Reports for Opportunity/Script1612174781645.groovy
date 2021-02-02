@@ -15,3 +15,36 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.maximizeWindow()
+
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Reports Tab'))
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/New Reports Button'))
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Opportunities'))
+
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Opportunities With Products'))
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Create Button'))
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Save Button'))
+
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Name'), 
+    'Opp with Products SR Katalon111123')
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Report Unique Name'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Save and Run Report'))
+
+WebUI.delay(2)
+
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Reports tab'))
+
+WebUI.verifyTextPresent('Opp with Products SR Katalon111123', false)
+
+WebUI.closeBrowser()
+
