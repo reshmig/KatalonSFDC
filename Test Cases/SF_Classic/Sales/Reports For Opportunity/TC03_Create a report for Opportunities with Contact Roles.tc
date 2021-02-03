@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_Create a report for Opportunities with Contact Roles</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>24c8fa3a-cfb1-4152-8fee-579fe94af649</testCaseGuid>
+</TestCaseEntity>
