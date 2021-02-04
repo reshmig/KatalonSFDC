@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Opportunities</name>
+   <name>GenWatt Diesel 1000kW</name>
    <tag></tag>
-   <elementGuidId>fa526750-089f-4dc5-94d7-0c3ea09d906e</elementGuidId>
+   <elementGuidId>8542a2a4-59bd-4c6a-9f11-77cd29f51b7d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/div[2]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/div[1]/li[2]/div[1]/img[1]	</value>
+         <value>(//input[@name='lksrch'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

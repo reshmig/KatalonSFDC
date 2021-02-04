@@ -19,20 +19,24 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
+WebUI.delay(5)
+
 WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Reports Tab'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/New Reports Button'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Opportunities'))
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Opportunities With Products'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj08_Creation of reports for Opportunities Trends/Opportunkities Trend Link'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Create Button'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Save Button'))
 
+WebUI.delay(5)
+
 WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Name'), 
-    'Opp with Products SR Katalon1ABC1B')
+    'Opportunities trends 123')
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Uniq Name'))
 
@@ -44,7 +48,7 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Reports tab'))
 
-WebUI.verifyTextPresent('Opp with Products SR Katalon1ABC1B', false)
+WebUI.verifyTextPresent('Opportunities trends 123', false)
 
 WebUI.closeBrowser()
 

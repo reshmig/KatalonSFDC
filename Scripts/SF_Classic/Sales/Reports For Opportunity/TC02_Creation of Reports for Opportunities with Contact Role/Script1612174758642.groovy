@@ -19,21 +19,26 @@ WebUI.callTestCase(findTestCase('SF_Classic/Login sales'), [:], FailureHandling.
 
 WebUI.maximizeWindow()
 
+WebUI.delay(5)
+
 WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Reports Tab'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/New Reports Button'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Opportunities'))
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Opportunities With Products'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Opportunities link'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Create Button'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Save Button'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Report Name'), 'Opp with Products SR Katalon111123')
+WebUI.delay(5)
 
-WebUI.click(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Report Unique Name'))
+WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Name'), 
+    'Opportunities rec')
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Uniq Name'))
 
 WebUI.delay(3)
 
@@ -43,7 +48,7 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Reports tab'))
 
-WebUI.verifyTextPresent('Opp with Products SR Katalon111123', false)
+WebUI.verifyTextPresent('Opportunities rec', false)
 
 WebUI.closeBrowser()
 

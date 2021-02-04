@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Opportunities</name>
+   <name>Opportunities link</name>
    <tag></tag>
-   <elementGuidId>fa526750-089f-4dc5-94d7-0c3ea09d906e</elementGuidId>
+   <elementGuidId>197e833e-a8cd-413d-be57-f6340bb68475</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/div[2]/div[1]/div[2]/form[1]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/div[1]/li[2]/div[1]/img[1]	</value>
+         <value>(//span[contains(text(),'Opportunities')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
