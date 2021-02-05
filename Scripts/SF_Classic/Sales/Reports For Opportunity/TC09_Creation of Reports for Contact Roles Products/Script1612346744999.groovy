@@ -42,12 +42,16 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj09_Creation of Reports for Opportunities with Contact Roles Products/Search field'), 
     'GenWatt Diesel 1000kW')
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/search go'))
+
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj09_Creation of Reports for Opportunities with Contact Roles Products/GEN 10K'))
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Save Button'))
 
 WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Name'), 
-    ' Opp with prod and roles SR12345')
+    ' Opp with prod and roles SRAVCB')
 
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Account lookup'))
 
@@ -61,7 +65,7 @@ WebUI.delay(2)
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Reports tab'))
 
-WebUI.verifyTextPresent(' Opp with prod and roles SR12345', false)
+WebUI.verifyTextPresent(' Opp with prod and roles SRAVCB', false)
 
 WebUI.closeBrowser()
 

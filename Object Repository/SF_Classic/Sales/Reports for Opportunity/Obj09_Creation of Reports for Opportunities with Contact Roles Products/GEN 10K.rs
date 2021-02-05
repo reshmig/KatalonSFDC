@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Search field</name>
+   <name>GEN 10K</name>
    <tag></tag>
-   <elementGuidId>95b72462-d8eb-4768-b91c-baad14f7dc72</elementGuidId>
+   <elementGuidId>844eb715-74f8-4250-815c-ad1fc97a2d18</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@placeholder='Search...']</value>
+         <value>//a[contains(text(),'GenWatt Diesel 1000kW')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
