@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='lksrch'])</value>
+         <value>//input[@id='filterPanel_prod_lkp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

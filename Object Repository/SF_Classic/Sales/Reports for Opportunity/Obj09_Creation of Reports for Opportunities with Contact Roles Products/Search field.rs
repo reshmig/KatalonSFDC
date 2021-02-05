@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product Look up</name>
+   <name>Search field</name>
    <tag></tag>
-   <elementGuidId>7ffc59b9-0964-4e0e-a58f-4726954026d1</elementGuidId>
+   <elementGuidId>95b72462-d8eb-4768-b91c-baad14f7dc72</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@class='lookupIcon']</value>
+         <value>(//input[@name='lksrch'])[1]  </value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

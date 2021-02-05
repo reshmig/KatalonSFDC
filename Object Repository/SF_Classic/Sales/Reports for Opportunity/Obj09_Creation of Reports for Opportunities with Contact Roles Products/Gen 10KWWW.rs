@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product Look up</name>
+   <name>Gen 10KWWW</name>
    <tag></tag>
-   <elementGuidId>7ffc59b9-0964-4e0e-a58f-4726954026d1</elementGuidId>
+   <elementGuidId>476cb614-1077-4d00-bd01-429c7e9e1042</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@class='lookupIcon']</value>
+         <value>//a[contains(text(),'GenWatt Diesel 1000kW')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

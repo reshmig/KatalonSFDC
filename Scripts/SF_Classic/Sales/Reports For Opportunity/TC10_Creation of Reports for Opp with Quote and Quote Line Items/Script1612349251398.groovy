@@ -36,7 +36,7 @@ WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Crea
 WebUI.delay(5)
 
 WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Name'), 
-    'Opp with Quote and Quote Line items 123')
+    'Opp with Quote and Quote Line items ddd12345')
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Uniq Name'))
 
@@ -46,9 +46,9 @@ WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Crea
 
 WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Reports tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj09_Creation of Reports for Opportunities with Contact Roles Products/Reps Tabs Sel'))
 
-WebUI.verifyTextPresent('Opportunities trends 123', false)
+WebUI.verifyTextPresent('Opp with Quote and Quote Line items ddddd23', false)
 
 WebUI.closeBrowser()
 

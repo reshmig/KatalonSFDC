@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Product Look up</name>
+   <name>Reps Tabs Sel</name>
    <tag></tag>
-   <elementGuidId>7ffc59b9-0964-4e0e-a58f-4726954026d1</elementGuidId>
+   <elementGuidId>90fe1781-89e8-4d5a-9003-e46d01919d72</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@class='lookupIcon']</value>
+         <value>//a[@title='Reports Tab - Selected']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
