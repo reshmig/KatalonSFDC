@@ -46,14 +46,21 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/search go'))
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj09_Creation of Reports for Opportunities with Contact Roles Products/GEN 10K'))
+WebUI.switchToWindowTitle('Unsaved Report ~ Salesforce - Developer Edition')
+
+WebUI.setText(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj09_Creation of Reports for Opportunities with Contact Roles Products/GEN 10K'), 
+    'GenWatt Diesel 1000kW')
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Save Button'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Save Button'))
 
 WebUI.sendKeys(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Name'), 
-    ' Opp with prod and roles SRAVCB')
-
-WebUI.click(findTestObject('SF_Classic/Sales/Assets_Object/Obj01_CreateAsset/Account lookup'))
+    'Opp with prod and roles_Katalon')
 
 WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Creation of report for Opportunity with contact Roles/Rep Uniq Name'))
 
@@ -63,9 +70,9 @@ WebUI.click(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj02_ Crea
 
 WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports_Object/Obj01_Create Report for Accounts/Reports tab'))
+WebUI.enhancedClick(findTestObject('SF_Classic/Sales/Reports for Opportunity/Obj09_Creation of Reports for Opportunities with Contact Roles Products/Reps Tabs Sel'))
 
-WebUI.verifyTextPresent(' Opp with prod and roles SRAVCB', false)
+WebUI.verifyTextPresent('Opp with prod and roles_Katalon', false)
 
 WebUI.closeBrowser()
 
