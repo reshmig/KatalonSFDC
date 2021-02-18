@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>New Button</name>
+   <name>List View Button</name>
    <tag></tag>
-   <elementGuidId>5ff46af7-24f7-4be7-acda-fc1ca95104b2</elementGuidId>
+   <elementGuidId>453dca52-60c9-4a11-b757-db755b68d29c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='new']</value>
+         <value>//input[@title='Go!']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

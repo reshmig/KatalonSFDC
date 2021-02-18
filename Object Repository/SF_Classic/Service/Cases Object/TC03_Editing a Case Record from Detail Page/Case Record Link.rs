@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>New Button</name>
+   <name>Case Record Link</name>
    <tag></tag>
-   <elementGuidId>5ff46af7-24f7-4be7-acda-fc1ca95104b2</elementGuidId>
+   <elementGuidId>c4742fe7-2c51-4bb3-9264-634cb2bb37fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='new']</value>
+         <value>//a[contains(text(),'KATALON TEST SR 1234AVC')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>New Button</name>
+   <name>Delete Link List view</name>
    <tag></tag>
-   <elementGuidId>5ff46af7-24f7-4be7-acda-fc1ca95104b2</elementGuidId>
+   <elementGuidId>420cb2a2-8413-4dfd-ba05-ee73df6b7581</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='new']</value>
+         <value>(//span[contains(text(),'Del')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

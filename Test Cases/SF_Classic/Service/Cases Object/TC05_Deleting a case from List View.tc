@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Deleting a case from List View</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b37358f-5604-497b-a791-8b2614c4c2ad</testCaseGuid>
+</TestCaseEntity>

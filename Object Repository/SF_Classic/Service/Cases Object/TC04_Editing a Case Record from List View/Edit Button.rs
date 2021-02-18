@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>New Button</name>
+   <name>Edit Button</name>
    <tag></tag>
-   <elementGuidId>5ff46af7-24f7-4be7-acda-fc1ca95104b2</elementGuidId>
+   <elementGuidId>ee488abc-3e77-4573-b2a0-da47d7ec37d9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='new']</value>
+         <value>(//span[contains(text(),'Edit')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

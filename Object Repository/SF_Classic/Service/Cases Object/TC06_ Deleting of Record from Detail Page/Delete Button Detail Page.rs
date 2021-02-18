@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>New Button</name>
+   <name>Delete Button Detail Page</name>
    <tag></tag>
-   <elementGuidId>5ff46af7-24f7-4be7-acda-fc1ca95104b2</elementGuidId>
+   <elementGuidId>35e76587-e71c-4c03-92c8-d824eead087d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='new']</value>
+         <value>(//input[@title='Delete'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

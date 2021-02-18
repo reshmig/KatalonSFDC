@@ -17,7 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SF_Classic/Login Service'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.enhancedClick(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Cases Tab'))
+WebUI.maximizeWindow()
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Cases Tab'))
 
@@ -37,5 +37,5 @@ WebUI.sendKeys(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of 
 
 WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Save Button'))
 
-WebUI.verifyTextPresent('KATALON TEST SR 1234AVC', false)
+WebUI.verifyTextPresent('Error: Invalid Data.', false)
 

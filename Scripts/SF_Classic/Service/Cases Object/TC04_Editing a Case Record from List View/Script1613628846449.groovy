@@ -21,23 +21,17 @@ WebUI.maximizeWindow()
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Cases Tab'))
 
-WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/New Button'))
+WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC04_Editing a Case Record from List View/List View Button'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC04_Editing a Case Record from List View/Edit Button'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Contact Name Field'), 'Company DELL TECHNOLOGIES')
+WebUI.sendKeys(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Subject Field'), 'List view  Edited Record ')
 
-WebUI.selectOptionByValue(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Case Origin Field'), 'Web', 
-    false)
-
-WebUI.selectOptionByValue(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Case Reason Field'), 'Breakdown', 
-    false)
-
-WebUI.sendKeys(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Subject Field'), 'KATALON TEST SR 1234AVC')
-
-WebUI.sendKeys(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Description'), ' THIS CASE IS CREATED USING KATALON PLEASE DONT DELETE ')
+WebUI.sendKeys(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Description'), ' THIS CASE IS  EDITED FROM LIST VIEW  KATALON PLEASE DONT DELETE ')
 
 WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Save Button'))
 
-WebUI.verifyTextPresent('KATALON TEST SR 1234AVC', false)
+WebUI.delay(5)
+
+WebUI.verifyTextPresent('List view  Edited Record ', false)
 
