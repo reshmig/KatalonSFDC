@@ -25,13 +25,13 @@ WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a ca
 
 WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC03_Editing a Case Record from Detail Page/Details Link'))
 
-WebUI.clickImage(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Change Case Owner Link'))
+WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Change Case Owner Link'))
 
 WebUI.selectOptionByValue(findTestObject('SF_Classic/Service/Cases Object/TC08_ Assigning a case to a Queue/Case Owner Picklist'), 
-    'case_queue', false)
+    '005', false)
 
 WebUI.setText(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Change Owner Text Field'), 
-    'Test_Queues 02')
+    'James Clifton')
 
 WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Save Button'))
 

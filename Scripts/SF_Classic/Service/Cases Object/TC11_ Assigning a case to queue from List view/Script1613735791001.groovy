@@ -21,11 +21,11 @@ WebUI.maximizeWindow()
 
 WebUI.enhancedClick(findTestObject('SF_Classic/Service/Cases Object/TC01_Creation of Cases/Cases Tab'))
 
-WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Case rec 123'))
+WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC04_Editing a Case Record from List View/List View Button'))
 
-WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC03_Editing a Case Record from Detail Page/Details Link'))
+WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC11_ Assigning the case from List View/Checkbox for Case record'))
 
-WebUI.clickImage(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Change Case Owner Link'))
+WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC11_ Assigning the case from List View/Change Owner Button'))
 
 WebUI.selectOptionByValue(findTestObject('SF_Classic/Service/Cases Object/TC08_ Assigning a case to a Queue/Case Owner Picklist'), 
     'case_queue', false)
@@ -34,6 +34,4 @@ WebUI.setText(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a 
     'Test_Queues 02')
 
 WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Save Button'))
-
-WebUI.closeBrowser()
 

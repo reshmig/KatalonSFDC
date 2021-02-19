@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10_ Assigning a case to User from queue in det page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b73701cf-187e-41a9-bdb6-279656102711</testCaseGuid>
+</TestCaseEntity>
