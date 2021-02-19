@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Case rec 123</name>
+   <name>Save Button</name>
    <tag></tag>
-   <elementGuidId>f4ba953a-24bb-40af-b061-a79bdb157aec</elementGuidId>
+   <elementGuidId>b0717d6c-950b-465b-a1fe-a22dc60d1f53</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'List view  Edited RecordList view  Edited Record')]</value>
+         <value>//input[@title='Save']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

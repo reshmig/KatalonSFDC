@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09_ Assigning a case from on queue to another</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c38c530e-067f-4baa-8a23-96a48ae5f25b</testCaseGuid>
+</TestCaseEntity>

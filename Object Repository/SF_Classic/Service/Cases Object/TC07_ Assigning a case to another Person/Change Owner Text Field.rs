@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Case rec 123</name>
+   <name>Change Owner Text Field</name>
    <tag></tag>
-   <elementGuidId>f4ba953a-24bb-40af-b061-a79bdb157aec</elementGuidId>
+   <elementGuidId>72ad9bb6-f3b5-474a-a016-76d97f83ab78</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'List view  Edited RecordList view  Edited Record')]</value>
+         <value>//input[@title='Owner name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

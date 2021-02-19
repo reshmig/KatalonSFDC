@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Case rec 123</name>
+   <name>Case Owner Picklist</name>
    <tag></tag>
-   <elementGuidId>f4ba953a-24bb-40af-b061-a79bdb157aec</elementGuidId>
+   <elementGuidId>a1123e05-4697-4c37-8541-1df721df6a1f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'List view  Edited RecordList view  Edited Record')]</value>
+         <value>//select[@id='newOwn_mlktp']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

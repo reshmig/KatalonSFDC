@@ -27,14 +27,13 @@ WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC03_Editing a Case 
 
 WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Change Case Owner Link'))
 
-WebUI.sendKeys(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Change Owner Text Field'), 
-    'James Clifton')
+WebUI.selectOptionByValue(findTestObject('SF_Classic/Service/Cases Object/TC08_ Assigning a case to a Queue/Case Owner Picklist'), 
+    'case_queue', false)
+
+WebUI.setText(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Change Owner Text Field'), 
+    'Test_Queues 02')
 
 WebUI.click(findTestObject('SF_Classic/Service/Cases Object/TC07_ Assigning a case to another Person/Save Button'))
-
-WebUI.delay(9)
-
-WebUI.verifyTextPresent('James Clifton', false)
 
 WebUI.closeBrowser()
 
