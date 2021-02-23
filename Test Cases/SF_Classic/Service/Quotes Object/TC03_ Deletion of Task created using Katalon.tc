@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_ Deletion of Task created using Katalon</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be778638-7539-4eaf-a398-5a52e508fc53</testCaseGuid>
+</TestCaseEntity>
